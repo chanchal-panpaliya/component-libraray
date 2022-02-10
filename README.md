@@ -2,6 +2,9 @@
 
 2 . Alert Component 
 
+netify link - https://solutionground.netlify.app/
+
+
 screens are- 
 
 ![alert_desktop_action](https://user-images.githubusercontent.com/28673856/153474858-3ba6c08c-7a82-410a-9533-8bbf74d2a76f.png)
