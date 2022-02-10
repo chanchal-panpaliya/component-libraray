@@ -1,0 +1,31 @@
+@import "../../utility/component.css";
+
+.image-size-extrasmall{
+    width: 20px;
+    height: 20px;
+}
+
+.image-size-small{
+    width: 50px;
+    height: 50px;
+}
+
+.image-size-medium{
+    width: 100px;
+    height: 100px;
+}
+
+.image-size-larger{
+    width: 200px;
+    height: 200px;
+}
+
+.image-responsive{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+
+
+

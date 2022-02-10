@@ -1,0 +1,33 @@
+
+
+  /*-------------------------Gray text*/
+
+  .typography-grey-text-larger{
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--secondary-text-color);
+ }
+
+ .typography-grey-text-medium-Larger{
+   font-size: 32px;
+   line-height: 40px;
+   color: var(--secondary-text-color);
+ }
+
+ .typography-grey-text-medium-Small{
+   font-size: 24px;
+   line-height: 32px;
+   color: var(--secondary-text-color);
+ }
+
+ .typography-grey-text-small{
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--secondary-text-color);
+ }
+
+ .typography-grey-text-extrasmall{
+   font-size: 8px;
+   line-height: 16px;
+   color: var(--secondary-text-color);
+ }
