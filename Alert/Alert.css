@@ -1,0 +1,125 @@
+@import "../../utility/component.css";
+
+.alert{
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+/*------*/
+
+#show_alert{
+    display: none;
+}
+
+#alert_example{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    z-index: 999;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+
+.close_alert{
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.action_alert{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+}
+
+  @keyframes slide-in {
+    0% {
+      -webkit-transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(0%);
+    }
+  }
+  
+  @-webkit-keyframes slide-in {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+
+/*--------outline*/
+
+
+.alert-outline-success{
+    border : 1px solid var(--green);
+}
+
+.alert-outline-info{
+    border : 1px solid var(--blue);
+}
+
+.alert-outline-warning{
+    border : 1px solid var(--yellow);
+}
+
+.alert-outline-danger{
+    border : 1px solid var(--red);
+}
+
+.alert-outline-default{
+    border : 1px solid var(--black);
+}
+
+/*--------fill*/
+.alert-fill-box-success{
+    background-color :  var(--green);
+    color: var( --white);
+}
+
+.alert-fill-box-info{
+    background-color :  var(--blue);
+    color: var( --white);
+}
+
+.alert-fill-box-warning{
+    background-color :  var(--yellow);
+    color: var( --white);
+}
+
+.alert-fill-box-danger{
+    background-color : var(--red);
+    color: var( --white);
+}
+
+.alert-fill-box-default{
+    background-color :  var(--black);
+    color: var( --white);
+}
+
+
+
+.alert-link{
+  color: var(--primary-text-color);
+}
+
+.alert-link:hover{
+  text-decoration: underline;
+}
+
+

@@ -1,0 +1,316 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Alert </title>
+        <link rel="stylesheet" href="Alert.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+
+           <!-- container grid -->
+           <div class="component-sidebar-footer-display-grid">
+            <!-- container component content -->
+                    <div class="component-main-container">
+
+                        <div class="component-container margin-top-right-bottom-left typography-padding-top-right row-gap-2rem">
+
+                            <div class="component-link-next-pre"> 
+                                <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                    <i class="material-icons curser-pointer">chevron_left</i> 
+                                    <a class="curser-pointer-no-effect icon-primary-color" href="../Avatar/Avatar.html"> Avatar </a> 
+                                </span>
+                                <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                    <a class="curser-pointer-no-effect icon-primary-color" href="../Badge/Badge.html"> Badge </a>  
+                                    <i class="material-icons curser-pointer ">chevron_right</i> 
+                                </span>
+                            </div>
+
+                            <label class="typography-h1 typography-fontweight-bold "> Alert </label>
+                            <div class="typography-p-small">
+                                <ul>
+                                    <li>An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.</li>
+                                    <li>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</li>
+                                </ul>
+                        </div>
+        
+                        <div class="typography-p-small" id="Liveexample">
+                            <label class="typography-fontweight-bold"> Live example </label>
+                            <button class="button button-outline-primary button-onhover-fillbackground" id="showalert_example"> show alert box </button>
+                            <div id="alert_example" class="alert alert-fill-box-success"> 
+                                A simple success alert—check it out! <span id="close_alert" class="close_alert curser-pointer">&times;</span> 
+                            </div>
+                        </div>
+                            
+        
+               
+                        <label id="VariantsOutlined" class="typography-fontweight-bold typography-p-small"> Variants - Outlined </label>
+              
+
+                        <div class="typography-p-small" role="alert">
+                            <div class="component-display-border-container" id="vertical-container-flex"> 
+                                  <div class="alert success alert-outline-success"> A simple success alert—check it out!</div>
+                                  <div class="alert info alert-outline-info"> A simple info alert—check it out!</div>
+                                  <div class="alert warning alert-outline-warning"> A simple warning alert—check it out!</div>
+                                  <div class="alert danger alert-outline-danger"> A simple danger alert—check it out!</div>
+                                  <div class="alert default alert-outline-default"> A simple default alert—check it out!</div>
+                            </div>
+                        </div>
+        
+                
+                        <label id="VariantsFilled" class="typography-fontweight-bold typography-p-small"> Variants - Filled </label>
+                
+
+                    <div class="typography-p-small" role="alert">
+                        <div class="component-display-border-container" id="vertical-container-flex"> 
+                            <div class="alert alert-fill-box-success"> A simple success alert—check it out!</div>
+                            <div class="alert alert-fill-box-info"> A simple info alert—check it out!</div>
+                            <div class="alert alert-fill-box-warning"> A simple warning alert—check it out!</div>
+                            <div class="alert alert-fill-box-danger"> A simple danger alert—check it out!</div>
+                            <div class="alert alert-fill-box-default"> A simple default alert—check it out!</div>
+                        </div>
+                    </div>
+                
+                    <div class="typography-p-small">
+                        <label class="typography-font weight-bold "> Type of Alert </label> 
+                        <ol ty class="typography-padding-top-right">
+                           <li> Simple Link alert </li>
+                           <li> Description alert </li>
+                           <li> With Icons alert </li>
+                           <li> Actions alert</li>
+                       </ol>
+                    </div>
+                    
+                    <label id="Simplelinkalerts" class="typography-p-small typography-fontweight-bold"> Simple link alerts </label>
+                     
+                    <div class="typography-p-small snippet" role="simple-link-alerts">
+                        <div class="component-display-border-container" id="vertical-container-flex"> 
+                            <div class="alert alert-fill-box-success"> A simple success alert with <a href="#" class="alert-link"> link </a> . check it out!</div>
+                            <div class="alert alert-fill-box-info"> A simple info alert with <a href="#" class="alert-link"> link </a>  . check it out!</div>
+                            <div class="alert alert-fill-box-warning"> A simple warning alert with <a href="#" class="alert-link"> link </a>  . check it out!</div>
+                            <div class="alert alert-fill-box-danger"> A simple danger alert with <a href="#" class="alert-link"> link </a> .check it out!</div>
+                            <div class="alert alert-fill-box-default"> A simple default alert with <a href="#" class="alert-link"> link </a> .check it out!</div>
+                        </div>
+                    </div>
+                    
+                    <div class="tabs">
+
+                        <input type="radio" name="tab-alert-link" id="tab-alert-link-html" checked="checked">
+                        <label for="tab-alert-link-html">HTML</label>
+                        <div class="tab">
+                                <div class="code-snippet-display">
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-fill-box-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520simple%2520success%2520alert%2520with%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520link%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%2520.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520check%2520it%2520out%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </div>         
+                        </div>
+                        
+                        <input type="radio" name="tab-alert-link" id="tab-alert-link-js"> 
+                        <label for="tab-alert-link-js">JS</label>
+                        <div class="tab"> none </div>
+    
+                        <input type="radio" name="tab-alert-link" id="tab-alert-link-css">
+                        <label for="tab-alert-link-css">CSS</label>
+                        <div class="tab"> none </div>
+    
+                    </div>
+
+                    <label id="Descriptionalert" class="typography-p-small typography-fontweight-bold"> Description alert </label>
+                     
+                      <div class="typography-p-small" role="description-alerts">
+                        <div class="component-display-border-container" id="vertical-container-flex"> 
+                            <div class="alert alert-fill-box-warning "> 
+                                <label class="typography-p-medium-Small text-transform"> warning  </label>
+                                <hr/> 
+                                This is an last warning .  check it out <a href="#" class="alert-link"> link </a>
+                            </div>
+                        </div>
+                      </div>
+
+
+                      <div class="tabs">
+
+                        <input type="radio" name="tab-alert-description" id="tab-alert-description-html" checked="checked">
+                        <label for="tab-alert-description-html">HTML</label>
+                        <div class="tab">
+                                <div class="code-snippet-display">
+                                   
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-fill-box-warning%2520%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522typography-p-medium-Small%2520text-transform%2522%253E%2520warning%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%252F%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520an%2520last%2520warning%2520.%2520%2520check%2520it%2520out%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253E%2520link%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                  </iframe>
+                                </div>         
+                        </div>
+                        
+                        <input type="radio" name="tab-alert-description" id="tab-alert-description-js"> 
+                        <label for="tab-alert-description-js">JS</label>
+                        <div class="tab"> none </div>
+    
+                        <input type="radio" name="tab-alert-description" id="tab-alert-description-css">
+                        <label for="tab-alert-description-css">CSS</label>
+                        <div class="tab"> none </div>
+    
+                    </div>
+
+
+                      <label id="WithIconsalert" class="typography-p-small typography-fontweight-bold"> With Icons alert </label>
+                      <div class="typography-p-small" role="Icon-alerts">
+                        <div class="component-display-border-container" id="vertical-container-flex"> 
+                            <div class="alert success alert-outline-success flex-row flex-item-gap"> 
+                                <i class="material-icons success">check_circle</i>  <label> simple success alert—check it out! </label> 
+                            </div>
+                            <div class="alert info alert-outline-info flex-row flex-item-gap"> 
+                                <i class="material-icons info">info_outline</i>  <label>  A simple info alert—check it out! </label> 
+                            </div>
+                            <div class="alert warning alert-outline-warning flex-row flex-item-gap"> 
+                                <i class="material-icons warning">warning</i> <label> A simple warning alert—check it out! </label> 
+                            </div>
+                            <div class="alert danger alert-outline-danger flex-row flex-item-gap"> 
+                                <i class="material-icons danger">error_outline</i> <label>  A simple danger alert—check it out! </label> 
+                            </div>
+                        </div>
+                      </div>
+
+
+                      <div class="tabs">
+
+                        <input type="radio" name="tab-alert-withicon" id="tab-alert-withicon-html" checked="checked">
+                        <label for="tab-alert-withicon-html">HTML</label>
+                        <div class="tab">
+                                <div class="code-snippet-display">
+
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520success%2520alert-outline-success%2520flex-row%2520flex-item-gap%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520success%2522%253Echeck_circle%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%2520simple%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%2520%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                        <!-- <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=990&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522group-avatar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522group-avatar-item-img%2520image-avatar%2522%2520src%253D%2522https%253A%252F%252Fwww.fillmurray.com%252F50%252F50%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522group-avatar-item-img%2520image-avatar%2522%2520src%253D%2522https%253A%252F%252Fwww.fillmurray.com%252F100%252F100%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522group-avatar-item-img%2520image-avatar%2522%2520src%253D%2522https%253A%252F%252Fwww.fillmurray.com%252F200%252F200%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522group-avatar-item-img%2520image-avatar%2522%2520src%253D%2522https%253A%252F%252Fwww.fillmurray.com%252F150%252F150%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522group-avatar-item-img%2520image-avatar%2522%2520src%253D%2522https%253A%252F%252Fwww.fillmurray.com%252F50%252F50%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe> -->
+                                </div>         
+                        </div>
+                        
+                        <input type="radio" name="tab-alert-withicon" id="tab-alert-withicon-js"> 
+                        <label for="tab-alert-withicon-js">JS</label>
+                        <div class="tab"> none </div>
+    
+                        <input type="radio" name="tab-alert-withicon" id="tab-alert-withicon-css">
+                        <label for="tab-alert-withicon-css">CSS</label>
+                        <div class="tab"> none </div>
+    
+                    </div>
+
+
+
+                      <label id="Actionsalert" class="typography-p-small typography-fontweight-bold"> Actions alert </label>
+                      
+                      <!-- <button onclick="reload_action_alert()"> reload again </button> -->
+
+                      
+                     <i class="material-icons curser-pointer-no-effect" onclick="reload_action_alert()">undo</i> 
+
+                    <div class="typography-p-small snippet" role="actions-alerts">
+                        <div class="component-display-border-container" id="vertical-container-flex"> 
+
+                            <div  class="alert alert-outline-success action_alert "> 
+                                <label>  simple success alert—check it out! </label>   
+                                <span  class="close_action_alert curser-pointer">&times;</span> 
+                            </div>
+                            <div  class="alert alert-fill-box-success action_alert "> 
+                                <label>  simple success alert—check it out! </label>    
+                                <span  class="close_action_alert curser-pointer">&times;</span> 
+                            </div>
+                            <div class="alert danger alert-outline-danger action_alert "> 
+                                <i class="material-icons danger">error_outline</i> 
+                                <label class="flex-1">  A simple danger alert—check it out! </label> 
+                                <span  class="close_action_alert curser-pointer">&times;</span> 
+                            </div>
+                        </div>
+                        <!-- <div class="alert alert-fill-box-default">  
+                            <i class="material-icons danger">error_outline</i>  
+                               A simple default alert—check it out!
+                            <i class="material-icons close_alert">cancel</i>
+                        </div>  -->
+                    </div>
+
+                    
+                    <div class="tabs">
+
+                        <input type="radio" name="tab-alert-action" id="tab-alert-action-html" checked="checked">
+                        <label for="tab-alert-action-html">HTML</label>
+                        <div class="tab">
+                                <div class="code-snippet-display">
+                                    <!-- <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=990&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522group-avatar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522group-avatar-item-img%2520image-avatar%2522%2520src%253D%2522https%253A%252F%252Fwww.fillmurray.com%252F50%252F50%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522group-avatar-item-img%2520image-avatar%2522%2520src%253D%2522https%253A%252F%252Fwww.fillmurray.com%252F100%252F100%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522group-avatar-item-img%2520image-avatar%2522%2520src%253D%2522https%253A%252F%252Fwww.fillmurray.com%252F200%252F200%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522group-avatar-item-img%2520image-avatar%2522%2520src%253D%2522https%253A%252F%252Fwww.fillmurray.com%252F150%252F150%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522group-avatar-item-img%2520image-avatar%2522%2520src%253D%2522https%253A%252F%252Fwww.fillmurray.com%252F50%252F50%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe> -->
+
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%2509%253Cdiv%2520%2520class%253D%2522alert%2520alert-outline-success%2520action_alert%2520%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%2520%2520simple%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%2520%253C%252Flabel%253E%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%2520class%253D%2522close_action_alert%2520curser-pointer%2522%253E%2526times%253B%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520%2520class%253D%2522alert%2520alert-fill-box-success%2520action_alert%2520%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%2520%2520simple%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%2520%253C%252Flabel%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%2520class%253D%2522close_action_alert%2520curser-pointer%2522%253E%2526times%253B%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520danger%2520alert-outline-danger%2520action_alert%2520%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520danger%2522%253Eerror_outline%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522flex-1%2522%253E%2520%2520A%2520simple%2520danger%2520alert%25E2%2580%2594check%2520it%2520out%21%2520%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%2520class%253D%2522close_action_alert%2520curser-pointer%2522%253E%2526times%253B%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+
+                                </div>         
+                        </div>
+                        
+                        <input type="radio" name="tab-alert-action" id="tab-alert-action-js"> 
+                        <label for="tab-alert-action-js">JS</label>
+                        <div class="tab"> 
+                            <div class="code-snippet-display"> 
+                                <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=javascript&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520var%2520close%2520%253D%2520document.getElementsByClassName%28%2522close_action_alert%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520var%2520i%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%2520%28i%2520%253D%25200%253B%2520i%2520%253C%2520close.length%253B%2520i%252B%252B%29%2520%257B%250A%2520%2520%2509%2509%2509%2509%2509close%255Bi%255D.onclick%2520%253D%2520function%28%29%257B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509var%2520div%2520%253D%2520this.parentElement%253B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509div.style.opacity%2520%253D%2520%25220%2522%253B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509setTimeout%28function%28%29%257B%2520div.style.display%2520%253D%2520%2522none%2522%253B%2520%257D%252C%2520600%29%253B%250A%2520%2520%2509%2509%2509%2509%2509%257D%250A%2509%2509%2509%257D%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                class="code-snippet-iframe"
+                                sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+                            </div>
+                        </div>
+    
+                        <input type="radio" name="tab-alert-action" id="tab-alert-action-css">
+                        <label for="tab-alert-action-css">CSS</label>
+                        <div class="tab"> none </div>
+    
+                    </div>
+
+                      </div>
+
+                </div> 
+         
+
+     
+    
+                
+          <!-- container component aside -->
+     
+          <aside class="component-sidebar-container margin-top-right-bottom-left">
+            <div class="sidebar-onthispage-content"> 
+              On this page <br/><br/>
+              <ul class="flex-col row-gap-1rem">
+                  <li> <a href="#Liveexample" class="color-black sidebar-onhover-primary"> Live example </a></li>
+                  <li> <a href="#VariantsOutlined" class="color-black sidebar-onhover-primary"> Variants - Outlined </a></li>
+                  <li> <a href="#VariantsFilled" class="color-black sidebar-onhover-primary"> Variants - Filled </a></li>
+                  <li> <a href="#SimpleLinkalert" class="color-black sidebar-onhover-primary"> Simple Link alert </a></li>
+                  <li> <a href="#WithIconsalert" class="color-black sidebar-onhover-primary"> With Icons alert </a></li>
+                  <li> <a href="#Actionsalert" class="color-black sidebar-onhover-primary"> Actions alert </a></li>
+              </ul>
+            </div>
+          </aside>
+<!-- container component footer -->
+          <!-- <footer class="component-footer-container margin-top-right-bottom-left">The footer</footer> -->
+
+    </div>
+
+
+        <script src="Alert.js"> </script>
+        <!-- <script src="../../snippet.js"> </script> -->
+    </body>
+</html>
