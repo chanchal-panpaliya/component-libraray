@@ -1,5 +1,7 @@
 # Navigation Bar
 
+netify link - https://solutionground.netlify.app/
+
 screens -
 ![navigation](https://user-images.githubusercontent.com/28673856/153483044-17ee891c-b13b-4d85-a688-aa48aa042a35.png)
 ![navigation_mobile](https://user-images.githubusercontent.com/28673856/153483073-ccad95a9-a0d4-48bc-8157-d62b2ea983a6.png)
