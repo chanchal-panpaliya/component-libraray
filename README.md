@@ -1,5 +1,7 @@
 # 07. Input Component
 
+netify link - https://solutionground.netlify.app/
+
 screens - Not responsive in mobile when the error was occer . 
 
 ![input](https://user-images.githubusercontent.com/28673856/153480596-e6ab0b22-390e-48a1-8a6f-6ce16c64ebc2.png)
