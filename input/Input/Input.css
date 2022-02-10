@@ -1,0 +1,85 @@
+@import "../../utility/component.css";
+
+.textField-container{
+    position: relative;
+    margin-top: 2em;
+    width: auto;
+}
+
+.text-input{
+    position: relative;
+    width: 90%;
+    padding: 6px 0;
+    line-height: 16%;
+    font-size: 14px;
+    background: none;
+    color: rgb(15, 12, 12);
+    border: none;
+    border-bottom: 1px solid var(--icon-primary-color);
+    outline: none;
+}
+
+.errors{
+    line-height: 16%;
+        width: -webkit-fill-available;
+        font-size: 8px;
+        color: rgb(236, 14, 14)
+}
+
+.text-placeholder{
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    transition: all 0.5s cubic-bezier(0.2, 0.8, 0.25, 1);
+    /* transition: all 0.2s linear; */
+}
+
+.text-input:focus + .text-placeholder {
+    transform: translateY(-4.1em);
+    opacity: 0.5;
+}
+
+.icon-password{
+  padding-left: 25px;
+  background: url("./eye-icon-1457.png") no-repeat left;
+  background-size: 20px;
+}
+
+.check-show-password{
+    position:absolute;
+    right:50px;
+    top:6px;
+}
+
+.text-input-date{
+    position: relative;
+    width: 90%;
+    padding: 6px 0;
+    /* line-height: 16%; */
+    font-size: 14px;
+    background: none;
+    color: rgb(15, 12, 12);
+    border: none;
+    border-bottom: 1px solid var(--icon-primary-color);
+    outline: none;
+}
+
+input {
+    accent-color: var(--icon-primary-color);
+}
+
+.custom_checkbox[type="checkbox"]:checked + span:not(.lever)::before{
+    content: '\2713';
+    border: 2px solid transparent;
+    background: transparent;
+    color: var(--icon-primary-color);
+  }
+
+  [type="radio"]:checked + label::after {
+    background-color: red;
+    border: 2px solid red;
+}
