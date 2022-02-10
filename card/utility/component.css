@@ -1,0 +1,255 @@
+ @import "../index.css";
+ @import "../Home/Home.css";
+ @import "../MenuItem/MenuItem.css";
+ @import "../Component/Avatar/Avatar.css";
+ @import "../Component/Alert/Alert.css";
+ @import "../Component/Badge/Badge.css";
+ @import "../Component/Button/Button.css";
+ @import "../Component/Card/Card.css";
+ @import "../Component/Image/Image.css";
+ @import "../Component/Input/Input.css";
+ @import "../Component/List/List.css";
+ @import "../Component/Modal/Modal.css";
+ @import "../Component/Navigation/Navigation.css";
+ @import "../Component/Rating/Rating.css";
+ @import "../Component/Slider/Slider.css";
+ /* @import "../Component/Snackbar/Snackbar.css"; */
+ @import "../Component/Text Utilities/TextUtilities.css";
+
+
+
+ /*----------component display container-----------*/
+
+
+ .component-container{
+    display: grid;
+    grid-row: auto;
+    width: -webkit-fill-available;
+    height: auto;
+    top: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .component-display-border-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid var(--secondary-background-color);
+    border-radius: 5px;
+    height: auto;
+    padding:1rem 1rem 1rem 1rem;
+    gap: 2%;
+    flex-wrap: wrap;
+    /* max-width: 100%; */
+  }
+  
+  .code-snippet-display{
+
+    position: relative;
+    padding-bottom: 5rem;
+    padding-top: 35px;
+    height:fit-content;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; /*<<--- THIS IS THE KEY*/ 
+    /* border: solid black 1px; */
+
+  }
+  
+  .code-snippet-iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    height: 100%;
+    width: 990px;
+  }
+   
+
+
+   .component-sidebar-footer-display-grid{
+    display: grid;
+    grid-template-areas:
+    "content content  sidebar"
+    "content content  sidebar"
+    "content content  sidebar"
+    "footer footer   sidebar";
+    height: auto;
+    width: auto;
+    width: 95%;
+    top: 0;
+    left: 0;
+    margin: auto;
+   }
+   
+
+     .component-main-container {
+       grid-area: content;
+       padding: 1rem 1rem 1rem 1rem;
+     }
+
+     .component-sidebar-container {
+       grid-area: sidebar;
+     }
+
+     .component-footer-container {
+       grid-area: footer;
+     }
+
+     .component-sidebar-container {
+        height: auto;
+        width: auto;
+
+        /* z-index: 1; */
+
+        background-color: var(--white);
+        overflow-x: hidden;
+
+        /* box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 20%); */
+      }
+    
+    
+    
+      .component-footer-container{
+        color: #ffffff;
+        background-color: #333333;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.6;
+        padding-top: 1rem ;
+        width: -webkit-fill-available;
+      }
+
+
+      @media (max-width: 800px) {
+        .component-sidebar-footer-display-grid{
+          grid-template-columns: 1fr 4fr 1fr;
+          grid-template-areas:
+          "content content  content"
+          "content content  content"
+          "sidebar sidebar  sidebar"
+          "footer footer  footer";
+         }
+    
+         /* .temp-menu-container{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+         } */
+
+         .component-main-container{
+          width: -webkit-fill-available;
+          padding-top: 5rem;
+         }
+
+         .component-sidebar-container{
+          width: -webkit-fill-available;
+         }
+         .component-footer-container{
+          width: -webkit-fill-available;
+         }
+           
+         .component-display-border-container{
+           row-gap: 2rem;
+           /* width: 300px; */
+         }
+    
+      }
+
+      @media (max-width: 600px) {
+        .component-sidebar-footer-display-grid{
+          grid-template-columns: 1fr 4fr 1fr;
+          grid-template-areas:
+          "content content  content"
+          "content content  content"
+          "sidebar sidebar  sidebar"
+          "footer footer  footer";
+         }
+    
+         /* .temp-menu-container{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+         } */
+
+         .component-main-container{
+          width: -webkit-fill-available;
+          padding-top: 5rem;
+         }
+
+         .component-sidebar-container{
+          width: -webkit-fill-available;
+         }
+         .component-footer-container{
+          width: -webkit-fill-available;
+         }
+           
+         .tab .component-display-border-container{
+           row-gap: 2rem;
+           width: 270px;
+         }
+
+         /* .code-snippet-display {
+           width: 500px;
+         } */
+
+         .component-display-border-container{
+          row-gap: 2rem;
+          width: 300px;
+        }
+
+        .vertical-card-direction{
+          flex-direction: column;
+          row-gap: 2rem;
+          width: 300px;
+        }
+    
+      }
+
+      @media (min-width: 800px) {
+        .menu-container {
+          grid-template-areas:
+          "content content  sidebar"
+          "content content  sidebar"
+          "content content  sidebar"
+          "footer footer   sidebar";
+         }
+        /* .temp-sidenav {
+           flex-direction: column;
+         } */
+      }
+
+      @media (max-width: 700px) {
+        .code-snippet-iframe{
+            /* width: 990px;
+            border:0;
+            transform: scale(1); 
+            overflow:hidden; 
+            height: 200px; */
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* width: 100%; */
+            height: 100%;
+            width: 990px;
+        }
+        .code-snippet-display{
+          /* box-sizing: border-box;
+          width: 300px;
+          max-height: auto;
+          padding: 1rem 0;
+          overflow: auto;
+          padding-bottom: 10rem; */
+          position: relative;
+          padding-bottom: 6.25%;
+          padding-top: 30px;
+          height: 30vh;
+          overflow: auto;
+          -webkit-overflow-scrolling: touch; 
+          border: solid black 1px;
+        }
+      }

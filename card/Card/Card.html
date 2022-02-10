@@ -1,0 +1,803 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Card </title>
+        <link rel="stylesheet" href="Card.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- container grid -->
+        <div class="component-sidebar-footer-display-grid">
+            <!-- container component content -->
+                    <div class="component-main-container">
+
+                        <div class="component-container margin-top-right-bottom-left typography-padding-top-right-bottom-left row-gap-2rem">
+                            
+                            <div class="component-link-next-pre"> 
+                                <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                    <i class="material-icons curser-pointer">chevron_left</i> 
+                                    <a class="curser-pointer-no-effect icon-primary-color" href="../Button/Button.html"> Button </a> 
+                                </span>
+                                <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                    <a class="curser-pointer-no-effect icon-primary-color" href="../Image/Image.html"> Image </a>  
+                                    <i class="material-icons curser-pointer ">chevron_right</i> 
+                                </span>
+                            </div>
+
+                            <div class="typography-h1 typography-fontweight-bold ">
+                                Card
+                             </div>
+                             <div class="typography-p-small">
+                                <ul>
+                                    <li> Cards are used to show collective information like product price, preview, and other details.</li>    
+                                    <li>A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options</li>
+                                    <li>Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported.</li>
+                                </ul>
+                             </div>
+
+
+
+                 
+
+                            <div class="typography-p-small"> 
+                             <label class="typography-fontweight-bold" id="icon-card"> Icon Card </label>
+                             
+                               <div class="component-display-border-container">
+                                <div class="card-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="card-header typography-padding-top-right"> 
+                                            <div class="card-icon-background"><i class="material-icons card-icon-size">code</i> </div>  
+                                        </div>
+                                        <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                    </div>
+                               </div>
+
+                               <div class="card-body"> 
+                                <div class="flex-col"> 
+                                    <div class="card-header typography-padding-top-right"> 
+                                        <div class="card-icon-background"><i class="material-icons card-icon-size">code</i> </div>  
+                                    </div>
+                                    <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                    <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                </div>
+                               </div>
+
+                               <div class="card-body"> 
+                                <div class="flex-col"> 
+                                    <div class="card-header typography-padding-top-right"> 
+                                        <div class="card-icon-background"><i class="material-icons card-icon-size">code</i> </div>  
+                                    </div>
+                                    <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                    <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                </div>
+                                </div>
+                       
+                             </div>
+
+                            </div>
+                
+                            <div class="tabs">
+                                <input type="radio" name="tab-icon-card" id="tab-icon-card-html" checked="checked">
+                                <label for="tab-icon-card-html">HTML</label>
+                                <div class="tab">
+                                        <div class="code-snippet-display">
+
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520typography-padding-top-right%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icon-background%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520card-icon-size%2522%253Ecode%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h3%2520typography-padding-top-right%2522%253E%2520Sample%2520Headline%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-top-right%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%2520Click%2520again%2520or%2520double%2520click%2520to%2520start%2520editing%2520the%2520text.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+
+                                            <!-- <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe> -->
+                                        </div>         
+                                </div>
+                                
+                                <input type="radio" name="tab-icon-card" id="tab-icon-card-js"> 
+                                <label for="tab-icon-card-js">JS</label>
+                                <div class="tab"> none </div>
+            
+                                <input type="radio" name="tab-icon-card" id="tab-icon-card-css">
+                                <label for="tab-icon-card-css">CSS</label>
+                                <div class="tab"> none </div>
+            
+                            </div>
+
+                            <!------------------------------------------------------------------>
+
+                            <label class="typography-fontweight-bold typography-p-small" id="image-card"> Image Card </label>
+
+                            <div class="component-display-border-container typography-p-small">
+                                <div class="card-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="card-header typography-padding-top-right"> 
+                                            <div>  <img class="card-image-header" alt="image-card" src="https://picsum.photos/250/201"> </div>  
+                                        </div>
+                                        <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                    </div>
+                               </div>
+
+                               <div class="card-body"> 
+                                <div class="flex-col"> 
+                                    <div class="card-header typography-padding-top-right"> 
+                                        <div>  <img class="card-image-header" alt="image-card" src="https://picsum.photos/250/202"> </div>   
+                                    </div>
+                                    <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                    <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                </div>
+                               </div>
+
+                               <div class="card-body"> 
+                                <div class="flex-col"> 
+                                    <div class="card-header typography-padding-top-right"> 
+                                        <div>  <img class="card-image-header" alt="image-card" src="https://picsum.photos/250/203"> </div>  
+                                    </div>
+                                    <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                    <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                </div>
+                                </div>
+                       
+                             </div>
+
+                             <div class="tabs">
+                                <input type="radio" name="tab-image-card" id="tab-image-card-html" checked="checked">
+                                <label for="tab-image-card-html">HTML</label>
+                                <div class="tab">
+                                        <div class="code-snippet-display">
+
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%2520%250A%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520typography-padding-top-right%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image-header%2522%2520alt%253D%2522image-card%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F201%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h3%2520typography-padding-top-right%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520Headline%2520%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-top-right%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%2520Click%2520again%2520or%2520double%2520click%2520to%2520start%2520editing%2520the%2520text.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+
+                                            <!-- <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe> -->
+                                        </div>         
+                                </div>
+                                
+                                <input type="radio" name="tab-image-card" id="tab-image-card-js"> 
+                                <label for="tab-image-card-js">JS</label>
+                                <div class="tab"> none </div>
+            
+                                <input type="radio" name="tab-image-card" id="tab-image-card-css">
+                                <label for="tab-image-card-css">CSS</label>
+                                <div class="tab"> none </div>
+            
+                            </div>
+
+<!----------------------------------------------------------------------------->
+                             <label class="typography-fontweight-bold typography-p-small" id="card-with-badges"> Card with badges </label>
+                              <div class="component-display-border-container"> 
+                                
+                                <div class="Card-with-badges-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="card-header"> 
+                                            <div class="shape"> <div class="shape-text"> 10% </div></div>
+                                            <img class="card-image-header" alt="card-badges-img" src="https://picsum.photos/250/204"> 
+
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                    </div>
+                                 </div>
+
+                                 <div class="Card-with-badges-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="card-header"> 
+                                            <div class="shape"> <div class="shape-text"> 50% </div></div>
+                                            <img class="card-image-header" alt="card-badges-img" src="https://picsum.photos/250/205"> 
+
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                    </div>
+                                 </div>
+
+                                 <div class="Card-with-badges-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="card-header"> 
+                                            <div class="shape"> <div class="shape-text"> free </div></div>
+                                            <img class="card-image-header" alt="card-badges-img" src="https://picsum.photos/250/206"> 
+
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                    </div>
+                                 </div>
+                                 <div class="Card-with-badges-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="card-header"> 
+                                            <div class="shape"> <div class="shape-text"> 1% </div></div>
+                                            <img class="card-image-header" alt="card-badges-img" src="https://picsum.photos/250/207"> 
+
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                    </div>
+                                 </div>
+                                 <div class="Card-with-badges-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="card-header"> 
+                                            <div class="shape"> <div class="shape-text"> 10% </div></div>
+                                            <img class="card-image-header" alt="card-badges-img" src="https://picsum.photos/250/208"> 
+
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                    </div>
+                                 </div>
+
+                                </div>
+
+                                <div class="tabs">
+                                    <input type="radio" name="tab-badge-card" id="tab-badge-card-html" checked="checked">
+                                    <label for="tab-badge-card-html">HTML</label>
+                                    <div class="tab">
+                                            <div class="code-snippet-display">
+
+                                                <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522Card-with-badges-body%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522shape%2522%253E%2520%253Cdiv%2520class%253D%2522shape-text%2522%253E%25201%2525%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image-header%2522%2520alt%253D%2522card-badges-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F207%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h4%2520typography-fontweight-semibold%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520Headline%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe>
+
+                                                <!-- <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-with-badges-body%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522shape%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522shape-text%2522%253E%252010%2525%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image-header%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F204%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h4%2520typography-fontweight-semibold%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520Headline%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe> -->
+
+                                                <!-- <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe> -->
+                                            </div>         
+                                    </div>
+                                    
+                                    <input type="radio" name="tab-badge-card" id="tab-badge-card-js"> 
+                                    <label for="tab-badge-card-js">JS</label>
+                                    <div class="tab"> none </div>
+                
+                                    <input type="radio" name="tab-badge-card" id="tab-badge-card-css">
+                                    <label for="tab-badge-card-css">CSS</label>
+                                    <div class="tab"> none </div>
+                
+                                </div>
+                             <!-------------------->
+                             <label class="typography-fontweight-bold typography-p-small" id="vertical-cards-with-badge"> Vertical Cards with badge </label>
+                             <div class="component-display-border-container vertical-card-direction"> 
+
+
+                                <div class="Vertical-Cards-with-badge-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="vertical-card-header"> 
+                                            <div class="shape"> <div class="shape-text"> 10% </div></div>
+                                                <img class="card-image-header" alt="vertical-cards-badge-img" src="https://picsum.photos/250/209">
+                                                <i class="material-icons vertical-hover-icon">star_border</i>
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                        <button type="button" class="icon_button button-outline-primary flex-row button-onhover-fillbackground"> 
+                                            <i class="material-icons">shopping_cart</i> 
+                                            <label class="typography-fontweight-semibold"> Add to Cart </label>
+                                        </button> 
+                                    </div>
+                                 </div>
+
+                                 <div class="Vertical-Cards-with-badge-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="vertical-card-header"> 
+                                            <div class="shape"> <div class="shape-text"> 10% </div></div>
+                                            <img class="card-image-header" alt="vertical-cards-badge-img" src="https://picsum.photos/250/210"> 
+                                            <i class="material-icons vertical-hover-icon">star_border</i>
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                        <button type="button" class="icon_button button-outline-primary flex-row button-onhover-fillbackground"> 
+                                            <i class="material-icons">shopping_cart</i> 
+                                            <label class="typography-fontweight-semibold"> Add to Cart </label>
+                                        </button> 
+                                    </div>
+                                 </div>
+
+                                 <div class="Vertical-Cards-with-badge-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="vertical-card-header"> 
+                                            <div class="shape"> <div class="shape-text"> 10% </div></div>
+                                            <img class="card-image-header" alt="vertical-cards-badge-img" src="https://picsum.photos/250/211"> 
+                                            <i class="material-icons vertical-hover-icon">star_border</i>
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                        <button type="button" class="icon_button button-outline-primary flex-row button-onhover-fillbackground"> 
+                                            <i class="material-icons">shopping_cart</i> 
+                                            <label class="typography-fontweight-semibold"> Add to Cart </label>
+                                        </button> 
+                                    </div>
+                                 </div>
+
+                              </div>
+
+                              <div class="tabs">
+                                <input type="radio" name="tab-vertical-card" id="tab-vertical-card-html" checked="checked">
+                                <label for="tab-vertical-card-html">HTML</label>
+                                <div class="tab">
+                                        <div class="code-snippet-display">
+
+                                            <iframe
+                                              src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522Vertical-Cards-with-badge-body%2522%253E%2520%250A%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%2520%250A%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522shape%2522%253E%2520%253Cdiv%2520class%253D%2522shape-text%2522%253E%252010%2525%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image-header%2522%2520alt%253D%2522vertical-cards-badge-img%2522src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F211%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520vertical-hover-icon%2522%253Estar_border%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h4%2520typography-fontweight-semibold%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520Sample%2520Headline%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520Sample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon_button%2520button-outline-primary%2520flex-row%2520button-onhover-fillbackground%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522typography-fontweight-semibold%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%2520%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                              class="code-snippet-iframe"  
+                                              sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+
+                                            <!-- <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522Vertical-Cards-with-badge-body%2522%253E%2520%250A%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%2520%250A%2520%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522shape%2522%253E%2520%253Cdiv%2520class%253D%2522shape-text%2522%253E%252010%2525%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image-header%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F209%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520vertical-hover-icon%2522%253Estar_border%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h4%2520typography-fontweight-semibold%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520Headline%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%250A%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon_button%2520button-outline-primary%2520flex-row%2520button-onhover-fillbackground%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522typography-fontweight-semibold%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Flabel%253E%250A%2520%2520%2520%253C%252Fbutton%253E%2520%250A%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe> -->
+
+                                            <!-- <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe> -->
+                                        </div>         
+                                </div>
+                                
+                                <input type="radio" name="tab-vertical-card" id="tab-vertical-card-js"> 
+                                <label for="tab-vertical-card-js">JS</label>
+                                <div class="tab"> none </div>
+            
+                                <input type="radio" name="tab-vertical-card" id="tab-vertical-card-css">
+                                <label for="tab-vertical-card-css">CSS</label>
+                                <div class="tab"> none </div>
+            
+                            </div>
+
+                             <!----->
+                             <label class="typography-fontweight-bold typography-p-small" id="card-with-dismiss"> Card with dismiss  </label>
+
+                             <i class="material-icons curser-pointer-no-effect" id="reload_dismiss_card">undo</i> 
+
+                             <div class="component-display-border-container">
+                             <div class="Card-with-badges-container"> 
+
+
+                                <div class="Vertical-Cards-with-badge-body-dismiss"> 
+                                    <div class="flex-col"> 
+                                        <div class="vertical-card-header"> 
+                                            <div class="bottom-shape"> <div class="bottom-shape-text">  </div></div>
+                                            <div class="top-shape"> <div class="top-shape-text">  </div></div>
+                                                <img class="card-image-header" alt="card-with-dismiss-img" src="https://picsum.photos/250/212">
+                                                <!-- <i class="material-icons vertical-hover-icon">star_border</i> -->
+                                                <i class="material-icons vertical-icon-dismiss curser-pointer">cancel</i>
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                        <button type="button" class="icon_button button-outline-primary flex-row button-onhover-fillbackground"> 
+                                            <i class="material-icons">shopping_cart</i> 
+                                            <label class="typography-fontweight-semibold"> Add to Cart </label>
+                                        </button> 
+                                    </div>
+                                 </div>
+
+                                 <div class="Vertical-Cards-with-badge-body-dismiss"> 
+                                    <div class="flex-col"> 
+                                        <div class="vertical-card-header"> 
+                                            <div class="bottom-shape"> <div class="bottom-shape-text">  </div></div>
+                                            <div class="top-shape"> <div class="top-shape-text">  </div></div>
+                                            <img class="card-image-header" alt="card-with-dismiss-img" src="https://picsum.photos/250/213"> 
+                                            <i class="material-icons vertical-icon-dismiss curser-pointer">cancel</i>
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                        <button type="button" class="icon_button button-outline-primary flex-row button-onhover-fillbackground"> 
+                                            <i class="material-icons">shopping_cart</i> 
+                                            <label class="typography-fontweight-semibold"> Add to Cart </label>
+                                        </button> 
+                                    </div>
+                                 </div>
+
+                                 <div class="Vertical-Cards-with-badge-body-dismiss"> 
+                                    <div class="flex-col"> 
+                                        <div class="vertical-card-header"> 
+                                            <div class="bottom-shape"> <div class="bottom-shape-text">  </div></div>
+                                            <div class="top-shape"> <div class="top-shape-text">  </div></div>
+                                            <img class="card-image-header" alt="card-with-dismiss-img" src="https://picsum.photos/250/214"> 
+                                            <i class="material-icons vertical-icon-dismiss curser-pointer">cancel</i>
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                        <button type="button" class="icon_button button-outline-primary flex-row button-onhover-fillbackground"> 
+                                            <i class="material-icons">shopping_cart</i> 
+                                            <label class="typography-fontweight-semibold"> Add to Cart </label>
+                                        </button> 
+                                    </div>
+                                 </div>
+                                </div>
+                              </div>
+
+                              <div class="tabs">
+                                <input type="radio" name="tab-dismiss-card" id="tab-dismiss-card-html" checked="checked">
+                                <label for="tab-dismiss-card-html">HTML</label>
+                                <div class="tab">
+                                        <div class="code-snippet-display">
+
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522Vertical-Cards-with-badge-body-dismiss%2522%253E%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bottom-shape%2522%253E%2520%253Cdiv%2520class%253D%2522bottom-shape-text%2522%253E%2520%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522top-shape%2522%253E%2520%253Cdiv%2520class%253D%2522top-shape-text%2522%253E%2520%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image-header%2522%2520alt%253D%2522card-with-dismiss-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F214%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520vertical-icon-dismiss%2520curser-pointer%2522%253Ecancel%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h4%2520typography-fontweight-semibold%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520Headline%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon_button%2520button-outline-primary%2520flex-row%2520button-onhover-fillbackground%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522typography-fontweight-semibold%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+
+                                            <!-- <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522Vertical-Cards-with-badge-body-dismiss%2522%253E%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bottom-shape%2522%253E%2520%253Cdiv%2520class%253D%2522bottom-shape-text%2522%253E%2520%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522top-shape%2522%253E%2520%253Cdiv%2520class%253D%2522top-shape-text%2522%253E%2520%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image-header%2522%2520alt%253D%2522card-with-dismiss-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F214%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520vertical-icon-dismiss%2522%253Ecancel%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h4%2520typography-fontweight-semibold%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520Headline%2520%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon_button%2520button-outline-primary%2520flex-row%2520button-onhover-fillbackground%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522typography-fontweight-semibold%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe> -->
+
+                                            <!-- <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe> -->
+                                        </div>         
+                                </div>
+                                
+                                <input type="radio" name="tab-dismiss-card" id="tab-dismiss-card-js"> 
+                                <label for="tab-dismiss-card-js">JS</label>
+                                <div class="tab"> 
+                                    <div class="code-snippet-display">
+                                        <iframe
+                                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520var%2520vertical_icon_dismiss%2520%253D%2520document.getElementsByClassName%28%2522vertical-icon-dismiss%2522%29%253B%2520%2520%250A%2520var%2520j%253B%250A%250A%2520%2520for%2520%28j%2520%253D%25200%253B%2520j%2520%253C%2520vertical_icon_dismiss.length%253B%2520j%252B%252B%29%2520%257B%250A%2520%2520%2520%2520vertical_icon_dismiss%255Bj%255D.onclick%2520%253D%2520function%28%29%257B%250A%250A%2520%2520%2520%2520%2509%2509var%2520div%2520%253D%2520this.parentNode.parentNode.parentNode%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520div.style.opacity%2520%253D%2520%25220%2522%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520setTimeout%28function%28%29%257B%2520div.style.display%2520%253D%2520%2522none%2522%253B%2520%257D%252C%2520600%29%253B%250A%2520%2520%2520%2520%2520%257D%250A%257D"
+                                            class="code-snippet-iframe"
+                                            sandbox="allow-scripts allow-same-origin">
+                                        </iframe>
+                                    </div>
+                                </div>
+            
+                                <input type="radio" name="tab-dismiss-card" id="tab-dismiss-card-css">
+                                <label for="tab-dismiss-card-css">CSS</label>
+                                <div class="tab"> none </div>
+            
+                            </div>
+
+        <!-------------------------------------------------------->
+                             <label class="typography-fontweight-bold typography-p-small" id="card-with-text-overlay"> Card with text overlay </label>
+                            
+                             <div class="component-display-border-container vertical-card-direction">
+
+                                <div class="Vertical-Cards-with-badge-body"> 
+                                    <div class="flex-col card-text-overlay"> 
+                                        <div class="vertical-card-header"> 
+                                            <div class="shape"> <div class="shape-text"> 10% </div></div>
+                                            <img class="card-image-header" alt="card-text-overlay-img" src="https://picsum.photos/250/215"> 
+                                            <i class="material-icons vertical-hover-icon">star_border</i>
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                        <button type="button" class="icon_button button-outline-primary flex-row disabled-button-pointer"> 
+                                            <i class="material-icons">shopping_cart</i> 
+                                            <label class="typography-fontweight-semibold"> Add to Cart </label>
+                                        </button> 
+                                    </div>
+                               </div> 
+
+                               <div class="Vertical-Cards-with-badge-body"> 
+                                <div class="flex-col card-text-overlay"> 
+                                    <div class="vertical-card-header"> 
+                                        <div class="shape"> <div class="shape-text"> 10% </div></div>
+                                        <img class="card-image-header" alt="card-text-overlay-img" src="https://picsum.photos/250/216"> 
+                                        <i class="material-icons vertical-hover-icon">star_border</i>
+                                    </div>
+                                    <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                    <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                    <button type="button" class="icon_button button-outline-primary flex-row disabled-button-pointer"> 
+                                        <i class="material-icons">shopping_cart</i> 
+                                        <label class="typography-fontweight-semibold"> Add to Cart </label>
+                                    </button> 
+                                </div>
+                                </div> 
+
+                                <div class="Vertical-Cards-with-badge-body"> 
+                                    <div class="flex-col card-text-overlay"> 
+                                        <div class="vertical-card-header"> 
+                                            <div class="shape"> <div class="shape-text"> 10% </div></div>
+                                            <img class="card-image-header" alt="card-text-overlay-img" src="https://picsum.photos/250/217"> 
+                                            <i class="material-icons vertical-hover-icon">star_border</i>
+                                        </div>
+                                        <div class="typography-h4 typography-fontweight-semibold typography-padding-cardbadge"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-cardbadge"> Sample text. Click to select the text box.</div>
+                                        <button type="button" class="icon_button button-outline-primary flex-row disabled-button-pointer"> 
+                                            <i class="material-icons">shopping_cart</i> 
+                                            <label class="typography-fontweight-semibold"> Add to Cart </label>
+                                        </button> 
+                                    </div>
+                                </div>   
+
+                             </div>
+
+                             <div class="tabs">
+                                <input type="radio" name="tab-text-overlay-card" id="tab-text-overlay-card-html" checked="checked">
+                                <label for="tab-text-overlay-card-html">HTML</label>
+                                <div class="tab">
+
+                                      <div class="code-snippet-display">
+                                       <iframe
+                                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522Vertical-Cards-with-badge-body%2522%253E%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2520card-text-overlay%2522%253E%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card-header%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522shape%2522%253E%2520%253Cdiv%2520class%253D%2522shape-text%2522%253E%252010%2525%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image-header%2522%2520alt%253D%2522card-text-overlay-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F217%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520vertical-hover-icon%2522%253Estar_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h4%2520typography-fontweight-semibold%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520Headline%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522icon_button%2520button-outline-primary%2520flex-row%2520disabled-button-pointer%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522typography-fontweight-semibold%2522%253E%2520Add%2520to%2520Cart%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                            class="code-snippet-iframe"
+                                            sandbox="allow-scripts allow-same-origin">
+                                        </iframe>
+
+<!--                                         
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe> -->
+
+                                        </div> 
+                                        
+                                        
+                                </div>
+                                
+                                <input type="radio" name="tab-text-overlay" id="tab-text-overlay-card-js"> 
+                                <label for="tab-text-overlay-card-js">JS</label>
+                                <div class="tab"> none </div>
+            
+                                <input type="radio" name="tab-text-overlay" id="tab-text-overlay-card-css">
+                                <label for="tab-text-overlay-css">CSS</label>
+                                <div class="tab"> none </div>
+            
+                            </div>
+
+<!-------------------------------------------------------->
+
+                             <label class="typography-fontweight-bold typography-p-small" id="text-only-cards"> Text only cards </label>
+                             <div class="component-display-border-container">
+                                <div class="card-body"> 
+                                    <div class="flex-col"> 
+                                        <div class="card-header typography-padding-top-right"> 
+                                            <div> </div> 
+                                        </div>
+                                        <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                    </div>
+                               </div>
+
+                               <div class="card-body"> 
+                                <div class="flex-col"> 
+                                    <div class="card-header typography-padding-top-right"> 
+                                        <div> </div> 
+                                    </div>
+                                    <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                    <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                </div>
+                               </div>
+
+                               <div class="card-body"> 
+                                <div class="flex-col"> 
+                                    <div class="card-header typography-padding-top-right"> 
+                                        <div> </div>   
+                                    </div>
+                                    <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                    <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                </div>
+                                </div>
+                                </div>
+
+                                <div class="tabs">
+                                    <input type="radio" name="tab-text-card" id="tab-text-card-html" checked="checked">
+                                    <label for="tab-text-card-html">HTML</label>
+                                    <div class="tab">
+                                            <div class="code-snippet-display">
+
+                                                <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520typography-padding-top-right%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520%253C%252Fdiv%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h3%2520typography-padding-top-right%2522%253E%2520Sample%2520Headline%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-top-right%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%2520Click%2520again%2520or%2520double%2520click%2520to%2520start%2520editing%2520the%2520text.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe>
+
+                                                <!-- <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe> -->
+                                            </div>         
+                                    </div>
+                                    
+                                    <input type="radio" name="tab-text-card" id="tab-text-card-js"> 
+                                    <label for="tab-text-card-js">JS</label>
+                                    <div class="tab"> none </div>
+                
+                                    <input type="radio" name="tab-text-card" id="tab-text-card-css">
+                                    <label for="tab-text-card-css">CSS</label>
+                                    <div class="tab"> none </div>
+                
+                                </div>
+<!-------------------------------------------------------->
+                             <label class="typography-fontweight-bold typography-p-small" id="horizontal-cards"> Vertical/Horizontal cards </label>
+                             <div class="component-display-border-container">
+                                <div class="card-body"> 
+                                    <div class="flex-row"> 
+                                        <div> <img class="card-Horizontal-image-header" alt="Vertical/Horizontal-card-img" src="https://picsum.photos/250/215">  </div> 
+                                        <div class="typography-padding-top-right-bottom-left"> 
+                                            <div class="typography-h3 typography-padding-cardbadge"> Puma White Sneakers</div>
+                                            <div class="typography-p-small typography-padding-cardbadge"> PUMA </div>
+                                            <div class="flex-row"> 
+                                                <i class="material-icons Horizentol-rating-icon warning">star_border</i>
+                                                <i class="material-icons Horizentol-rating-icon warning">star_border</i>
+                                                <i class="material-icons Horizentol-rating-icon warning">star_border</i>
+                                                <i class="material-icons Horizentol-rating-icon warning">star_border</i>
+                                                <span> | (400 reviews)</span>
+                                            </div>
+                                            <div class="flex-row col-gap-1rem typography-padding-cardbadge">
+                                                <div>Rs. 2999</div>
+                                                <strike> Rs. 5999 </strike>
+                                                <div>( Rs. 3000 OFF )</div>
+                                            </div>
+                                            <hr/>
+                                            <div class="typography-padding-cardbadge">
+                                               <div class="typography-p-small typography-padding-cardbadge"> Select Size (UK Size) </div>
+                                               <div class="flex-row col-gap-1rem typography-padding-cardbadget">
+                                                <button type="button" class="button button-outline-primary button-border-medium-width-height border-radius-round">6</button>
+                                                <button type="button" class="button button-outline-primary button-border-medium-width-height border-radius-round">8</button>
+                                                <button type="button" class="button button-outline-primary button-border-medium-width-height border-radius-round">9</button>
+                                                <button type="button" class="button button-outline-primary button-border-medium-width-height border-radius-round">10</button>
+                                               </div>
+                                            </div>
+                                            <div class="flex-row col-gap-2rem typography-padding-top-bottom">
+                                                <button type="button" class="icon_button button-outline-primary flex-row button-onhover-fillbackground"> 
+                                                    <i class="material-icons">shopping_cart</i> 
+                                                    <label class="typography-fontweight-semibold"> Shopping Cart </label>
+                                                </button> 
+                                                <button type="button" class="icon_button button-outline-primary flex-row button-onhover-fillbackground"> 
+                                                    <i class="material-icons">shopping_basket</i> 
+                                                    <label class="typography-fontweight-semibold"> Add to wishlist </label>
+                                                </button> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                               </div>
+
+                               <div class="tabs">
+                                <input type="radio" name="tab-horizentol-card" id="tab-horizentol-card-html" checked="checked">
+                                <label for="tab-horizentol-card-html">HTML</label>
+                                <div class="tab">
+                                        <div class="code-snippet-display">
+
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-Horizontal-image-header%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Vertical%252FHorizontal-card-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F215%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-padding-top-right-bottom-left%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h3%2520typography-padding-cardbadge%2522%253E%2520Puma%2520White%2520Sneakers%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-cardbadge%2522%253E%2520PUMA%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520Horizentol-rating-icon%2520warning%2522%253Estar_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520Horizentol-rating-icon%2520warning%2522%253Estar_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520Horizentol-rating-icon%2520warning%2522%253Estar_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520Horizentol-rating-icon%2520warning%2522%253Estar_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2520%257C%2520%28400%2520reviews%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520col-gap-1rem%2520typography-padding-cardbadge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253ERs.%25202999%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrike%253E%2520Rs.%25205999%2520%253C%252Fstrike%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%28%2520Rs.%25203000%2520OFF%2520%29%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-padding-cardbadge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-cardbadge%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Select%2520Size%2520%28UK%2520Size%29%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520col-gap-1rem%2520typography-padding-cardbadget%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522button%2520button-outline-primary%2520button-border-medium-width-height%2520border-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520radius-round%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25206%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cbutton%2520type%253D%2522button%2522%2520%250A%2509%2509%2509%2509%2509%2509%2509%2509class%253D%2522button%2520button-outline-primary%2520button-border-medium-width-height%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520border-radius-roun"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+
+                                            <!-- <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe> -->
+
+                                        </div>         
+                                </div>
+                                
+                                <input type="radio" name="tab-horizentol-card" id="tab-horizentol-card-js"> 
+                                <label for="tab-horizentol-card-js">JS</label>
+                                <div class="tab"> none </div>
+            
+                                <input type="radio" name="tab-horizentol-card" id="tab-horizentol-card-css">
+                                <label for="tab-horizentol-card-css">CSS</label>
+                                <div class="tab"> none </div>
+            
+                            </div>
+
+<!-------------------------------------------------------->    
+                             <label class="typography-fontweight-bold typography-p-small" id="cards-with-shadow"> Cards with shadow </label>
+
+                               
+                             <div class="component-display-border-container">
+
+                                <div class="card-body card-with-shadow"> 
+                                    <div class="flex-col"> 
+                                        <div class="card-header typography-padding-top-right"> 
+                                            <div class="card-icon-background"><i class="material-icons card-icon-size">code</i> </div>  
+                                        </div>
+                                        <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                        <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                    </div>
+                               </div>
+                               <div class="card-body card-with-shadow"> 
+                                <div class="flex-col"> 
+                                    <div class="card-header typography-padding-top-right"> 
+                                        <div class="card-icon-background"><i class="material-icons card-icon-size">code</i> </div>  
+                                    </div>
+                                    <div class="typography-h3 typography-padding-top-right"> Sample Headline </div>
+                                    <div class="typography-p-small typography-padding-top-right"> Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                                </div>
+                             </div>
+
+                            </div>
+
+                            <div class="tabs">
+                                <input type="radio" name="tab-shadow-card" id="tab-shadow-card-html" checked="checked">
+                                <label for="tab-shadow-card-html">HTML</label>
+                                <div class="tab">
+                                        <div class="code-snippet-display">
+
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2520card-with-shadow%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520typography-padding-top-right%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icon-background%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520card-icon-size%2522%253Ecode%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h3%2520typography-padding-top-right%2522%253E%2520Sample%2520Headline%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-top-right%2522%253E%2520%250ASample%2520text.%2520Click%2520to%2520select%2520the%2520text%2520box.%2520Click%2520again%2520or%2520double%2520click%2520to%2520start%2520editing%2520the%2520text.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+
+                                            <!-- <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe> -->
+
+                                        </div>         
+                                </div>
+                                
+                                <input type="radio" name="tab-shadow-card" id="tab-shadow-card-js"> 
+                                <label for="tab-shadow-card-js">JS</label>
+                                <div class="tab"> none </div>
+            
+                                <input type="radio" name="tab-shadow-card" id="tab-shadow-card-css">
+                                <label for="tab-shadow-card-css">CSS</label>
+                                <div class="tab"> none </div>
+            
+                            </div>
+<!-------------------------------------------------------->                             
+
+                            <!-- <div class="code-snippet-display">
+                                <code> 
+                                    <div class="html-code">  </div>
+                                </code>    
+                            </div> -->
+                            
+
+                        </div>
+                       </div>
+
+     
+            <!-- container component aside -->
+                
+            <aside class="component-sidebar-container margin-top-right-bottom-left">
+                <div class="sidebar-onthispage-content"> 
+                On this page <br/><br/>
+                <ul class="flex-col row-gap-1rem">
+                    <li> <a href="#icon-card" class="color-black sidebar-onhover-primary"> Icon Card </a> </li> 
+                    <li> <a href="#image-card" class="color-black sidebar-onhover-primary"> Image Card </a></li>
+                    <li> <a href="#card-with-badges"class="color-black sidebar-onhover-primary"> Card with badges </a></li>
+                    <li> <a href="#vertical-cards-with-badge"class="color-black sidebar-onhover-primary"> Vertical Cards with badge </a></li>
+                    <li> <a href="#card-with-dismiss"class="color-black sidebar-onhover-primary"> Card with dismiss </a></li>
+                    <li> <a href="#card-with-text-overlay"class="color-black sidebar-onhover-primary"> Card with text overlay </a></li>
+                    <li> <a href="#text-only-cards"class="color-black sidebar-onhover-primary"> Text only cards </a></li>
+                    <li> <a href="#horizontal-cards"class="color-black sidebar-onhover-primary"> Vertical/Horizontal cards </a></li>
+                    <li> <a href="#cards-with-shadow"class="color-black sidebar-onhover-primary"> Cards with shadow </a></li>
+                </ul>
+                </div>
+            </aside>
+            <!-- container component footer -->
+            <!-- <footer class="component-footer-container margin-top-right-bottom-left">The footer</footer> -->
+
+    </div>
+<script src="Card.js"> </script>
+<script src="../../snippet.js"> </script>
+    </body>
+</html>

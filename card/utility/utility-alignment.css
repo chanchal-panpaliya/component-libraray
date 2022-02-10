@@ -1,0 +1,14 @@
+  /*----------------------align*/
+
+  .typography-align-center{
+    text-align: center;
+  }
+
+  .typography-align-topLeft{
+    top: 0;
+    left: 0;
+ }
+  .typography-align-bottomRight{
+    bottom: 0;
+    right: 0;
+  }
