@@ -1,5 +1,7 @@
 # 05 card component
 
+netify link - https://solutionground.netlify.app/
+
 screens - responsive
 
 ![card](https://user-images.githubusercontent.com/28673856/153478475-06580b94-c973-4cfb-8349-3f2c590ade44.png)
