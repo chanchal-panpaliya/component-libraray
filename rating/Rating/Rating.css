@@ -1,0 +1,12 @@
+@import "../../utility/component.css";
+
+.checked {
+    color: orange;
+  }
+
+  #star_border1 ,  #star_border2 ,  #star_border3 ,  #star_border4 ,  #star_border5 ,
+  #star1,#star2,#star3,#star4,#star5,
+  #star_half1 , #star_half2 , #star_half3 , #star_half4 , #star_half5,
+  #star1_card ,#star2_card ,#star3_card ,#star4_card ,#star5_card{
+  cursor: pointer;
+  }
