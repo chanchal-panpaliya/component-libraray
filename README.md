@@ -1,5 +1,7 @@
 # 06 Image component 
 
+netify link - https://solutionground.netlify.app/
+
 screens are added - responsive
 
 ![images](https://user-images.githubusercontent.com/28673856/153479674-570e4939-3947-4089-b082-6bdbc3d21afa.png)
