@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+@import "./utility/utility-colors.css";
+@import "./utility/utility-flex.css";
+@import "./utility/utility-list.css";
+@import "./utility/scrollbehaviour.css";
+@import "./utility/utility-heading.css";
+@import "./utility/utility-para.css";
+@import "./utility/utility-fontweight.css";
+@import "./utility/utility-tab.css";
+@import "./utility/utility-icon-size.css";
+@import "./utility/utility-grey-text.css";
+@import "./utility/utility-border-radius.css";
+@import "./utility/utility-padding.css";
+@import "./utility/utility-alignment.css";
+@import "./utility/utility-margin.css";
+@import "./utility/comman.css";
+
+/*universal*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  word-wrap: break-word;
+  scroll-behavior: smooth;
+}
+
+
+
+:root {
+  --icon-primary-color:#594adb ;
+  --icon-secondary-color: #f17c0e;
+    /* --icon-primary-color:#5468ff; darkblue*/
+      /* --icon-primary-color:#990000 ; 
+  --icon-secondary-color: #FFCC00; */ 
+
+  /* --icon-secondary-color : #7264e8; #f17c0e*/
+  --icon-tertiary-color : #0cb5c5;
+  --icon-forth-color : #ee3f47;
+
+  --primary-background-color:#f2f2f2;
+  --secondary-background-color:#d9d9d9;
+
+  --primary-text-color: #222222;
+  --secondary-text-color : #696b79;
+  --bold-text: #000;
+
+  --footer-backgroundcolor:#333333;
+ 
+  --white: #ffffff;
+  --black:#000;
+  --yellow:#ffc107;
+  --blue:#1793b8;
+  --red:#dc3545;
+  --green:#28a745;
+  --lightblack :#212529;
+  --skyblue: #87ceeb;
+  
+ 
+
+
+  --primary-font-family : Roboto;
+  --secondary-font-family : Oswald;
+
+  --z-index-1: 1;
+  --z-index-2: 2;
+  --z-index-3: 3;
+  --z-index-4: 4;
+  --z-index-5: 5;
+  --z-index-6: 6;
+
+  --avatar-size-small:3rem;
+  --avatar-size-medium:5rem;
+  --avatar-size-larger:8rem;
+
+  --width:100%;
+  --maxwidth:100%;
+  --height:auto;
+
+}
+
+.auto-width-height{
+  width: auto;
+  height: auto;
+}
+
+
