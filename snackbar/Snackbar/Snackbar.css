@@ -1,0 +1,72 @@
+@import "../../utility/component.css";
+
+
+.simple-snackbar{
+    position:absolute;
+    bottom: 0;
+	background:var(--footer-backgroundcolor);
+	padding:15px;
+	color:var(--white);
+	font-size:16px;
+	box-shadow:0 0 25px var(--secondary-text-color) ;
+	border-radius:3px;
+	transform:translateY(-50%);
+	box-sizing:border-box;
+	animation:0.3s down ease 1; 
+	opacity:1;
+    display: none;
+}
+
+
+.simple-snackbar a{
+    color:var(--skyblue);
+	text-decoration:none;
+	display:block;
+	float:right;
+	width:auto;
+	padding:0 10px;
+	/* height:40px; */
+	margin-left:15px;
+	background:var(--lightblack);
+	border-radius:5px;
+}
+
+.simple-snackbar-container{
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.curser-pointer:hover{
+	content:'';
+	display:block;
+	width:100%;
+	height:100%;
+	animation:0.7s rip ease 1;
+}
+
+@keyframes rip{
+	0%{
+		width:5px;
+		height:5px;
+	}
+	75%{
+		transform:scale(4);
+	}
+}
+
+@keyframes down{
+	0%{
+		bottom:0;
+		opacity:1;
+		display:block;
+	}
+	75%{
+		bottom:0;
+		opacity:0;
+	}
+	100%{
+		display:block;
+	}
+}
