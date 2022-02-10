@@ -1,5 +1,5 @@
 # modal component
-
+netify link - https://solutionground.netlify.app/
 screens 
 
 ![modal](https://user-images.githubusercontent.com/28673856/153484002-b466e66f-32b9-4afb-ae10-4a6c7e121399.png)
