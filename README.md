@@ -1,6 +1,9 @@
 # component-libraray
 01 . Avatar Component
 
+
+netify link - https://solutionground.netlify.app/
+
 screens  - >
 
 ![mobile_responsive2](https://user-images.githubusercontent.com/28673856/153472651-0047af43-eac4-4210-99db-55d6d2fdedbb.png)
