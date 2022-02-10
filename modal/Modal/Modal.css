@@ -1,0 +1,55 @@
+@import "../../utility/component.css";
+
+
+#SimpleModal, #ActionModal{
+    display: none;
+}
+
+
+.SimpleModal,.ActionModal{
+    display: none;
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, .7);
+    transition: all .4s;
+    z-index: 1;
+  
+}
+
+.SimpleModal_content ,.ActionModal_content{
+    border-radius: 4px;
+    position: absolute;
+    width: fit-content;
+    max-width: 100%;
+    background: #fff;
+    padding: 1em 2em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    width: fit-content;
+  }
+
+  .SimpleModal_close ,.ActionModal_close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #585858;
+    text-decoration: none;
+  }
+
+  .ActionModal_footer{
+    text-align: right;
+  }
+
+  .ActionModal_content{
+      display: flex;
+      flex-direction: column;
+  }
+
+ 

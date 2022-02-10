@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Modal </title>
+        <link rel="stylesheet" href="Modal.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- container grid -->
+        <div class="component-sidebar-footer-display-grid">
+            <!-- container component content -->
+                    <div class="component-main-container">
+
+                        <div class="component-container margin-top-right-bottom-left typography-padding-top-right-bottom-left row-gap-2rem">
+
+                            <div class="component-link-next-pre"> 
+                                <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                    <i class="material-icons curser-pointer">chevron_left</i> 
+                                    <a class="curser-pointer-no-effect icon-primary-color" href="../Navigation/Navigation.html"> Navigation </a> 
+                                </span>
+                                <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                    <a class="curser-pointer-no-effect icon-primary-color" href="../Rating/Rating.html"> Rating </a>  
+                                    <i class="material-icons curser-pointer ">chevron_right</i> 
+                                </span>
+                            </div>
+    
+
+                            <div class="typography-h1 typography-fontweight-bold ">
+                                Modal
+                             </div>
+                             <div class="typography-p-small">
+                                <ul>
+                                    <li> A modal is a dialog box/popup window that is displayed on top of the current page: </li>
+                                </ul>
+                            </div>
+                
+                          
+                                <label id="simplemodal-link-sidebar" class="typography-h3 typography-fontweight-bold typography-p-small"> Simple Modal </label>
+                          
+                                <div class="component-display-border-container typography-p-small"> 
+                                     <button class="button button button-outline-primary button-onhover-fillbackground" onclick="Open_SimpleModal()"> Simple Modal </button>
+                                </div>
+
+                                <div id="SimpleModal" class="SimpleModal">
+                                        <div class="SimpleModal_content">
+                                            <div class="typography-h2 "> Simple Modal </div>
+                                            <hr class="typography-grey-text-extrasmall"/>
+
+                                            <div class="typography-p-small typography-padding-top-right-bottom-left"> 
+                                                Enjoy! Enjoy! Enjoy! Enjoy! Enjoy! Enjoy! Enjoy! Enjoy!v Enjoy!
+                                            </div>
+           
+                                            <div class="SimpleModal_footer">
+                                                
+                                            </div>
+                                    
+                                            <a href="#" class="SimpleModal_close curser-pointer" onclick="Close_SimpleModal()">&times;</a>
+                                        </div>
+                                    </div>
+                                
+                                    
+                                <div class="tabs">
+                                    <input type="radio" name="tab-simple-modal" id="tab-simple-modal-html" checked="checked">
+                                    <label for="tab-simple-modal-html">HTML</label>
+                                    <div class="tab">
+                                            <div class="code-snippet-display">
+
+                                                <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522SimpleModal%2522%2520class%253D%2522SimpleModal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522SimpleModal_content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h2%2520%2522%253E%2520Simple%2520Modal%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520class%253D%2522typography-grey-text-extrasmall%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-top-right-bottom-left%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21v%2520Enjoy%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522SimpleModal_footer%2522%253E%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522SimpleModal_close%2520curser-pointer%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520onclick%253D%2522Close_SimpleModal%28%29%2522%253E%2526times%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe>
+
+                                                <!-- <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe> -->
+
+                                            </div>         
+                                    </div>
+                                    
+                                    <input type="radio" name="tab-simple-modal" id="tab-simple-modal-js"> 
+                                    <label for="tab-simple-modal-js">JS</label>
+                                    <div class="tab"> 
+                                        <div class="code-snippet-display">
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520function%2520Open_SimpleModal%28%29%257B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509document.getElementById%28%2522SimpleModal%2522%29.style.display%2520%253D%2520%2522block%2522%250A%2509%2509%2509%2509%257D%250A%250A%2509%2509%2509%2509function%2520Close_SimpleModal%28%29%257B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509document.getElementById%28%2522SimpleModal%2522%29.style.display%2520%253D%2520%2522none%2522%2520%250A%2509%2509%2509%2509%257D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+                                        </div>
+                                    </div>
+                
+                                    <input type="radio" name="tab-simple-modal" id="tab-simple-modal-css">
+                                    <label for="tab-simple-modal-css">CSS</label>
+                                    <div class="tab"> none </div>
+                
+                                </div>
+
+<!------------------------------------------------------------------------------------------>
+
+                                    <label id="actionmodal-link-sidebar" class="typography-h3 typography-fontweight-bold typography-p-small"> Action Modal </label>
+                          
+                                    <div class="component-display-border-container typography-p-small"> 
+                                         <button class="button button button-outline-primary button-onhover-fillbackground" onclick="Open_ActionModal()"> Action Modal </button>
+                                    </div>
+
+                                    <div id="ActionModal" class="ActionModal">
+                                        <div class="ActionModal_content">
+                                          
+                                            <div class="typography-h2 "> Action Modal </div>
+                                           
+
+                                            <div class="typography-p-small typography-padding-top-right-bottom-left"> 
+                                                Enjoy! Enjoy! Enjoy! Enjoy! Enjoy! Enjoy! Enjoy! Enjoy! Enjoy! 
+                                            </div>
+           
+                                           
+
+                                            <div class="ActionModal_footer typography-padding-top-right-bottom-left">
+                                                 <button class="auto-width-height button-light" onclick="Close_ActionModal()"> Cancel </button>
+                                                 <button class="auto-width-height button-primary"> Submit </button>
+                                            </div>
+                                          
+                                            <a href="#" class="ActionModal_close typography-padding-top-right-bottom-left curser-pointer" onclick="Close_ActionModal()">&times;</a>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="tabs">
+                                        <input type="radio" name="tab-action-modal" id="tab-action-modal-html" checked="checked">
+                                        <label for="tab-action-modal-html">HTML</label>
+                                        <div class="tab">
+                                                <div class="code-snippet-display">
+
+                                                <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522ActionModal%2522%2520class%253D%2522ActionModal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ActionModal_content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h2%2520%2522%253E%2520Action%2520Modal%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-top-right-bottom-left%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520Enjoy%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ActionModal_footer%2520typography-padding-top-right-bottom-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522auto-width-height%2520button-light%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520onclick%253D%2522Close_ActionModal%28%29%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Cancel%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522auto-width-height%2520button-primary%2522%253E%2520Submit%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522ActionModal_close%2520typography-padding-top-right-bottom-left%2520curser-pointer%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520onclick%253D%2522Close_ActionModal%28%29%2522%253E%2526times%253B%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                 </iframe>
+
+                                                   
+                                                </div>         
+                                        </div>
+                                        
+                                        <input type="radio" name="tab-action-modal" id="tab-action-modal-js"> 
+                                        <label for="tab-action-modal-js">JS</label>
+                                        <div class="tab"> 
+                                            <div class="code-snippet-display">
+                                                <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520function%2520Open_ActionModal%28%29%257B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509document.getElementById%28%2522ActionModal%2522%29.style.display%2520%253D%2520%2522block%2522%250A%2509%2509%2509%2509%257D%250A%250A%2509%2509%2509%2520%2520%2520function%2520Close_ActionModal%28%29%257B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509document.getElementById%28%2522ActionModal%2522%29.style.display%2520%253D%2520%2522none%2522%2520%250A%2509%2509%2509%2509%257D%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                              </iframe>
+                                            </div>
+                                        </div>
+                    
+                                        <input type="radio" name="tab-action-modal" id="tab-action-modal-css">
+                                        <label for="tab-action-modal-css">CSS</label>
+                                        <div class="tab"> none </div>
+                    
+                                    </div>
+
+                              </div>
+                       </div>
+
+     
+            <!-- container component aside -->
+                
+            <aside class="component-sidebar-container margin-top-right-bottom-left">
+                <div class="sidebar-onthispage-content"> 
+                On this page <br/><br/>
+                <ul class="flex-col row-gap-1rem">
+                    <li> <a href="#simple-link-sidebar" class="color-black sidebar-onhover-primary"> Simple Modal </a></li>
+                    <li> <a href="#actionmodal-link-sidebar" class="color-black sidebar-onhover-primary"> Action Modal </a> </li>
+                </ul>
+                </div>
+            </aside>
+            <!-- container component footer -->
+            <!-- <footer class="component-footer-container margin-top-right-bottom-left">The footer</footer> -->
+
+    </div>
+        <script src="Modal.js"> </script>
+    </body>
+</html>
