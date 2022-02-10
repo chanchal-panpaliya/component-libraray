@@ -1,5 +1,7 @@
 # List component 
 
+netify link - https://solutionground.netlify.app/
+
 screens - not responsive on mobile 
 
 ![list](https://user-images.githubusercontent.com/28673856/153482074-40bd378b-77b8-48ba-988e-3ce08d75c412.png)
