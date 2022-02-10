@@ -1,5 +1,7 @@
 # Rating component
 
+netify link - https://solutionground.netlify.app/
+
 screens 
 
 ![rating](https://user-images.githubusercontent.com/28673856/153484808-ff0e987b-9756-486d-8737-20478382ca09.png)
