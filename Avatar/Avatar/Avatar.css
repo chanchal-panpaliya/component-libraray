@@ -23,7 +23,6 @@
 }
 
 .Letter-avatar{
-    /* background-color: var(--secondary-background-color); */
     height: var(--avatar-size-small);
     text-align: center;
     width: var(--avatar-size-small);
@@ -41,8 +40,8 @@
 }
 
 .live-Status-avatar-border-radius-round{
-    width: 53px;
-    height:55px;
+    width: 3.313rem;
+    height:3.438rem;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
@@ -52,8 +51,8 @@
   }
 
 .live-Status-avatar-dot{
-    width: 16px;
-    height:16px;
+    width: 1rem;
+    height:1rem;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
