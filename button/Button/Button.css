@@ -1,8 +1,8 @@
 @import "../../utility/component.css";
 
 .button{
-    width: 109px;
-    height: 40px;
+    width: 6.813rem;
+    height: 2.5rem;
     text-align: center;
     text-decoration: none;
     border:none;
@@ -10,8 +10,8 @@
  }
 
  .button-size-small{
-   width: 50px;
-   height: 50px;
+   width: 3.125;
+   height: 3.125;
  }
 
  .button-border-none{
@@ -27,7 +27,7 @@
 
  .icon_button{
      width:8 rem;
-     height: 40px;
+     height: 2.5rem;
      text-align: center;
      text-decoration: none;
      border:none;
@@ -65,18 +65,18 @@
  }
 
  .button-onhover:hover{
-    width: 200px;
+    width: 12.5rem;
     background-color: var(--white);
     color: var(--icon-primary-color);
  }
 
  .button-onhover-shadow-primary:hover{ 
-    box-shadow: 5px 5px 20px 0 var(--icon-primary-color); 
+    box-shadow: 5px 5px 1.25rem 0 var(--icon-primary-color); 
     color: var(--icon-primary-color);
 }
 
 .button-onhover-shadow:hover{ 
-    box-shadow: 5px 5px 20px 0 var(--icon-primary-color); 
+    box-shadow: 5px 5px 1.25rem 0 var(--icon-primary-color); 
 }
 
 .button-onhover-underline:hover{
@@ -245,7 +245,7 @@
   
   .grid-box-display {
     padding: 0.5rem;
-    width: 100px;
+    width: 6.25rem;
   }
 
 
