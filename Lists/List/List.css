@@ -9,8 +9,8 @@
   max-width: 100%;
   height: auto;
   background-color: var(--white);
-  box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 20%);
-  border-radius:15px 0px 0px 5px;
+  box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+  border-radius:0.938rem 0px 0px 5px;
 
   display: flex;
   flex-direction:row;
