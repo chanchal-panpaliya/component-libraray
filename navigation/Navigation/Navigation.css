@@ -1,12 +1,5 @@
 @import "../../utility/component.css";
 
-/* .horizontal-nav-header{
-    display: flex;
-}
-
-.horizontal-nav-list{
-  display: flex;
-} */
 
 .horizontal-nav-header{
     display: flex;
@@ -27,7 +20,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 20%);
+    box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
     padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -44,7 +37,7 @@
     display: flex;
     column-gap: 2rem;
     padding: 1rem 1rem 1rem 1rem;
-    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 20%);
+    box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
     width: 100%;
     position: relative;
 }
@@ -87,8 +80,8 @@
     display:block;
     padding:0;
     text-decoration:none;
-    width:200px; 
-    line-height:35px; 
+    width:12.5rem; 
+    line-height:2.188rem; 
     color:var(--icon-primary-color); 
     }
         
@@ -109,8 +102,8 @@
 
 .submenu li li:hover ul {
     display:block; 
-    margin-left:200px; 
-    margin-top:-35px; 
+    margin-left:12.5rem; 
+    margin-top:-2.188rem; 
     }
 
 
