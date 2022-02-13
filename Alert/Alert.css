@@ -27,12 +27,12 @@
 }
 
 .close_alert{
-  margin-left: 15px;
+  margin-left: 0.938rem;
   color: white;
   font-weight: bold;
   float: right;
-  font-size: 22px;
-  line-height: 20px;
+  font-size: 1.375rem;
+  line-height: 1.25rem;
   cursor: pointer;
   z-index: 1;
   transition: 0.3s;
