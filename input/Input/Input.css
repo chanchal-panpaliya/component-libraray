@@ -11,7 +11,7 @@
     width: 90%;
     padding: 6px 0;
     line-height: 16%;
-    font-size: 14px;
+    font-size: 0.875rem;
     background: none;
     color: rgb(15, 12, 12);
     border: none;
@@ -30,8 +30,8 @@
     position: relative;
     left: 0;
     top: 0;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
     padding: 10px 0;
     text-transform: uppercase;
     transition: all 0.5s cubic-bezier(0.2, 0.8, 0.25, 1);
@@ -44,14 +44,14 @@
 }
 
 .icon-password{
-  padding-left: 25px;
+  padding-left: 1.563rem;
   background: url("./eye-icon-1457.png") no-repeat left;
-  background-size: 20px;
+  background-size: 1.25rem;
 }
 
 .check-show-password{
     position:absolute;
-    right:50px;
+    right:3.125rem;
     top:6px;
 }
 
@@ -60,7 +60,7 @@
     width: 90%;
     padding: 6px 0;
     /* line-height: 16%; */
-    font-size: 14px;
+    font-size: 0.875rem;
     background: none;
     color: rgb(15, 12, 12);
     border: none;
