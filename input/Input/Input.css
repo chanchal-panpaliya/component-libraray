@@ -23,7 +23,7 @@
     line-height: 16%;
         width: -webkit-fill-available;
         font-size: 8px;
-        color: rgb(236, 14, 14)
+        color: var(--red)
 }
 
 .text-placeholder{
@@ -35,7 +35,6 @@
     padding: 10px 0;
     text-transform: uppercase;
     transition: all 0.5s cubic-bezier(0.2, 0.8, 0.25, 1);
-    /* transition: all 0.2s linear; */
 }
 
 .text-input:focus + .text-placeholder {
@@ -59,10 +58,9 @@
     position: relative;
     width: 90%;
     padding: 6px 0;
-    /* line-height: 16%; */
     font-size: 0.875rem;
     background: none;
-    color: rgb(15, 12, 12);
+    color: var(--black);
     border: none;
     border-bottom: 1px solid var(--icon-primary-color);
     outline: none;
@@ -80,6 +78,6 @@ input {
   }
 
   [type="radio"]:checked + label::after {
-    background-color: red;
-    border: 2px solid red;
+    background-color: var(--red);
+    border: 2px solid var(--red);
 }
