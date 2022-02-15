@@ -8,7 +8,7 @@
     border-radius: 0.25rem;
 }
 
-/*------*/
+/*---alert example---*/
 
 #show_alert{
     display: none;
@@ -26,6 +26,8 @@
     -webkit-animation: slide-in 0.5s forwards;
 }
 
+/*----alert-close-icon---*/
+
 .close_alert{
   margin-left: 0.938rem;
   color: white;
@@ -37,6 +39,8 @@
   z-index: 1;
   transition: 0.3s;
 }
+
+/*----action-alert---*/
 
 .action_alert{
   display: block;
@@ -63,7 +67,7 @@
   }
   
 
-/*--------outline*/
+/*--------outline---border----*/
 
 
 .alert-outline-success{
@@ -86,33 +90,38 @@
     border : 1px solid var(--black);
 }
 
-/*--------fill*/
+/*--------fill---alert*/
 .alert-fill-box-success{
-    background-color :  var(--green);
-    color: var( --white);
+  color:var(--green);
+  background-color: var(--background-color-green);
+  border-color: var( --border-color-green);
 }
 
 .alert-fill-box-info{
-    background-color :  var(--blue);
-    color: var( --white);
+  color: var(--blue);
+  background-color:var(--background-color-blue);
+  border-color: var( --border-color-blue);
 }
 
 .alert-fill-box-warning{
-    background-color :  var(--yellow);
-    color: var( --white);
+  color: var(--yellow);
+  background-color: var(--background-color-yellow);
+  border-color: var(--border-color-yellow);
 }
 
 .alert-fill-box-danger{
-    background-color : var(--red);
-    color: var( --white);
+  color: var(--red);
+  background-color:var(--background-color-red);
+  border-color: var(--border-color-red);
 }
 
 .alert-fill-box-default{
-    background-color :  var(--black);
-    color: var( --white);
+  color: var(--lightblack);
+  background-color: var(--background-color-lightblack);
+  border-color: var(--border-color-lightblack);
 }
 
-
+/*----alert-text-onhover*/
 
 .alert-link{
   color: var(--primary-text-color);
