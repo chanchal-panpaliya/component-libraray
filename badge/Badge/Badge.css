@@ -70,7 +70,7 @@
 }
 
 .badge-warning {
-    color: #212529;
+    color: var(--black);
     background-color: var(--warning);
 }
 
