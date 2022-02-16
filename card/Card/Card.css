@@ -1,0 +1,268 @@
+@import "../../utility/component.css";
+
+
+
+/*card body - display card - container */
+.card-body{
+    background-color: var(--white);
+    box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+    padding: 30px;
+    text-align: left;
+    flex: 20 0 33.33333333%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    position: relative;
+    flex: 1;
+    width: 30rem;
+}
+
+/*comman card header - container for heading / img */
+.card-header , .vertical-card-header{
+    width: fit-content;
+ }
+
+
+ /*icon card size - fixed*/
+ .card-icon-size{
+     font-size:2.5em !important; /*for material ui icon library used !importand*/
+     color: var(--white);
+ }
+ 
+  /*icon card size - backhround color seconday*/
+ .card-icon-background{
+     background-color: var(--secondary-color);  
+     border-radius: 50%;
+ }
+
+  /*card image is inside header .card-header , if want to display image*/
+
+.card-image-header{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  width: 100vw;
+}
+
+/*----------Different type of card classes-----------*/
+
+
+/*---------card-Horizontal--------*/
+.card-Horizontal-image-header{
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
+
+
+.Horizentol-rating-icon{
+    cursor: pointer;
+}
+
+
+
+/*---------Card-with-badges-----------------*/
+.Card-with-badges-body{
+    background-color: var(--white);
+    box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+    text-align: left;
+    flex: 20 0 33.33333333%;
+    position: relative;
+    flex: 1;
+}
+
+
+.Card-with-badges-container{
+    display: flex;
+    column-gap: 3rem;
+    flex-wrap: wrap;
+    width:fit-content;
+}
+
+
+
+/*--------Vertical-Cards-----------*/
+.Vertical-Cards-with-badge-body{
+    width: 30%;
+    background-color: var(--white);
+    box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+    text-align: left;
+    flex: 20 0 33.33333333%;
+    position: relative;
+    flex: 1;
+}
+
+/*--------Vertical-Cards Dismiss-----------*/
+.Vertical-Cards-with-badge-body-dismiss{
+    width: 30%;
+     background-color: var(--white);
+     box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+     text-align: left;
+     flex: 20 0 33.33333333%;
+     position: relative;
+     flex: 1;
+}
+
+/*--------Vertical-hover icon-----------*/
+.vertical-hover-icon{
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    color: var(--warning);
+    cursor: pointer;
+}
+
+/*--------Vertical-icon--dismiss---------*/
+.vertical-icon-dismiss{
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.vertical-icon-dismiss:hover{
+    color : var(--icon-forth-color)
+}
+
+/*----------------card text overlay-----------------*/
+.card-text-overlay{
+    opacity: 0.5;
+}
+
+
+.card-text-overlay::after{
+    content: "out of stock";
+    position: absolute;
+    color: var(--icon-forth-color);
+    border: solid;
+    border-style: solid;
+    border-width: 3px;
+    text-transform: uppercase;
+    transform: rotate(335deg);
+    top: 8rem;
+    left: 4rem;
+    z-index: 1;
+    margin: auto;
+    font-size: larger;
+
+}
+
+
+/*-------card shadow-----------*/
+.card-with-shadow{
+    box-shadow: rgb(38, 57, 77) 0px 1.25rem 1.875rem -10px;
+}
+
+
+/*----------------card right side shape--yellow--purple-------------*/
+.bottom-shape{ 
+    border-style: solid;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-width: 0rem 9em 6em 0px;
+    right: 0;
+	transform:rotate(360deg);
+    border-color: rgba(255,255,255,0) var(--black) rgba(255,255,255,0) rgba(255,255,255,0);
+ }
+ .bottom-shape-text{ 	
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    position: relative;
+    right:-2.5rem; 
+    top:2px;
+    white-space: nowrap; }
+
+
+/*----------------card right side shape-----------------*/
+.top-shape{ 
+    border-style: solid;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-width: 0rem 3.75rem 6.25rem 0px;
+    right: 0;
+	transform:rotate(360deg);
+    border-color: rgba(255,255,255,0) var(--primary-color) rgba(255,255,255,0) rgba(255,255,255,0);
+ }
+ .top-shape-text{ 	
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    position: relative;
+    right:-2.5rem; 
+    top:2px;
+    white-space: nowrap; }
+
+/*----------------card right side single discount-----------------*/
+
+.shape{    
+	border-style: solid; border-width: 0 4.375rem 2.5rem 0;  height: 0px; width: 0px; position: absolute; right: 0;
+    border-color: rgba(255,255,255,0) var(--danger) rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+
+.shape-text{
+	color:#fff; font-size:12px; font-weight:bold; position:relative; right:-2.5rem; top:2px; white-space: nowrap;
+}
+
+
+
+
+@media (max-width: 700px) {
+    .Card-with-badges-body {
+        background-color: var(--white);
+        box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+        text-align: left;
+        flex: 20 0 33.33333333%;
+        position: relative;
+        flex: 1;
+    }
+
+    .Vertical-Cards-with-badge-body{
+        background-color: var(--white);
+        box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+        text-align: left;
+        flex: 20 0 33.33333333%;
+        position: relative;
+        flex: 1;
+        width: auto;
+    }
+
+    .Vertical-Cards-with-badge-body-dismiss{
+         background-color: var(--white);
+         box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+         text-align: left;
+         flex: 20 0 33.33333333%;
+         position: relative;
+         flex: 1;
+         width: auto;
+    }
+
+.Card-with-badges-container{
+    flex-direction: column;
+    gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card-body {
+        background-color: var(--white);
+        box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+        padding: 1.875rem;
+        text-align: left;
+        flex: 20 0 33.33333333%;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        position: relative;
+        flex: 1;
+        width: auto;
+    }
+}

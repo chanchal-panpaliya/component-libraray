@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Toast </title>
+        <link rel="stylesheet" href="Snackbar.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- container grid -->
+        <div class="component-sidebar-footer-display-grid">
+            <!-- container component content -->
+                    <div class="component-main-container">
+
+                        <div class="component-container margin-top-right-bottom-left typography-padding-top-right-bottom-left row-gap-2rem">
+
+                            
+                        <div class="component-link-next-pre"> 
+                            <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                <i class="material-icons ">chevron_left</i> 
+                                <a class="curser-pointer-no-effect icon-primary-color" href="../Rating/Rating.html"> Rating </a> 
+                            </span>
+                            <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                <a class="curser-pointer-no-effect icon-primary-color" href="../../Default/Default.html"> Installtion </a>  
+                                <i class="material-icons ">chevron_right</i> 
+                            </span>
+                        </div>
+
+                            <div class="typography-h1 typography-fontweight-bold ">
+                                Snackbar
+                             </div>
+                             <div class="typography-p-small">
+                                <ul>
+                                    <li>Snackbars inform users of a process that an app has performed or will perform.</li>
+                                    <li> They appear temporarily, towards the bottom of the screen.  </li>   
+                                     
+                                </ul>
+                             </div>
+                
+
+                            <label class="typography-h3 typography-fontweight-bold typography-p-small" id="Dismiss-Snackbar"> Dismiss Snackbar </label>
+
+                            <div class="component-display-border-container typography-p-small"> 
+                                    <button id="Snackbar1" class="button button-outline-primary button-onhover-fillbackground"> Simple Snackbar - Dismiss </button>
+                            </div>
+                                
+                            <div class="simple-snackbar" id="simple-snackbar">
+                                    <div class="simple-snackbar-container">
+                                        <div class = "text"> 
+                                            We use cookies in our site. <a class = "ripple rect" href = "#cookies">learn more</a>
+                                        </div>
+                                        <div class="simple-snackbar-actions">
+                                            <i class="material-icons icon-size-small curser-pointer-snackbar" onclick="close_simplesnackbar()">cancel</i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tabs">
+                                    <input type="radio" name="tab-simple-snackbar" id="tab-simple-snackbar-html" checked="checked">
+                                    <label for="tab-simple-snackbar-html">HTML</label>
+                                    <div class="tab">
+                                            <div class="code-snippet-display">
+
+                                                <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-snackbar%2522%2520id%253D%2522simple-snackbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-snackbar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2520%2522text%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520We%2520use%2520cookies%2520in%2520our%2520site.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%2520%253D%2520%2522ripple%2520rect%2522%2520href%2520%253D%2520%2522%2523cookies%2522%253Elearn%2520more%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-snackbar-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-size-small%2520curser-pointer%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520onclick%253D%2522close_simplesnackbar%28%29%2522%253Ecancel%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe>
+
+                                            
+                                            </div>         
+                                    </div>
+                                    <input type="radio" name="tab-simple-snackbar" id="tab-simple-snackbar-js"> 
+                                    <label for="tab-simple-snackbar-js">JS</label>
+                                    <div class="tab"> 
+                                        <div class="code-snippet-display">
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=function%2520close_simplesnackbar%28%29%257B%250A%2520%2520%2520%2520document.getElementById%28%2522simple-snackbar%2522%29.style.display%2520%253D%2520%2522none%2522%253B%2520%250A%257D"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                    <input type="radio" name="tab-simple-snackbar" id="tab-simple-snackbar-css">
+                                    <label for="tab-simple-snackbar-css">CSS</label>
+                                    <div class="tab"> none </div>
+                            </div>
+
+<!-------------------------------------------------------->
+
+                            <label class="typography-h3 typography-fontweight-bold typography-p-small" id="undosnackbar"> undo snackbar </label>
+
+                            <div class="component-display-border-container typography-p-small"> 
+                                    <button id="Snackbar2" class="button button-outline-primary button-onhover-fillbackground"> Undo Snackbar </button>
+                            </div>
+
+                            <div class="simple-snackbar" id="undo-snackbar">
+                                    <div class="simple-snackbar-container">
+                                        <div class = "text"> 
+                                            We use cookies in our site. <a class = "ripple rect" href = "#cookies">learn more</a>
+                                        </div>
+                                        <div class="simple-snackbar-actions">
+                                            <i class="material-icons icon-size-small curser-pointer-snackbar" onclick="close_undo_snackbar()">undo</i>
+                                       </div>
+                                    </div>
+                            </div>
+                                
+                            <div class="tabs">
+                                    <input type="radio" name="tab-undo-snackbar" id="tab-undo-snackbar-html" checked="checked">
+                                    <label for="tab-undo-snackbar-html">HTML</label>
+                                    <div class="tab">
+                                            <div class="code-snippet-display">
+
+                                                <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522simple-snackbar%2522%2520id%253D%2522undo-snackbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-snackbar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2520%2522text%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520We%2520use%2520cookies%2520in%2520our%2520site.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%2520%253D%2520%2522ripple%2520rect%2522%2520href%2520%253D%2520%2522%2523cookies%2522%253Elearn%2520more%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-snackbar-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-size-small%2520curser-pointer%2522onclick%253D%2522close_undo_snackbar%28%29%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520undo%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                                </iframe>
+
+                                            </div>         
+                                    </div>
+                                    
+                                    <input type="radio" name="tab-undo-snackbar" id="tab-undo-snackbar-js"> 
+                                    <label for="tab-undo-snackbar-js">JS</label>
+                                    <div class="tab">  
+                                        <div class="code-snippet-display">
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520function%2520close_undo_snackbar%28%29%257B%250A%2520%2520%2520%2520document.getElementById%28%2522undo-snackbar%2522%29.style.display%2520%253D%2520%2522none%2522%253B%2520%2520%250A%257D%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+                                        </div>
+                                    </div>
+                
+                                    <input type="radio" name="tab-undo-snackbar" id="tab-undo-snackbar-css">
+                                    <label for="tab-undo-snackbar-css">CSS</label>
+                                    <div class="tab"> none </div>
+                
+                            </div>
+                        </div>
+                       </div>
+
+     
+            <!-- container component aside -->
+                
+            <aside class="component-sidebar-container margin-top-right-bottom-left">
+                <div class="sidebar-onthispage-content"> 
+                On this page <br/><br/>
+                <ul class="flex-col row-gap-1rem">
+                    <li><a href="#Dismiss-Snackbar" class="color-black sidebar-onhover-primary"> Dismiss Snackbar </a></li>
+                    <li> <a href="#undosnackbar" class="color-black sidebar-onhover-primary"> Undo Snackbar </a></li>
+
+                </ul>
+                </div>
+            </aside>
+            <!-- container component footer -->
+            <!-- <footer class="component-footer-container margin-top-right-bottom-left">The footer</footer> -->
+
+    </div>
+        <script src="Snackbar.js"> </script>
+    </body>
+</html>

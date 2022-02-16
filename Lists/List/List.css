@@ -1,0 +1,57 @@
+@import "../../utility/component.css";
+
+/* notification class*/
+
+.notification{
+    width: 100%
+}
+
+.Notification-card{
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  background-color: var(--white);
+  box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+  border-radius:0.938rem 0px 0px 5px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  height: 10%;
+  column-gap: 2%;
+}
+
+/* notification icon colors */
+
+.border-weight-left-primarycolor{
+    border-style: solid;
+    border-width: 0px 0px 0px 1rem;
+    border-color:var(--primary-color)
+}
+
+.border-weight-left-secondarycolor{
+    border-style: solid;
+    border-width: 0px 0px 0px 1rem;
+    border-color:var(--secondary-color)
+}
+
+.border-weight-left-tertiarycolor{
+    border-style: solid;
+    border-width: 0px 0px 0px 1rem;
+    border-color:var(--tertiary-color)
+}
+
+.border-weight-left-forth-color{
+    border-style: solid;
+    border-width: 0px 0px 0px 1rem;
+    border-color:var(--forth-color)
+}
+
+/* notification cancel icon */
+
+.notification-cancel-icon{
+    position: relative;
+    right: 0;
+    cursor: pointer;
+}

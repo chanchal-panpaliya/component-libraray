@@ -1,0 +1,93 @@
+@import "../../utility/component.css";
+
+/* all textfield */
+
+.textField-container{
+    position: relative;
+    margin-top: 2em;
+    width: auto;
+}
+
+.text-input{
+    position: relative;
+    width: 90%;
+    padding: 6px 0;
+    line-height: 16%;
+    font-size: 0.875rem;
+    background: none;
+    color: rgb(15, 12, 12);
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    outline: none;
+}
+
+.errors{
+    line-height: 16%;
+        width: -webkit-fill-available;
+        font-size: 8px;
+        color: var(--danger)
+}
+
+.text-placeholder{
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    padding: 10px 0;
+    text-transform: uppercase;
+    transition: all 0.5s cubic-bezier(0.2, 0.8, 0.25, 1);
+}
+
+.text-input:focus + .text-placeholder {
+    transform: translateY(-4.1em);
+    opacity: 0.5;
+}
+
+input {
+    accent-color: var(--primary-color);
+}
+
+/*password icon*/
+
+.icon-password{
+  padding-left: 1.563rem;
+  background: url("./eye-icon-1457.png") no-repeat left;
+  background-size: 1.25rem;
+}
+
+.check-show-password{
+    position:absolute;
+    right:3.125rem;
+    top:6px;
+}
+
+
+/*date*/
+.text-input-date{
+    position: relative;
+    width: 90%;
+    padding: 6px 0;
+    font-size: 0.875rem;
+    background: none;
+    color: var(--black);
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    outline: none;
+}
+
+/*Check box*/
+
+.custom_checkbox[type="checkbox"]:checked + span:not(.lever)::before{
+    content: '\2713';
+    border: 2px solid transparent;
+    background: transparent;
+    color: var(--primary-color);
+  }
+
+/*Radio button*/
+
+  [type="radio"]:checked + label::after {
+    background-color: var(--danger);
+    border: 2px solid var(--danger);
+}

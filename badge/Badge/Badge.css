@@ -1,0 +1,74 @@
+@import "../../utility/component.css";
+/* / badge/ */
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+
+
+/* / Icon badge position / */
+
+.badge-icon-position{
+    position: relative;
+    top: -1rem;
+    left: -1rem;
+}
+
+/* / live icon position / */
+
+.live-icon-top{
+    top:-2rem;
+    position: relative;
+   }
+
+/* / live status border color/ */   
+
+.live-status-avatar-border-color{
+    border: 2px solid var(--danger); 
+}
+
+/* / badge - text color and background color / */
+.badge-secondary{
+    color: var(--white);
+    background-color: var(--secondary-color);
+}
+
+.badge-primary {
+    color: var(--white);
+    background-color: var( --primary-color);
+}
+
+.badge-success {
+    color: var(--white);
+    background-color: var(--success);
+}
+
+.badge-danger {
+    color: var(--white);
+    background-color: var(--danger);
+}
+
+.badge-warning {
+    color: var(--black);
+    background-color: var(--warning);
+}
+
+.badge-info {
+    color: var(--white);
+    background-color: var(--info);
+}
+
+.badge-light {
+    color:  var(--white);
+    background-color: var( --default);
+}
+
