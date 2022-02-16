@@ -1,5 +1,7 @@
 @import "../../utility/component.css";
 
+/*image size*/
+
 .image-size-extrasmall{
     width: 1.25rem;
     height: 1.25rem;
@@ -20,6 +22,7 @@
     height: 12.5rem;
 }
 
+/*image responsive restricted upto 25rem*/
 .image-responsive{
     width: 100%;
     max-width: 25rem;
