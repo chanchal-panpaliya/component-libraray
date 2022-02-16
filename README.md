@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # component-libraray
 01 . Avatar Component
 
@@ -24,3 +25,11 @@ screens
 ![rating_mobile](https://user-images.githubusercontent.com/28673856/153484824-dc9ca883-8215-4f33-b4a7-eeb940891720.png)
 ![rating3](https://user-images.githubusercontent.com/28673856/153484832-b64fa699-28db-453d-b781-68730a0aef82.png)
 >>>>>>> rating
+=======
+# modal component
+netify link - https://solutionground.netlify.app/
+screens 
+
+![modal](https://user-images.githubusercontent.com/28673856/153484002-b466e66f-32b9-4afb-ae10-4a6c7e121399.png)
+![modal2](https://user-images.githubusercontent.com/28673856/153484021-1f59ed7c-391d-4e4d-9a07-8a6beec8e6d5.png)
+>>>>>>> modal
