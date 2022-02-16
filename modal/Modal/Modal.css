@@ -1,12 +1,13 @@
 @import "../../utility/component.css";
 
-
+/*use id because class simple modal and action modal  "display: none;" not working for the pop up modal .
+For to change the priority that why define seprate id  */
 #SimpleModal, #ActionModal{
     display: none;
 }
 
-
-.SimpleModal,.ActionModal{
+/* For code reviewer ->  already have a flex utility class but i don't want to use it here*/
+.SimpleModal, .ActionModal{
     display: none;
     position: fixed;
     top:0;
@@ -16,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(77, 77, 77, .7);
+    background: var(--modal-bg);
     transition: all .4s;
     z-index: 1;
   
@@ -27,7 +28,7 @@
     position: absolute;
     width: fit-content;
     max-width: 100%;
-    background: #fff;
+    background: var(--white);
     padding: 1em 2em;
     left: 50%;
     top: 50%;
@@ -35,21 +36,15 @@
     width: fit-content;
   }
 
+  /*close modal*/
   .SimpleModal_close ,.ActionModal_close{
     position: absolute;
     top: 10px;
     right: 10px;
-    color: #585858;
+    color: var(--modal-bg);
     text-decoration: none;
   }
 
-  .ActionModal_footer{
-    text-align: right;
-  }
 
-  .ActionModal_content{
-      display: flex;
-      flex-direction: column;
-  }
 
  
