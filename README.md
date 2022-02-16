@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # component-libraray
 01 . Avatar Component
 
@@ -56,3 +57,18 @@ screens - Not responsive in mobile when the error was occer .
 ![input_validation](https://user-images.githubusercontent.com/28673856/153480619-c630cfef-8dd3-49e4-9117-f1b8958099cf.png)
 ![mobile_input](https://user-images.githubusercontent.com/28673856/153480633-cf19169c-9507-4c32-a315-8779d6438250.png)
 >>>>>>> input
+=======
+# component-libraray
+
+2 . Alert Component 
+
+netify link - https://solutionground.netlify.app/
+
+
+screens are- 
+
+![alert_desktop_action](https://user-images.githubusercontent.com/28673856/153474858-3ba6c08c-7a82-410a-9533-8bbf74d2a76f.png)
+![desktop_alert](https://user-images.githubusercontent.com/28673856/153474873-68d1f07f-5d7d-4ab7-8c42-f7f37830a4ab.png)
+![mobile_avtar](https://user-images.githubusercontent.com/28673856/153474893-7fbc70d3-8c31-4036-a395-650e6fea74e3.png)
+![mobile_live_examle](https://user-images.githubusercontent.com/28673856/153474905-f503c7d6-ea5e-4c97-b2b7-dff58ee7a469.png)
+>>>>>>> alert
