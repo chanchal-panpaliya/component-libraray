@@ -9,13 +9,12 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-
-        <!-- container grid -->
-        <div class="component-sidebar-footer-display-grid">
-            <!-- container component content -->
+    <!-- container grid -->
+            <div class="component-sidebar-footer-display-grid">
+    <!-- container component content -->
                     <div class="component-main-container">
                         <div class="component-container margin-top-right-bottom-left typography-padding-top-right-bottom-left row-gap-2rem">
-
+   <!-- component link next and pre page -->
                             <div class="component-link-next-pre"> 
                                 <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
                                     <i class="material-icons curser-pointer">chevron_left</i> 
@@ -26,11 +25,8 @@
                                     <i class="material-icons curser-pointer ">chevron_right</i> 
                                 </span>
                             </div>
-    
-
-                            <div class="typography-h1 typography-fontweight-bold ">
-                                Lists
-                             </div>
+    <!-- Lists component----- -->
+                            <label class="typography-h1 typography-fontweight-bold "> Lists </label>
                              <div class="typography-p-small">
                                 <ul>
                                     <li> Lists are used to group together related pieces of information so they are clearly associated with each other and easy to read. </li>
@@ -40,105 +36,78 @@
                                     <li> The three list - unordered list , ordered list , description list</li>
                                 </ul>
                             </div>
-                
-                          
-                      
-                          
-                                <label class="typography-h3 typography-fontweight-bold typography-p-small" id="unorderlist"> Unordered list </label>
-                                <div class="component-display-border-container typography-p-small"> 
-                                    <ul>
-                                        <li>bread</li>
-                                        <li>coffee beans</li>
-                                        <li>milk</li>
-                                        <li>butter</li>
-                                      </ul>
-                                      
+    <!-- Unordered list ------->
+                            <label class="typography-h3 typography-fontweight-bold typography-p-small" id="unorderlist"> Unordered list </label>
+                            <div class="component-display-border-container typography-p-small"> 
+                                <ul>
+                                    <li>bread</li>
+                                    <li>coffee beans</li>
+                                    <li>milk</li>
+                                    <li>butter</li>
+                                </ul>         
+                            </div>
+                            <div class="tabs">
+                                <input type="radio" name="tab-unordered-list" id="tab-unordered-list-html" checked="checked">
+                                <label for="tab-unordered-list-html">HTML</label>
+<!------ Unordered list tabs------------------->
+                                <div class="tab">
+                                    <div class="code-snippet-display">
+                                        <iframe
+                                             src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Ebread%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Ecoffee%2520beans%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Emilk%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Ebutter%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                                             class="code-snippet-iframe"
+                                             sandbox="allow-scripts allow-same-origin">
+                                        </iframe>
+                                    </div>         
                                 </div>
-
-                                <div class="tabs">
-                                    <input type="radio" name="tab-unordered-list" id="tab-unordered-list-html" checked="checked">
-                                    <label for="tab-unordered-list-html">HTML</label>
-                                    <div class="tab">
-                                            <div class="code-snippet-display">
-
-                                                <iframe
-                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Ebread%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Ecoffee%2520beans%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Emilk%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Ebutter%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-                                                    class="code-snippet-iframe"
-                                                    sandbox="allow-scripts allow-same-origin">
-                                                </iframe>
-
-                                                <!-- <iframe
-                                                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
-                                                   
-                                                    sandbox="allow-scripts allow-same-origin">
-                                                </iframe> -->
-                                            </div>         
-                                    </div>
-                                    
-                                    <input type="radio" name="tab-unordered-list" id="tab-unordered-list-js"> 
-                                    <label for="tab-unordered-list-js">JS</label>
-                                    <div class="tab"> none </div>
-                
-                                    <input type="radio" name="tab-unordered-list" id="tab-unordered-list-css">
-                                    <label for="tab-unordered-list-css">CSS</label>
-                                    <div class="tab"> none </div>
-                
+                                <input type="radio" name="tab-unordered-list" id="tab-unordered-list-js"> 
+                                <label for="tab-unordered-list-js">JS</label>
+                                <div class="tab"> none </div>
+                                <input type="radio" name="tab-unordered-list" id="tab-unordered-list-css">
+                                <label for="tab-unordered-list-css">CSS</label>
+                                <div class="tab"> none </div>
+                            </div>
+<!------ Ordered lists------------------->
+                            <label class="typography-h3 typography-fontweight-bold typography-p-small" id="orderedlist">  Ordered lists </label>
+                            <div class="component-display-border-container typography-p-small"> 
+                                <ol>
+                                    <li>Gather ingredients</li>
+                                    <li>Mix ingredients together</li>
+                                    <li>Place ingredients in a baking dish</li>
+                                    <li>Bake in oven for an hour</li>
+                                    <li>Remove from oven</li>
+                                    <li>Allow to stand for ten minutes</li>
+                                    <li>Serve</li>
+                                </ol>
+                            </div>
+<!------ Ordered lists tabs ------------------->
+                            <div class="tabs">
+                                <input type="radio" name="tab-ordered-list" id="tab-ordered-list-html" checked="checked">
+                                <label for="tab-ordered-list-html">HTML</label>
+                                <div class="tab">
+                                    <div class="code-snippet-display">
+                                        <iframe
+                                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%2509%2509%253Col%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EGather%2520ingredients%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EMix%2520ingredients%2520together%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EPlace%2520ingredients%2520in%2520a%2520baking%2520dish%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EBake%2520in%2520oven%2520for%2520an%2520hour%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ERemove%2520from%2520oven%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EAllow%2520to%2520stand%2520for%2520ten%2520minutes%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EServe%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                                            class="code-snippet-iframe"
+                                            sandbox="allow-scripts allow-same-origin">
+                                        </iframe>
+                                    </div>         
                                 </div>
-<!------------------------------------------------------------------------------------------>
-
-                                <label class="typography-h3 typography-fontweight-bold typography-p-small" id="orderedlist">  Ordered lists </label>
-                                <div class="component-display-border-container typography-p-small"> 
-                                    <ol>
-                                        <li>Gather ingredients</li>
-                                        <li>Mix ingredients together</li>
-                                        <li>Place ingredients in a baking dish</li>
-                                        <li>Bake in oven for an hour</li>
-                                        <li>Remove from oven</li>
-                                        <li>Allow to stand for ten minutes</li>
-                                        <li>Serve</li>
-                                      </ol>
-                                </div>
-                                <div class="tabs">
-                                    <input type="radio" name="tab-ordered-list" id="tab-ordered-list-html" checked="checked">
-                                    <label for="tab-ordered-list-html">HTML</label>
-                                    <div class="tab">
-                                            <div class="code-snippet-display">
-
-                                                <iframe
-                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%2509%2509%253Col%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EGather%2520ingredients%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EMix%2520ingredients%2520together%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EPlace%2520ingredients%2520in%2520a%2520baking%2520dish%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EBake%2520in%2520oven%2520for%2520an%2520hour%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ERemove%2520from%2520oven%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EAllow%2520to%2520stand%2520for%2520ten%2520minutes%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EServe%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-                                                    class="code-snippet-iframe"
-                                                    sandbox="allow-scripts allow-same-origin">
-                                                </iframe>
-
-                                                <!-- <iframe
-                                                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
-                                                    class="code-snippet-iframe"
-                                                    sandbox="allow-scripts allow-same-origin">
-                                                </iframe> -->
-                                            </div>         
-                                    </div>
-                                    
-                                    <input type="radio" name="tab-ordered-list" id="tab-ordered-list-js"> 
-                                    <label for="tab-ordered-list-js">JS</label>
-                                    <div class="tab"> none </div>
-                
+                                <input type="radio" name="tab-ordered-list" id="tab-ordered-list-js"> 
+                                <label for="tab-ordered-list-js">JS</label>
+                                <div class="tab"> none </div>
                                     <input type="radio" name="tab-ordered-list" id="tab-ordered-list-css">
                                     <label for="tab-ordered-list-css">CSS</label>
                                     <div class="tab"> none </div>
-                
                                 </div>
-
-<!------------------------------------------------------------------------------------------>
+<!---------Different type of order list-------------->
                                 <label> The default in most browsers is decimal numbers, but there are others available: </label> 
                                 <div class="typography-p-small">
-                                   
                                    <label class="typography-h4 typography-fontweight-bold typography-p-small"> Letters </label>
                                    <ul class="typography-padding-top-right-bottom-left">
                                        <li> Lowercase ascii letters (a, b, c…) </li>
                                        <li> Uppercase ascii letters (A, B, C…). </li>
                                        <li> Lowercase classical Greek: (έ, ή, ί…)</li>
                                    </ul>
-                                   
                                    <label class="typography-h4 typography-fontweight-bold typography-p-small"> Numbers </label>
                                    <ul class="typography-padding-top-right-bottom-left">
                                        <li> Decimal numbers (1, 2, 3…) </li>
@@ -149,9 +118,7 @@
                                        <li> Traditional Armenian numbering (mek, yerku, yerek…)</li>
                                    </ul>
                                 </div>
-
-
-
+<!---------Description lists-------------->
                                 <label class="typography-h3 typography-fontweight-bold typography-p-small" id="descriptionlist" >   Description lists </label>
                                 <div class="component-display-border-container typography-p-small"> 
                                     <dl>
@@ -164,48 +131,41 @@
                                         <dd class="typography-padding-top-right">One value that applies to Name4</dd>
                                       </dl>
                                 </div>
-
+<!---------Description lists tabs-------------->
                                 <div class="tabs">
                                     <input type="radio" name="tab-description-list" id="tab-description-list-html" checked="checked">
                                     <label for="tab-description-list-html">HTML</label>
                                     <div class="tab">
-                                            <div class="code-snippet-display">
-
-                                                <iframe
-                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdl%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdt%253EName1%253C%252Fdt%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdd%2520class%253D%2522typography-padding-top-right%2522%253EValue%2520that%2520applies%2520to%2520Name1%253C%252Fdd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdt%253EName2%253C%252Fdt%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdt%253EName3%253C%252Fdt%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdd%2520class%253D%2522typography-padding-top-right%2522%253EValue%2520that%2520applies%2520to%2520both%2520Name2%2520and%2520Name3%253C%252Fdd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdt%253EName4%253C%252Fdt%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdd%2520class%253D%2522typography-padding-top-right%2522%253EOne%2520value%2520that%2520applies%2520to%2520Name4%253C%252Fdd%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdl%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-                                                    class="code-snippet-iframe"
-                                                    sandbox="allow-scripts allow-same-origin">
-                                                </iframe>
-
-                                                <!-- <iframe
-                                                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
-                                                    class="code-snippet-iframe"
-                                                    sandbox="allow-scripts allow-same-origin">
-                                                </iframe> -->
-
-                                            </div>         
+                                        <div class="code-snippet-display">
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdl%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdt%253EName1%253C%252Fdt%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdd%2520class%253D%2522typography-padding-top-right%2522%253EValue%2520that%2520applies%2520to%2520Name1%253C%252Fdd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdt%253EName2%253C%252Fdt%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdt%253EName3%253C%252Fdt%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdd%2520class%253D%2522typography-padding-top-right%2522%253EValue%2520that%2520applies%2520to%2520both%2520Name2%2520and%2520Name3%253C%252Fdd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdt%253EName4%253C%252Fdt%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdd%2520class%253D%2522typography-padding-top-right%2522%253EOne%2520value%2520that%2520applies%2520to%2520Name4%253C%252Fdd%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdl%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+                                        </div>         
                                     </div>
-                                    
                                     <input type="radio" name="tab-description-list" id="tab-description-list-js"> 
                                     <label for="tab-description-list-js">JS</label>
                                     <div class="tab"> none </div>
-                
                                     <input type="radio" name="tab-description-list" id="tab-description-list-css">
                                     <label for="tab-description-list-css">CSS</label>
-                                    <div class="tab"> none </div>
-                
+                                    <div class="tab">  
+                                        <div class="code-snippet-display">
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=css&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520.typography-padding-top-right%257B%250A%2520%2520%2520%2520padding%253A%25201rem%25201rem%253B%250A%2520%2520%257D%250A"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+                                        </div>
+                                    </div>
                                 </div>
-
-<!------------------------------------------------------------------------------------------>
-
                                 <div class="typography-p-small typography-padding-top-right">
                                     <ul>
                                         <li> Description lists use one set of "dl" tags wrapped around one or more groups of "dt" (name) "dd" (value) tags.  </li>
                                         <li> You must pair at least one "dt" with at least one "dd", and the "dt" should always come first in the source order.</li>
                                     </ul> 
                                 </div>
-
-
+<!------Spaced (normal list)----->
                                 <label class="typography-h3 typography-fontweight-bold typography-p-small" id="normallist" >  Spaced (normal list) </label>
                                 <div class="component-display-border-container typography-p-small"> 
                                     <ol>
@@ -220,45 +180,39 @@
                                         <li>Chapter Three  </li>
                                       </ol>
                                 </div>
-
+<!------Spaced (normal list) Tabs ----->
                                 <div class="tabs">
                                     <input type="radio" name="tab-normal-list" id="tab-normal-list-html" checked="checked">
                                     <label for="tab-normal-list-html">HTML</label>
                                     <div class="tab">
                                             <div class="code-snippet-display">
-
                                                 <iframe
                                                     src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%253Col%253E%250A%2520%2520%2520%2520%2520%253Cli%253EChapter%2520One%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522list-style-type-lower-alpha%2520typography-padding-top-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESection%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESection%2520Two%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESection%2520Three%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253EChapter%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EChapter%2520Three%2520%2520%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
                                                     class="code-snippet-iframe"
                                                     sandbox="allow-scripts allow-same-origin">
                                                 </iframe>
-
-                                                <!-- <iframe
-                                                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=900&ds=true&dsyoff=100px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fimg%252Favatar.jpg%2522%2520class%253D%2522image-avatar%2520border-radius-round%2522%2520alt%253D%2522image-avatar%2522%252F%253E"
-                                                    class="code-snippet-iframe"
-                                                    sandbox="allow-scripts allow-same-origin">
-                                                </iframe> -->
-
                                             </div>         
                                     </div>
-                                    
                                     <input type="radio" name="tab-normal-list" id="tab-normal-list-js"> 
                                     <label for="tab-normal-list-js">JS</label>
                                     <div class="tab"> none </div>
-                
                                     <input type="radio" name="tab-normal-list" id="tab-normal-list-css">
                                     <label for="tab-normal-list-css">CSS</label>
-                                    <div class="tab"> none </div>
-                
+                                    <div class="tab">  
+                                        <div class="code-snippet-display">
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=css&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520.typography-padding-top-right%257B%250A%2520%2520%2520%2520padding%253A%25201rem%25201rem%253B%250A%2520%2520%257D%250A.list-style-type-lower-alpha%257Blist-style-type%253A%2520lower-alpha%253B%257D%250A"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+                                        </div> 
+                                    </div>
                                 </div>
-
-<!------------------------------------------------------------------------------------------>
-
+<!------------Stacked (Notification Page)--------------->
                                 <label class="typography-h3 typography-fontweight-bold typography-p-small" id="notificationpage"> Stacked (Notification Page) </label>
                                 <div class="component-display-border-container typography-p-small"> 
                                     <ul class="flex-col list-style-type-none notification row-gap-1rem">
-
-
+                                        <!------------Stacked (Notification Page) primary--------------->
                                         <li class="Notification-card border-weight-left-primarycolor"> 
                                             <div class="Letter-avatar border-radius-round icon-primary-background-color">
                                                 <span class="Letter-avatar-label"> <i class="material-icons avatar-icon-color-white">code</i> </span>
@@ -270,8 +224,7 @@
                                             <img src="https://picsum.photos/251/901" class="image-avatar-small" alt="image-avatar"/>
                                             <i class="material-icons notification-cancel-icon curser-pointer">close</i>
                                         </li>
-
-
+                                         <!------------Stacked (Notification Page) secondary --------------->
                                         <li class="Notification-card  border-weight-left-secondarycolor"> 
                                             <div class="Letter-avatar border-radius-round icon-secondary-background-color">
                                                 <span class="Letter-avatar-label"> <i class="material-icons avatar-icon-color-white">code</i> </span>
@@ -283,8 +236,7 @@
                                             <img src="https://picsum.photos/256/901" class="image-avatar-small" alt="image-avatar"/>
                                             <i class="material-icons notification-cancel-icon curser-pointer">close</i>
                                         </li>
-
-
+                                        <!------------Stacked (Notification Page) tertiary --------------->
                                         <li class="Notification-card border-weight-left-tertiarycolor"> 
                                             <div class="Letter-avatar border-radius-round icon-tertiary-background-color">
                                                 <span class="Letter-avatar-label"> <i class="material-icons avatar-icon-color-white">code</i> </span>
@@ -296,8 +248,7 @@
                                             <img src="https://picsum.photos/250/901" class="image-avatar-small" alt="image-avatar"/>
                                             <i class="material-icons notification-cancel-icon curser-pointer">close</i>
                                         </li>
-
-
+                                         <!------------Stacked (Notification Page) forth--------------->
                                         <li class="Notification-card border-weight-left-forth-color"> 
                                             <div class="Letter-avatar border-radius-round icon-forth-background-color">
                                                 <span class="Letter-avatar-label"> <i class="material-icons avatar-icon-color-white">code</i> </span>
@@ -309,43 +260,40 @@
                                             <img src="https://picsum.photos/200/901" class="image-avatar-small" alt="image-avatar"/>
                                             <i class="material-icons notification-cancel-icon curser-pointer">close</i>
                                         </li>
-
-
                                     </ul>
                                 </div>
-                               
+<!------------Stacked (Notification Page) Tabs--------------->
                                 <div class="tabs">
                                     <input type="radio" name="tab-notification-list" id="tab-notification-list-html" checked="checked">
                                     <label for="tab-notification-list-html">HTML</label>
                                     <div class="tab">
-                                            <div class="code-snippet-display">
-                                                <iframe
-                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522flex-col%2520list-style-type-none%2520notification%2520row-gap-1rem%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522Notification-card%2520border-weight-left-primarycolor%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Letter-avatar%2520border-radius-round%2520icon-primary-background-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522Letter-avatar-label%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520avatar-icon-color-white%2522%253Ecode%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-2%2520flex-align-item-center%2520typography-padding-top-right-bottom-left%2520typography-p-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h4%2520typography-fontweight-bold%2522%253E%2520Did%2520you%2520know%253F%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-grey-text-small%2522%253E%2520Here%2520is%2520something%2520that%2520you%2520might%2520lie%2520to%2520know%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F251%252F901%2522%2520class%253D%2522image-avatar-small%2522%2520alt%253D%2522image-avatar%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520notification-cancel-icon%2520curser-pointer%2522%253Eclose%253C%252Fi%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%250A%2520%2520%2520%2520%2520%253Cli%253E%2520....%2520%253C%252Fli%253E%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cli%253E%2520....%2520%253C%252Fli%253E%2520%250A%2520%253Cul%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-                                                    class="code-snippet-iframe"
-                                                    sandbox="allow-scripts allow-same-origin">
-                                                </iframe>
-                                            </div>         
+                                        <div class="code-snippet-display">
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522flex-col%2520list-style-type-none%2520notification%2520row-gap-1rem%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522Notification-card%2520border-weight-left-primarycolor%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Letter-avatar%2520border-radius-round%2520icon-primary-background-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522Letter-avatar-label%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520avatar-icon-color-white%2522%253Ecode%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-2%2520flex-align-item-center%2520typography-padding-top-right-bottom-left%2520typography-p-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h4%2520typography-fontweight-bold%2522%253E%2520Did%2520you%2520know%253F%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-grey-text-small%2522%253E%2520Here%2520is%2520something%2520that%2520you%2520might%2520lie%2520to%2520know%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F251%252F901%2522%2520class%253D%2522image-avatar-small%2522%2520alt%253D%2522image-avatar%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520notification-cancel-icon%2520curser-pointer%2522%253Eclose%253C%252Fi%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%250A%2520%2520%2520%2520%2520%253Cli%253E%2520....%2520%253C%252Fli%253E%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cli%253E%2520....%2520%253C%252Fli%253E%2520%250A%2520%253Cul%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+                                        </div>         
                                     </div>
-                                    
                                     <input type="radio" name="tab-notification-list" id="tab-notification-list-js"> 
                                     <label for="tab-notification-list-js">JS</label>
                                     <div class="tab"> none </div>
-                
                                     <input type="radio" name="tab-notification-list" id="tab-notification-list-css">
                                     <label for="tab-notification-list-css">CSS</label>
-                                    <div class="tab"> none </div>
-                
+                                    <div class="tab"> 
+                                        <div class="code-snippet-display">
+                                            <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=css&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=.list-style-type-none%257Blist-style-type%253A%2520none%253B%257D%250A.notification%257B%2520width%253A%2520100%2525%257D%250A.Notification-card%257B%2520width%253A%2520auto%253B%2520max-width%253A%2520100%2525%253B%2520height%253A%2520auto%253B%2520background-color%253A%2520var%28--white%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520box-shadow%253A%25205px%25205px%25201.25rem%25200%2520rgb%280%25200%25200%2520%252F%252020%2525%29%253Bborder-radius%253A0.938rem%25200px%25200px%25205px%253B%250A%2509%2509%2509%2509%2509display%253A%2520flex%253B%2520flex-direction%253Arow%253B%2520justify-content%253A%2520center%253B%2520align-items%253A%2520center%253B%250A%2520%2520%2509%2509%2509%2509%2509padding%253A%25201rem%25201rem%25201rem%25201rem%253B%2520height%253A%252010%2525%253B%2520column-gap%253A%25202%2525%253B%257D%250A%250A.border-weight-left-primarycolor%257B%2520border-style%253A%2520solid%253B%2520border-width%253A%25200px%25200px%25200px%25201rem%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520border-color%253Avar%28--primary-color%29%257D%250A%250A.notification-cancel-icon%257B%2520position%253A%2520relative%253B%2520right%253A%25200%253B%2520cursor%253A%2520pointer%253B%257D%250A%250A.Letter-avatar%257B%2520height%253A%2520var%28--avatar-size-small%29%253B%2520text-align%253A%2520center%253B%2520width%253A%2520var%28--avatar-size-small%29%253B%257D%250A.border-radius-round%257Bborder-radius%253A%2520999px%253B%257D%250A.icon-primary-background-color%257Bbackground-color%253Avar%28--primary-color%29%253B%257D%250A.Letter-avatar-label%257B%250A%2520%2520%2520%2520font-size%253A%2520calc%28var%28--avatar-size-small%29%2520%252F%25202%29%253B%2520%252F*%252050%2525%2520of%2520parent%2520*%252F%250A%2520%2520%2520%2520line-height%253A%25201%253B%250A%2520%2520%2520%2520position%253A%2520relative%253B%250A%2520%2520%2520%2520top%253A%2520calc%28var%28--avatar-size-small%29%2520%252F%25204%29%253B%2520%252F*%252025%2525%2520of%2520parent%2520*%252F%250A%257D%250A%250A.avatar-icon-color-white%257B%2520color%253A%2520var%28--white%29%253B%257D%250A.flex-2%257Bflex%253A%25202%253B%257D%250A.typography-h4%257B%2520font-size%253A%252016px%253B%2520line-height%253A%252024px%253B%257D%250A.flex-align-item-center%257B%2520align-items%253A%2520center%257D%250A.typography-fontweight-bold%257B%2520font-weight%253A%2520700%253B%257D%250A.typography-grey-text-small%257B%2520font-size%253A%252016px%253B%2520line-height%253A%252024px%253Bcolor%253A%2520var%28--secondary-text-color%29%253B%257D%250A.image-avatar-small%257B%2520width%253A%2520var%28--avatar-size-small%29%253B%2520height%253A%2520var%28--avatar-size-small%29%253B%257D%250A.curser-pointer%257B%2520cursor%253A%2520pointer%253B%257D%250A.curser-pointer%253Ahover%257B%2520content%253A%27%27%253B%2520display%253Ablock%253B%2520animation%253A0.7s%2520rip%2520ease%25201%253B%257D%250A%250A%2540keyframes%2520rip%257B%25200%2525%257B%257D%250A%250975%2525%257B%250A%2509%2509transform%253Ascale%284%29%253B%250A%2509%257D%250A%257D"
+                                                class="code-snippet-iframe"
+                                                sandbox="allow-scripts allow-same-origin">
+                                            </iframe>
+                                        </div>
+                                    </div>
                                 </div>
-
-<!------------------------------------------------------------------------------------------>
-                            
-
+<!--------------componet close-------------------->
                         </div>
                        </div>
-
-     
             <!-- container component aside -->
-                
             <aside class="component-sidebar-container margin-top-right-bottom-left">
                 <div class="sidebar-onthispage-content"> 
                 On this page <br/><br/>
@@ -359,9 +307,7 @@
                 </div>
             </aside>
             <!-- container component footer -->
-            <!-- <footer class="component-footer-container margin-top-right-bottom-left">The footer</footer> -->
-
-    </div>
+         </div>
         <script src="List.js"> </script>
     </body>
 </html>
