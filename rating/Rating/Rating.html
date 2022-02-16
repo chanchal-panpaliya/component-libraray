@@ -26,15 +26,14 @@
                             </span>
                         </div>
 <!-- component Rating  -->
-                        <label class="typography-h1 typography-fontweight-bold "> Rating  </label>
+                        <label class="typography-h1 typography-fontweight-bold "> Rating </label>
                         <div class="typography-p-small">
                             <ul>
                                 <li>A star rating is a popular rating scale used by both professional reviewers and members of the public</li>
                                 <li> Rating is used by reviewers for ranking things such as films, TV shows, restaurants, and hotels.  </li>
-                                
                             </ul>
                           </div>
-                          <label class="typography-h3 typography-fontweight-bold typography-p-small"> Rating - </label>
+                          <label id="Rating" class="typography-h3 typography-fontweight-bold typography-p-small"> Rating - </label>
                           <div class="component-display-border-container typography-p-small"> 
                            <div class="star_rating">
                                 <i class="material-icons star curser-pointer-no-effect"> star </i>
@@ -81,7 +80,7 @@
                             </div>
                         </div>
 <!-- component Rating card -->
-                            <label class="typography-h3 typography-fontweight-bold typography-p-small"> eg- card with rating </label>
+                            <label id="cardwithrating" class="typography-h3 typography-fontweight-bold typography-p-small"> eg- card with rating </label>
                             <div class="component-display-border-container">
                                 <div class="card-body"> 
                                     <div class="flex-row"> 
@@ -132,17 +131,16 @@
                         </div>
                     </div>
      <!-- container component aside -->
-            
                     <aside class="component-sidebar-container margin-top-right-bottom-left">
                         <div class="sidebar-onthispage-content"> 
-                        <br/><br/>
-                        <ul>
-
+                        On this page <br/><br/>
+                        <ul  class="flex-col row-gap-1rem list-style-type-none">
+                            <li><a href="#Rating" class="color-black sidebar-onhover-primary"> Rating  </a></li>
+                            <li><a href="#cardwithrating" class="color-black sidebar-onhover-primary"> Rating card example </a></li>
                         </ul>
                         </div>
                     </aside>
       <!--  component aside closed-->
-
         </div>
         <script src="Rating.js"> </script>
     </body>
