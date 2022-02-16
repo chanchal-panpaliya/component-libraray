@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # component-libraray
 01 . Avatar Component
 
@@ -136,3 +137,14 @@ screens -
 ![navigation_sub](https://user-images.githubusercontent.com/28673856/153483102-6de96fbe-4502-4cf5-b5dd-0828bd5d68f9.png)
 ![navigation2](https://user-images.githubusercontent.com/28673856/153483115-f3dd3dfd-b8f4-4667-8318-6acab544eda2.png)
 >>>>>>> navigation
+=======
+# snackbar component
+
+netify link - https://solutionground.netlify.app/
+screens - 
+
+![snacbar](https://user-images.githubusercontent.com/28673856/153485521-dfcc8551-d7b2-48f4-bca9-740a4db8bb28.png)
+![snackbar_mobile](https://user-images.githubusercontent.com/28673856/153485537-0c1f64e6-ffcc-490e-8170-437c173c1470.png)
+
+
+>>>>>>> snackbar
