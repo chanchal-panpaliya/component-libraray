@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> MenuItem </title>
+        <link rel="stylesheet" href="../../component/solutionground.css" />
+        <link rel="stylesheet" href="./MenuItem.css" />
+    </head>
+    <body>
+        <div class="menu-container">
+
+          <!-- mobile side bar -->
+
+           <div class="mobile-header-container"> 
+            <header class="mobile-header"> 
+              <div class="mobile-header-logo">
+                  <a class="typography-p-medium-Larger typography-padding-top-right icon-primary-color" href="../../index.html"> 
+                    <img class="menu-mobile-logo-img" src="../../assets/logo/solutiongroupmobile.png" /> 
+                    <img class="menu-mobile-nightmoode-logo-img" src="../../assets/logo/solutiongroupmobilenight.png" /></a>
+                  <i class="material-icons typography-p-medium-Larger typography-padding-top-right color-black mobile-icon-align" onclick="myFunction()">menu</i>
+              </div>
+            </header>
+           </div>
+
+           <div id="mobile-sidenav" class="mobile-sidenav">
+            <a href="javascript:void(0)" class="mobile-closebtn" onclick="closeNav()">&times;</a>
+
+            <div> <hr class="typology-padding-top border-style-none" /> </div> 
+           <div> <a class="menu-label"  href="../Default/Default.html" target="switch-frame"> Installation </a>  </div> 
+           <div> <a class="menu-label" href="../colorgenerator/colorgenerator.html" target="switch-frame"> Color generator </a>  </div> 
+            <div>  <a  class="menu-label" href="../utilityPage/utilityclass.html" target="switch-frame"> Utility classes </a>  </div>
+          
+            <h3 class="typography-padding-top-right"> Components </h3>
+
+               <hr/> 
+
+              <div>
+                <a class="menu-label mobile-margin-space-label" href="../../doc/Avatar.html" target="switch-frame">Avatar</a>
+              </div>
+
+              <div>
+                <a class="menu-label mobile-margin-space-label" href="../../doc/Alert.html" target="switch-frame">Alert</a>
+              </div>
+
+              <button class="dropdown-menu-button menu-label"> Badge 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-menu-container">
+                  <div> <a class="menu-label" href="../../doc/Badge.html" target="switch-frame">Badge</a> </div>
+                  <div>  <a class="menu-label" href="../../doc/Badge.html#BadgeonIcons" target="switch-frame">Badge on Icons</a></div>
+                   <div> <a class="menu-label" href="../../doc/Badge.html#badge-on-avatar" target="switch-frame">Badge on Avatar</a></div>
+              </div>
+
+              <button class="dropdown-menu-button menu-label"> Button
+                <i class="fa fa-caret-down"></i>
+              </button>
+               <div class="dropdown-menu-container">
+                  <div> <a class="menu-label" href="../../doc/Button.html" target="switch-frame">Button</a></div>
+                  <div><a class="menu-label" href="../../doc/Button.html#Primary-Button" target="switch-frame">Primary Button</a></div>
+                  <div><a class="menu-label" href="../../doc/Button.html#Link-Button" target="switch-frame">Link Button</a></div>
+                  <div> <a class="menu-label" href="../../doc/Button.html#Icon-Button" target="switch-frame">Icon Button</a></div>
+                  <div> <a class="menu-label" href="../../doc/Button.html#Floating-Action-Button" target="switch-frame">Floating Action Button</a></div>
+              </div>
+
+              <button class="dropdown-menu-button menu-label"> Card
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-menu-container">
+                  <div><a class="menu-label" href="../../doc/Card.html" target="switch-frame">Card</a></div>
+                  <div><a class="menu-label" href="../../doc/Card.html#card-with-badges" target="switch-frame">Card with badges</a></div>
+                  <div><a class="menu-label" href="../../doc/Card.html#card-with-dismiss" target="switch-frame">Card with dismiss</a></div>
+                  <div><a class="menu-label" href="../../doc/Card.html#card-with-text-overlay" target="switch-frame">Cards with text overlay</a></div>
+                  <div><a class="menu-label" href="../../doc/Card.html#text-only-cards" target="switch-frame">Text only cards</a></div>
+                  <div><a class="menu-label" href="../../doc/Card.html#horizontal-cards" target="switch-frame">Vertical/Horizontal cards</a></div>
+                  <div><a class="menu-label" href="../../doc/Card.html#cards-with-shadow" target="switch-frame">Cards with shadow</a></div>
+              </div>
+
+              <button class="dropdown-menu-button menu-label"> Image 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-menu-container">
+                  <div> <a class="menu-label" href="../../doc/Image.html" target="switch-frame">Image</a> </div>
+                  <div> <a class="menu-label"  href="../../doc/Image.html#responsive-image" target="switch-frame">responsive image</a> </div>
+                  <div> <a class="menu-label" href="../../doc/Image.html#round-image" target="switch-frame">round image</a> </div>
+              </div>
+
+              <button class="dropdown-menu-button menu-label"> Input <i class="fa fa-caret-down"></i></button>
+              <div  class="dropdown-menu-container">
+                  <div> <a class="menu-label" href="../../doc/Input.html" target="switch-frame">Input</a> </div>
+                  <div> <a class="menu-label" href="../../doc/Input.html#textbox" target="switch-frame">textbox</a> </div>
+                  <div> <a class="menu-label" href="../../doc/Input.html#validaionError" target="switch-frame">with validation and errors style</a> </div> 
+              </div>
+
+              <button class="dropdown-menu-button menu-label"> Text Utilities <i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-menu-container">
+                  <div><a class="menu-label" href="../../doc/TextUtilities.html" target="switch-frame"> Text Utilities </a> </div>
+                  <div><a class="menu-label" href="../../doc/TextUtilities.html#heading" target="switch-frame">headings</a> </div>
+                  <div> <a class="menu-label" href="../../doc/TextUtilities.html#smalltext" target="switch-frame">small text</a> </div>
+                  <div> <a class="menu-label" href="../../doc/TextUtilities.html#graytext" target="switch-frame">gray text</a> </div> 
+                  <div> <a class="menu-label" href="../../doc/TextUtilities.html#centertext" target="switch-frame">center text</a> </div>
+              </div>
+
+              <button class="dropdown-menu-button menu-label"> Lists <i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-menu-container">
+                  <div> <a class="menu-label" href="../../doc/List.html" target="switch-frame">Lists</a> </div>
+                  <div> <a class="menu-label" href="../../doc/List.html#normallist" target="switch-frame">Spaced (normal lists)</a> </div>
+                  <div> <a class="menu-label" href="../../doc/List.html#notificationpage" target="switch-frame">Stacked (Notification Page)</a> </div>
+              </div>
+
+              <button class="dropdown-menu-button menu-label"> Navigation <i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-menu-container">
+                  <div> <a class="menu-label" href="../../doc/Navigation.html" target="switch-frame">Navigation</a> </div>
+                  <div> <a class="menu-label" href="../../doc/Navigation.html#Desktop(Simple)" target="switch-frame">Desktop (Simple)</a> </div>
+                  <div> <a class="menu-label " href="../../doc/Navigation.html#Submenus" target="switch-frame">Submenus </a> </div>
+              </div>
+
+              <div><a class="menu-label mobile-margin-space-label" href="../../doc/Modal.html" target="switch-frame">Modal</a></div>
+
+              <div><a class="menu-label mobile-margin-space-label" href="../../doc/Rating.html" target="switch-frame">Rating</a></div>
+
+              <div><a class="menu-label mobile-margin-space-label" href="../../doc/Snackbar.html" target="switch-frame">Toast/Notify/Snackbar</a></div>
+
+             
+              <div> <a class="menu-label mobile-margin-space-label" href="../../doc/Slider.html" target="switch-frame">Slider</a> </div> -->
+
+              <button class="dropdown-menu-button menu-label"> Grid <i class="fa fa-caret-down"></i></button>
+              <div  class="dropdown-menu-container">
+                <div> <a class="menu-label" href="../../doc/Grid.html" target="switch-frame">Simplified Grid</a> </div>
+                <div> <a class="menu-label" href="../../doc/Grid.html#grid-2" target="switch-frame">grid-2: two items in a grid</a> </div> 
+                <div> <a class="menu-label" href="../../doc/Grid.html#grid-3" target="switch-frame">grid-3: three items</a> </div>
+              </div>
+
+              <div> <a class="menu-label mobile-margin-space-label" href="../../doc/Slider.html" target="switch-frame">Slider</a> </div> 
+
+              <a href=""> </a>
+            </div>
+           
+       
+
+          <!-- mobile end side bar -->
+
+            <nav class="desktop-nav">
+              <div class="desktop-sidenav-container">
+                <header class="desktop-nav-header"> 
+                  <div class="desktop-nav-header-logo">
+                      <a class="logo-name typography-p-medium-Small typography-padding-top-right icon-primary-color" href="../../index.html"> 
+                        <img class="menu-logo-img" src="../../assets/logo/solutiongroupmobile.png" />
+                        <img class="menu-logo-darkmood-img" src="../../assets/logo/solutiongroupmobilenight.png" /> </a>
+   
+                    </div>
+                </header>
+                <hr/>
+               
+                <div class="desktop-sidenav">
+                <!-- <hr class="typology-padding-top border-style-none" /> -->
+                <a class="menu-label"  href="../Default/Default.html" target="switch-frame"> Installation </a> 
+                <a class="menu-label" href="../colorgenerator/colorgenerator.html" target="switch-frame"> Color generator </a> 
+                <a  class="menu-label" href="../utilityPage/utilityclass.html" target="switch-frame"> Utility classes </a> 
+               <hr/>
+                <!-- <h3 class="typography-padding-top-right"> Components </h3> -->
+    <div class="demo"> 
+                <a class="menu-label" href="../../doc/Avatar.html" target="switch-frame">Avatar</a>
+                <a class="menu-label" href="../../doc/Alert.html" target="switch-frame">Alert</a>
+                <button class="dropdown-menu-button "> Badge <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-menu-container">
+                  <a class="menu-label" href="../../doc/Badge.html" target="switch-frame">Badge</a>
+                  <a class="menu-label" href="../../doc/Badge.html#badgeonicons" target="switch-frame">Badge on Icons</a>
+                  <a class="menu-label" href="../../doc/Badge.html#badge-on-avatar" target="switch-frame">Badge on Avatar</a>
+                </div>
+
+                <button class="dropdown-menu-button"> Button<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-menu-container">
+                  <a class="menu-label" href="../../doc/Button.html" target="switch-frame">Button</a>
+                  <a class="menu-label" href="../../doc/Button.html#Primary-Button" target="switch-frame">Primary Button</a>
+                  <a class="menu-label" href="../../doc/Button.html#Link-Button" target="switch-frame">Link Button</a>
+                  <a class="menu-label" href="../../doc/Button.html#Icon-Button" target="switch-frame">Icon Button</a>
+                  <a class="menu-label" href="../../doc/Button.html#Floating-Action-Button" target="switch-frame">Floating Action Button</a>
+                </div>
+
+                <button class="dropdown-menu-button"> Card<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-menu-container">
+                  <a class="menu-label" href="../../doc/Card.html" target="switch-frame">Card</a>
+                  <a class="menu-label" href="../../doc/Card.html#card-with-badges" target="switch-frame">Card with badges</a>
+                  <a class="menu-label" href="../../doc/Card.html#card-with-dismiss" target="switch-frame">Card with dismiss</a>
+                  <a class="menu-label" href="../../doc/Card.html#card-with-text-overlay" target="switch-frame">Cards with text overlay</a>
+                  <a class="menu-label" href="../../doc/Card.html#text-only-cards" target="switch-frame">Text only cards</a>
+                  <a class="menu-label" href="../../doc/Card.html#horizontal-cards" target="switch-frame">Vertical/Horizontal cards</a>
+                  <a class="menu-label" href="../../doc/Card.html#cards-with-shadow" target="switch-frame">Cards with shadow</a>
+                </div>
+
+                <button class="dropdown-menu-button "> Image <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-menu-container">
+                  <a class="menu-label" href="../../doc/Image.html" target="switch-frame">Image</a>
+                  <a class="menu-label"  href="../../doc/Image.html#responsive-image" target="switch-frame">responsive image</a>
+                  <a class="menu-label" href="../../doc/Image.html#round-image" target="switch-frame">round image</a>
+                </div>
+
+                <button class="dropdown-menu-button "> Input <i class="fa fa-caret-down"></i></button>
+                <div  class="dropdown-menu-container">
+                  <a class="menu-label" href="../../doc/Input.html" target="switch-frame">Input</a>
+                  <a class="menu-label" href="../../doc/Input.html#textbox" target="switch-frame">textbox</a>
+                  <a class="menu-label" href="../../doc/Input.html#validationError" target="switch-frame">with validation and errors style</a>
+                </div>
+
+                <button class="dropdown-menu-button "> Text Utilities <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-menu-container">
+                  <a class="menu-label" href="../../doc/TextUtilities.html" target="switch-frame"> Text Utilities </a>
+                  <a class="menu-label" href="../../doc/TextUtilities.html#heading" target="switch-frame">headings</a>
+                  <a class="menu-label" href="../../doc/TextUtilities.html#smalltext" target="switch-frame">small text</a>
+                  <a class="menu-label" href="../../doc/TextUtilities.html#graytext" target="switch-frame">gray text</a>
+                  <a class="menu-label" href="../../doc/TextUtilities.html#centertext" target="switch-frame">center text</a>
+                </div>
+
+                <button class="dropdown-menu-button "> Lists <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-menu-container">
+                  <a class="menu-label" href="../../doc/List.html" target="switch-frame">Lists</a>
+                  <a class="menu-label" href="../../doc/List.html#normallist" target="switch-frame">Spaced (normal lists)</a>
+                  <a class="menu-label" href="../../doc/List.html#notificationpage" target="switch-frame">Stacked (Notification Page)</a>
+                </div>
+
+                <button class="dropdown-menu-button "> Navigation <i class="fa fa-caret-down"></i></button>
+
+                <div class="dropdown-menu-container">
+                  <a class="menu-label" href="../../doc/Navigation.html" target="switch-frame">Navigation</a>
+                  <a class="menu-label" href="../../doc/Navigation.html#Desktop(Simple)" target="switch-frame">Desktop (Simple)</a>
+                  <a class="menu-label" href="../../doc/Navigation.html#Submenus" target="switch-frame">Submenus </a>
+                </div>
+
+                <a class="menu-label " href="../../doc/Modal.html" target="switch-frame">Modal</a>
+
+                <a class="menu-label" href="../../doc/Rating.html" target="switch-frame">Rating </a>
+
+                <a class="menu-label" href="../../doc/Snackbar.html" target="switch-frame">Toast/Notify/Snackbar</a>
+
+                <button class="dropdown-menu-button "> Grid <i class="fa fa-caret-down"></i></button>
+                <div  class="dropdown-menu-container">
+                  <a class="menu-label" href="../../doc/Grid.html" target="switch-frame">Simplified Grid</a>
+                  <a class="menu-label" href="../../doc/Grid.html#grid-2" target="switch-frame">grid-2: two items in a grid</a>
+                  <a class="menu-label" href="../../doc/Grid.html#grid-3" target="switch-frame">grid-3: three items</a>
+                </div>
+
+                <a class="menu-label" href="../../doc/Slider.html" target="switch-frame">Slider</a>
+
+              </div> 
+              </div>
+            </div>
+            </nav>
+
+    
+            <article class="iframe-component-content-display">
+              <div id="frameContainer">
+                <iframe src="../Default/Default.html" frameborder="0" name="switch-frame" class="switch-target" id="main_iframe"></iframe>
+              </div>
+            </article>
+          </div>
+          <!-- <script src="../nightmood.js"> </script> -->
+        <script src="./MenuItem.js"> </script>
+   
+    </body>
+</html>
+
+<!-- margin-top-right-bottom-left -->

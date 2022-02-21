@@ -1,0 +1,343 @@
+
+/* main button class */
+.button{
+    width: 6.813rem;
+    /* width: 6.5rem; */
+    height: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+ }
+
+/* main button class hover*/ 
+ .button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 1s;
+ }
+
+/* icon button class - repeat class button element  -> someone wanted to use only icon button */
+.icon_button{
+    width:8 rem; 
+    height: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* floating action button class - repeat class button element  -> someone wanted to use only float button */
+
+.floating_action_button{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    bottom: 0;  
+    display: none;
+    z-index: 1;
+}
+
+
+ /*-----------hover with animation all class*/
+
+
+ .button-onhover{
+    animation:cubic-bezier(0.95, 0.05, 0.795, 0.035) ;
+    transition: width 2s;
+    -webkit-animation: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+.button-onhover:hover{
+   width: 12.5rem;
+}
+
+
+ /*-----------hover with shadow*/
+
+ .button-onhover-shadow:hover{ 
+    box-shadow: 5px 5px 1.25rem 0 grey; 
+ }
+
+ /*-----------hover with shadow for primary color*/
+ 
+.button-onhover-shadow-primary:hover{ 
+   box-shadow: 5px 5px 1.25rem 0 var(--primary-color); 
+   color: var(--white);
+}
+
+ /*-----underline*/
+
+.button-onhover-underline:hover{
+text-decoration: underline;
+color: var(--primary-color);
+}
+
+ /*----- seprate class for primary color ->  onhover fillbackground primary color , for others , can be used below class */
+
+/*primary*/ 
+.button-onhover-fillbackground:hover{
+ color: var(--white);
+ background-color: var(--primary-color);
+}
+
+/*secondary*/
+.button-onhover-fillbackground-secondary:hover{
+    color: var(--white);
+    background-color: var(--secondary-color);
+}
+
+/*success*/
+.button-onhover-fillbackground-success:hover{
+    color: var(--success);
+    background-color: var(--background-color-success);
+}
+
+/*danger*/
+.button-onhover-fillbackground-danger:hover{
+    color: var(--danger);
+    background-color: var(--background-color-danger);
+}
+
+/*warning*/
+.button-onhover-fillbackground-warning:hover{
+    color: var(--warning);
+    background-color: var(--background-color-warning);
+}
+
+/*info*/
+.button-onhover-fillbackground-info:hover{
+    color: var(--info);
+    background-color: var(--background-color-info);
+}
+
+/*light*/
+.button-onhover-fillbackground-light:hover{
+    color: var(--light);
+    background-color: var(--default2);
+}
+
+/*dark*/
+.button-onhover-fillbackground-dark:hover{
+    color: var(--dark);
+    background-color: var(--background-color-default);
+}
+
+
+ /*---button color filled--- */
+.button-primary{
+    color: var(--white);
+    background-color:var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.button-secondary{
+    color: var(--white);
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.button-success{
+    color:var(--success);
+    background-color: var(--background-color-success);
+    border-color: var( --border-color-success)
+}
+
+.button-danger{
+    color: var(--danger);
+  background-color:var(--background-color-danger);
+  border-color: var(--border-color-danger)
+}
+
+.button-warning{
+    color: var(--warning);
+    background-color: var(--background-color-warning);
+    border-color: var(--border-color-warning)
+}
+
+.button-info{
+    color: var(--info);
+    background-color:var(--background-color-info);
+    border-color: var( --border-color-info)
+}
+
+.button-light{
+    color: var(--default2);
+    background-color: var(--background-color-default2);
+    border-color: var(--border-color-default2)
+}
+
+.button-dark{
+    color: var(--default);
+  background-color: var(--background-color-default);
+  border-color: var(--border-color-default)
+}
+
+.button-link{
+    font-weight: 400;
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+/*------------outline--button---------------*/
+
+.button-outline-primary {
+    border:1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+    background-image: none;
+}
+
+.button-outline-secondary {
+    color: var(--secondary-color);
+    background-color: transparent;
+    background-image: none;
+    border:1px solid  var(--secondary-color);
+}
+
+.button-outline-success {
+    color: var(--success);
+    background-color: transparent;
+    background-image: none;
+    border:1px solid  var(--success);
+}
+
+.button-outline-danger {
+    color: var(--danger);
+    background-color: transparent;
+    background-image: none;
+    border:1px solid  var(--danger);
+}
+
+.button-outline-warning {
+    color: var(--warning);
+    background-color: transparent;
+    background-image: none;
+    border:1px solid  var(--warning);
+}
+
+.button-outline-info {
+    color: var(--info);
+    background-color: transparent;
+    background-image: none;
+    border:1px solid  var(--info);
+}
+
+.button-outline-light {
+    color: var(--secondary-text-color);
+    background-color: transparent;
+    background-image: none;
+    border:1px solid  var(--white);
+}
+
+.button-outline-dark {
+    color: var(--footer-backgroundcolor);
+    background-color: transparent;
+    background-image: none;
+    border:1px solid  var(--footer-backgroundcolor);
+}
+
+
+/*-------------border--width---height-----------*/
+
+.button-border-width-height{
+    width: 4rem;
+    height: 4rem;
+}
+
+.button-border-small-width-height{
+    width: 1rem;
+    height: 1rem;
+}
+.button-border-medium-width-height{
+    width: 2rem;
+    height: 2rem;
+}
+.button-border-larger-width-height{
+    width: 6rem;
+    height: 6rem;
+}
+
+
+/*disabled-button*/
+.disabled-button-pointer:hover{
+    cursor: no-drop;
+  }
+
+/*button-border-none*/ 
+.button-border-none{
+    border:none;
+  }
+
+/*button-extra-small-large-*/   
+ .button-size-small{
+   width: 3.125;
+   height: 3.125;
+ }
+
+ .button-extra-large{
+    color:#fff;
+    background-color: var(--primary-color);
+    width: auto;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*------*/
+
+
+
+/*------display button in grid formate------*/ 
+
+.grid-table-wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    max-width:  auto;
+  }
+  
+  .grid-box-display {
+    padding: 0.5rem;
+    width: 6.25rem;
+  }
+
+
+  @media (max-width: 800px) {
+    .grid-table-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        max-width:  auto;
+      }
+      .icon_button{
+        display: flex;
+        flex-direction: column;
+      }
+  }
+
+  @media (max-width: 600px) {
+    .grid-table-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        max-width:  auto;
+      }
+      .icon_button{
+        display: flex;
+        flex-direction: column;
+      }
+  }

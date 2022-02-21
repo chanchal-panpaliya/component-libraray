@@ -1,0 +1,188 @@
+/*other pages css*/
+
+@import url(./otherpages/colorgenerator/colorgenerator.css);
+@import url(./otherpages/Default/Default.css);
+@import url(./otherpages/Home/Home.css);
+@import url(./otherpages/MenuItem/MenuItem.css);
+@import url(./otherpages/utilityPage/utilityclass.css);
+@import url(./utility/utility.css);
+@import url(./component/solutionground.css);
+
+/*universal*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  word-wrap: break-word;
+  scroll-behavior: smooth;
+}
+
+
+
+:root {
+  --primary-color: #0FA3B1;
+  --secondary-color:#576490; 
+  --tertiary-color : #f17c0e;
+  --forth-color : #ee3f47;                                  
+  /* #F9627D; #E09F3E #007cba  */
+
+  --primary-background-color:#f2f2f2;
+  --secondary-background-color:#d9d9d9;
+  --tertiary-background-color:#f1f1f1;
+
+ --black-backkground:#111111;
+  --primary-text-color: #222222;
+  --secondary-text-color : #696b79;
+  --bold-text: #000;
+
+  --footer-backgroundcolor:#333333;
+  --mobile-sidebar :#818181;
+ 
+  /*comman for all*/
+
+  --white: #ffffff;
+  --black:#000;
+
+  --warning:#856404;
+  --info:#0c5460;
+  --danger:#721c24;
+  --success:#155724;
+  --default :#333333;
+  --default2:grey;
+
+  /* --warning:#856404;
+  --info:#0c5460;
+  --danger:#721c24;
+  --success:#155724;
+  --default :#1b1e21;
+  --default2:#818182; */
+
+  --highlightcolor:rgb(36, 34, 34);
+
+  /* for alert*/
+
+  --alert-success-border : #155724;
+  --alert-warning-border : #856404;
+  --alert-danger-border : #721c24;
+  --alert-info-border: #0c5460;
+  --alert-default-border : #1b1e21;
+
+  --alert-success-color : #155724;
+  --alert-warning-color : #856404;
+  --alert-danger-color : #721c24;
+  --alert-info-color: #0c5460;
+  --alert-default-color : #333333;
+
+
+  
+/*alert-success-fill-color*/
+   --alert-bg-color-success:  #d4edda;
+   --alert-bg-color-info: #d1ecf1;
+   --alert-bg-color-warning: #fff3cd ;
+   --alert-bg-color-danger: #f8d7da;
+   --alert-bg-color-default: #d6d8d9;
+   --alert-bg-color-default2:#fefefe;
+
+    /* for*/
+
+  --border-color-warning:#ffeeba;
+  --border-color-info:#bee5eb;
+  --border-color-danger:#f5c6cb;
+  --border-color-success:#c3e6cb;
+  --border-color-default :#c6c8ca;
+  --border-color-default2 : #fdfdfe;
+
+
+  --background-color-warning:#ffeeba;
+  --background-color-info:#bee5eb;
+  --background-color-danger:#f5c6cb;
+  --background-color-success:#c3e6cb;
+  --background-color-default :#c6c8ca;
+  --background-color-default2 : #fdfdfe;
+
+
+  /* --skyblue: #87ceeb; */
+  --modal-bg : rgba(77, 77, 77, .7);
+  --box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
+
+ 
+
+
+  --primary-font-family : Roboto;
+  --secondary-font-family : Oswald;
+
+  --z-index-1: 1;
+  --z-index-2: 2;
+  --z-index-3: 3;
+  --z-index-4: 4;
+  --z-index-5: 5;
+  --z-index-6: 6;
+
+  --avatar-size-small:3rem;
+  --avatar-size-medium:5rem;
+  --avatar-size-larger:8rem;
+
+  --width:100%;
+  --maxwidth:100%;
+  --height:auto;
+
+}
+
+.auto-width-height{
+  width: auto;
+  height: auto;
+}
+
+a{
+  color:var( --bold-text);
+}
+
+.dark-theme{
+  --primary-color: #0FA3B1;
+  --secondary-color:#576490; 
+  --tertiary-color : #f17c0e;
+  --forth-color : #ee3f47;                                  
+  /* #F9627D; #E09F3E #007cba  */
+
+  --primary-background-color:#474545;
+  --secondary-background-color:#575555;
+  --tertiary-background-color:#4b4848;
+
+ --black-backkground:#cfcccc;
+  --primary-text-color: #fdfdfd;
+  --secondary-text-color : #b9b9b9;
+  --bold-text: rgb(223, 223, 223);
+
+  --footer-backgroundcolor:#f1f1f1;
+  --mobile-sidebar :#818181;
+ 
+  /*comman for all*/
+
+  --highlightcolor:rgb(36, 34, 34);
+
+  --white: #383737;
+  --black:rgb(255, 254, 254);
+}
+
+.dark-theme{
+  background-color:#4b4848 ;
+  color: white;
+}
+
+#theme{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background:var(--black);
+  padding: 1.25rem;
+  border-radius:999px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 2;
+}
+
+
+

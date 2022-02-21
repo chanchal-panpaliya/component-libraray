@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Installation </title>
+        <link rel="stylesheet" href="../../component/solutionground.css" />
+    </head>
+     <body>
+          <!-- container grid -->
+          <div class="component-sidebar-footer-display-grid">
+            <!-- container component content -->
+               <div class="component-main-container">
+                    <div class="component-container margin-top-right-bottom-left typography-padding-top-right-bottom-left row-gap-2rem">
+
+                        <div class="component-link-next-pre"> 
+                            <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                <i class="material-icons ">chevron_left</i> 
+                                <a class="curser-pointer-no-effect icon-primary-color" href="../Default/Default.html"> Installtion </a> 
+                            </span>
+                            <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                <a class="curser-pointer-no-effect icon-primary-color" href="../utilityPage/utilityclass.html"> Utility classes </a>  
+                                <i class="material-icons ">chevron_right</i> 
+                            </span>
+                        </div>
+
+                        <!-- <label class="typography-h2 typography-fontweight-bold "> Colours Generator </label> -->
+
+
+                        <div class="heighlighttext">
+                            SolutionGround Library provides a small application for you to compare your colour codes: primary, secondary, tertiary, and quintile.
+                        </div>
+                      
+                    <div class="flex-row flex-justify-content-center flex-align-item-center typography-p-small typography-fontweight-bold">
+                        Watch the video to see how to use this small application  
+                    </div>
+                    <div class="flex-row flex-justify-content-center flex-align-item-center">
+                        <video width="320" height="240" controls>
+                            <source src="../../assets/video/New video1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                  
+                    
+                        <button class="button button-primary button-Colorpicker-Refresh" onclick="Colorpicker();"> Refresh here! </button>
+
+                        
+                        <div class="colorpicker-container"> 
+
+                            <div class="colorpicker-box colorpicker-subbox"> 
+                                <button class="button-Colorpicker" onclick="locked(this)"> Unlocked </button>
+                                <label class="labal-color"> textcolor </label>
+                                <input class="colorWell" type="color" value="#ff0000" onchange="oncolorchange(this)">
+                            </div>
+
+                            <div class="colorpicker-box colorpicker-subbox"> 
+                                <button class="button-Colorpicker" onclick="locked(this)"> Unlocked </button>
+                                <label class="labal-color"> textcolor </label>
+                                <input class="colorWell" type="color" value="#ff0000" onchange="oncolorchange(this)">
+                            </div>
+
+                            <div class="colorpicker-box colorpicker-subbox"> 
+                                <button class="button-Colorpicker" onclick="locked(this)"> Unlocked </button> 
+                                <label class="labal-color"> textcolor </label>
+                                <input class="colorWell" type="color" value="#ff0000" onchange="oncolorchange(this)">
+                            </div>
+    
+                            <div class="colorpicker-box colorpicker-subbox"> 
+                                <button class="button-Colorpicker" onclick="locked(this)"> Unlocked </button> 
+                                <label class="labal-color"> textcolor </label>
+                                <input class="colorWell" type="color" value="#ff0000" onchange="oncolorchange(this)">
+                            </div>
+
+                        </div>
+
+                     
+
+                        <button class="button button-primary button-generator" onclick="addColor();"> Refresh here! </button>
+                        <div class="flex-row flex-justify-content-center flex-align-item-center typography-p-small typography-fontweight-bold">
+                            Color Generator
+                        </div>
+                        <section class="color-container">
+                                          
+                        </section>
+
+                </div>
+             </div>
+             <footer class="component-footer-container margin-top-right-bottom-left">
+                <div class="component-link-next-pre"> 
+                    <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                        <i class="material-icons ">chevron_left</i> 
+                        <a class="curser-pointer-no-effect icon-primary-color" href="../Default/Default.html"> Installtion </a> 
+                    </span>
+                    <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                        <a class="curser-pointer-no-effect icon-primary-color" href="../utilityPage/utilityclass.html"> Utility classes </a>  
+                        <i class="material-icons ">chevron_right</i> 
+                    </span>
+                </div>
+            </footer>
+          </div>
+        <script src="./colorgenerator.js"> </script>
+        <script src="../nightmood.js"> </script>
+    </body>
+</html>

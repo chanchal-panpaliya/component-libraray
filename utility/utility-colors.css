@@ -1,0 +1,126 @@
+
+
+/*-------alert-----*/ 
+  
+.success {color:var(--success);
+  background-color: var(--background-color-success);
+  border-color: var( --border-color-success)}
+
+.info {color: var(--info);
+  background-color:var(--background-color-info);
+  border-color: var( --border-color-info)}
+
+.warning {color: var(--warning);
+  background-color: var(--background-color-warning);
+  border-color: var(--border-color-warning)}
+
+.danger {color: var(--danger);
+  background-color:var(--background-color-danger);
+  border-color: var(--border-color-danger)}
+
+.default {color: var(--default);
+  background-color: var(--background-color-default);
+  border-color: var(--border-color-default)}
+
+.whitecolor {color: var(--default2);
+  background-color: var(--background-color-default2);
+  border-color: var(--border-color-default2)}
+
+/*textcolor*/
+
+.color-black{
+  color: var(--primary-text-color);
+}
+
+/*-------default background and font color-----*/ 
+
+.default-color{
+    color:var(--secondary-background-color);
+  }
+  
+  .default-background-color{
+   background-color:var(--secondary-background-color);
+  }
+  
+   /*-------- icon-background-color ------*/
+  
+   .icon-primary-background-color{
+    background-color:var(--primary-color);
+   }
+  
+   .icon-secondary-background-color{
+     background-color: var(--secondary-color);
+   }
+  
+  .icon-tertiary-background-color{
+    background-color: var(--tertiary-color);
+  }
+  
+  .icon-forth-background-color{
+    background-color: var( --forth-color);
+  }
+  
+   /*----------- icon-color ------------*/
+  
+   .icon-primary-color{
+    color:var(--primary-color);
+   }
+  
+   .icon-secondary-color{
+     color: var(--secondary-color);
+   }
+  
+  .icon-tertiary-color{
+    color: var(--tertiary-color);
+  }
+  
+  .icon-forth-color{
+    color: var( --forth-color);
+  }
+
+  /*-------------------*/
+
+  .primary{
+    color:var(--primary-color);
+   }
+  
+   .secondary{
+     color: var(--secondary-color);
+   }
+  
+  .tertiary{
+    color: var(--tertiary-color);
+  }
+  
+  .forth{
+    color: var( --forth-color);
+  }
+
+/*--------------------------*/
+.primary-background{
+  background-color:var(--primary-color);
+ }
+
+ .secondary-background{
+   background-color: var(--secondary-color);
+ }
+
+.tertiary-background{
+  background-color: var(--tertiary-color);
+}
+
+.forth-background{
+  background-color: var( --forth-color);
+}
+
+.default-background{
+  background-color:var(--secondary-background-color);
+ 
+}
+/*-------------------*/
+
+  .heighlighttext{
+    background-color: aliceblue;
+    padding: 1rem;
+    color: var(--highlightcolor);
+  }

@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Modal </title>
+        <link rel="stylesheet" href="../component/solutionground.css" />
+
+    </head>
+    <body>
+    <!-- container grid -->
+        <div class="component-sidebar-footer-display-grid">
+    <!-- container component content -->
+            <div class="component-main-container">
+                <div class="component-container  row-gap-2rem">
+                    <!-- <div class="component-container margin-top-right-bottom-left typography-padding-top-right-bottom-left row-gap-2rem"> -->
+    <!-- component--link---next---pre -->
+                    <div class="component-link-next-pre"> 
+                        <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                            <i class="material-icons curser-pointer">chevron_left</i> 
+                            <a class="curser-pointer-no-effect icon-primary-color" href="./Navigation.html"> Navigation </a> 
+                        </span>
+                        <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                            <a class="curser-pointer-no-effect icon-primary-color" href="./Rating.html"> Rating </a>  
+                            <i class="material-icons curser-pointer ">chevron_right</i> 
+                        </span>
+                    </div>
+    <!---component modal----->
+                    <label class="typography-h1 typography-fontweight-bold "> Modal </label>
+                    <div class="heighlighttext">
+                        A modal is a dialog box/popup box that is displayed on top of the current page
+                    </div>
+                    <div class="typography-p-small">
+                         Modals display content that temporarily blocks interactions with the main view of the UI. Use modals sparingly to avoid unnecessarily interrupting the users workflow.
+                         Modal is use for - Confirming or making decisions , Providing additional information , Completing important tasks in a workflow,
+                         Asking for feedback; e.g., "How would you rate this tutorial?"
+                    </div>
+     <!---simple modal----->
+                    <label id="simplemodal-link-sidebar" class="typography-h3 typography-fontweight-bold typography-p-small"> Simple Modal - Modal without actions</label>
+                       <div class="typography-p-small">
+                        If a modal doesn't require users to take an action and the content isn't critical, then you don't need to use buttons. Users can simply click an X close button . For example, a modal that displays additional information about an instructor helping students choose a class, doesn't require buttons.
+                        Add <span class="primary"> .SimpleModal </span> classname .  
+                    </div>
+                        <div class="component-display-border-container typography-p-small"> 
+                            <button class="button button button-outline-primary button-onhover-fillbackground" onclick="Open_SimpleModal()"> Simple Modal </button>
+                        </div>
+                        <div id="SimpleModal" class="SimpleModal">
+                            <div class="SimpleModal_content">
+                                <div class="typography-h2 "> Course : MATH 100 </div>
+                                <hr class="typography-grey-text-extrasmall"/>
+                                <div class="typography-p-small typography-padding-top-right-bottom-left"> 
+                                    Math 100 is an introductory college mathematics course <br/>
+                                    designed to provide a strong background in algebra, <br/>
+                                    elementary functions including polynomial.
+                                </div>
+                                <div class="SimpleModal_footer">  </div>
+                                <a href="#" class="SimpleModal_close curser-pointer" onclick="Close_SimpleModal()">&times;</a>
+                            </div>
+                        </div>
+      <!---simple modal tabs----->                              
+                        <div class="tabs">
+                            <input type="radio" name="tab-simple-modal" id="tab-simple-modal-html" checked="checked">
+                            <label for="tab-simple-modal-html">HTML</label>
+                            <div class="tab">
+                                <div class="code-snippet-display">
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=css&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522SimpleModal%2522%2520class%253D%2522SimpleModal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522SimpleModal_content%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522typography-h2%2520%2522%253E%2520Course%2520%253A%2520MATH%2520100%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520class%253D%2522typography-grey-text-extrasmall%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-top-right-bottom-left%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Math%2520100%2520is%2520an%2520introductory%2520college%2520mathematics%2520course%2520%253Cbr%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520designed%2520to%2520provide%2520a%2520strong%2520background%2520in%2520algebra%252C%2520%253Cbr%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520elementary%2520functions%2520including%2520polynomial.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522SimpleModal_footer%2522%253E%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522SimpleModal_close%2520curser-pointer%2522%2520onclick%253D%2522Close_SimpleModal%28%29%2522%253E%2526times%253B%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </div> 
+                            </div>
+                            <input type="radio" name="tab-simple-modal" id="tab-simple-modal-js"> 
+                            <label for="tab-simple-modal-js">JS</label>
+                            <div class="tab"> 
+                                <div class="code-snippet-display">
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520function%2520Open_SimpleModal%28%29%257B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509document.getElementById%28%2522SimpleModal%2522%29.style.display%2520%253D%2520%2522block%2522%250A%2509%2509%2509%2509%257D%250A%250A%2509%2509%2509%2509function%2520Close_SimpleModal%28%29%257B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509document.getElementById%28%2522SimpleModal%2522%29.style.display%2520%253D%2520%2522none%2522%2520%250A%2509%2509%2509%2509%257D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                 </div>
+                            </div>
+                            <input type="radio" name="tab-simple-modal" id="tab-simple-modal-css">
+                            <label for="tab-simple-modal-css">CSS</label>
+                            <div class="tab">  
+                                <div class="code-snippet-display">
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=css&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=.SimpleModal%257B%2520display%253A%2520none%253B%2520position%253A%2520fixed%253B%2520top%253A0%253B%2520right%253A%25200%253B%2520bottom%253A%25200%253B%2520left%253A%25200%253B%2520%2520display%253A%2520flex%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520align-items%253A%2520center%253B%2520justify-content%253A%2520center%253B%2520background%253A%2520var%28--modal-bg%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520transition%253A%2520all%2520.4s%253Bz-index%253A%25201%253B%257D%250A%250A.SimpleModal_content%257B%2520border-radius%253A%25204px%253B%2520position%253A%2520absolute%253B%2520width%253A%2520fit-content%253B%2520max-width%253A%2520100%2525%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520background%253A%2520var%28--white%29%253B%2520padding%253A%25201em%25202em%253B%2520left%253A%252050%2525%253B%2520top%253A%252050%2525%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520transform%253A%2520translate%28-50%2525%252C%2520-50%2525%29%253B%2520width%253A%2520fit-content%253B%257D%250A.SimpleModal_close%257B%2520position%253A%2520absolute%253B%2520top%253A%252010px%253B%2520right%253A%252010px%253B%2520color%253A%2520var%28--modal-bg%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520text-decoration%253A%2520none%253B%257D%250A.typography-h2%257B%2520font-size%253A%252032px%253B%2520line-height%253A%252040px%253B%257D%250A%250A.typography-grey-text-extrasmall%257B%2520font-size%253A%25208px%253B%2520line-height%253A%252016px%253Bcolor%253A%2520var%28--secondary-text-color%29%253B%257D%250A%250A.typography-padding-top-right-bottom-left%257B%2520padding%253A%252015px%252046px%252015px%252045px%253B%257D%250A%250A.typography-p-small%257B%2520font-size%253A%252016px%253B%2520line-height%253A%252024px%253B%257D%250A%250A.curser-pointer%257Bcursor%253A%2520pointer%253B%257D%250A%250A.curser-pointer%253Ahover%257B%2520content%253A%27%27%253B%2520display%253Ablock%253B%2520animation%253A0.7s%2520rip%2520ease%25201%253B%257D%250A%250A%2540keyframes%2520rip%257B0%2525%257B%257D75%2525%257Btransform%253Ascale%284%29%253B%257D%257D%250A"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                  </iframe>
+                                 </div>
+                            </div>
+                        </div>
+     <!---Action modal ----->
+                        <label id="actionmodal-link-sidebar" class="typography-h3 typography-fontweight-bold typography-p-small"> Action Modal </label>
+                        
+                        <div class="typography-p-small">
+                            If a modal requires users to take an action, then you should force them to make a decision by clicking a button. Don't include an X close button .
+                         Add <span class="primary"> .ActionModal </span> classname . 
+                        </div>
+                        
+                        <div class="component-display-border-container typography-p-small"> 
+                             <button class="button button button-outline-primary button-onhover-fillbackground" onclick="Open_ActionModal()"> Action Modal </button>
+                        </div>
+                        <div id="ActionModal" class="ActionModal">
+                            <div class="ActionModal_content flex-col">
+                                <div class="typography-h2 ">  Are you sure you want to submit this? </div>
+                                <div class="typography-p-small typography-padding-top-right-bottom-left"> 
+                                   You can't undo this action.
+                                </div>
+                                <div class="flex-row col-gap-2rem flex-justify-content-flex-end typography-padding-top-right-bottom-left typography-align-right">
+                                     <button class="button auto-width-height button-danger typography-padding-5px" onclick="Close_ActionModal()"> Cancel </button>
+                                     <button class="button auto-width-height button-primary typography-padding-5px"> Submit </button>
+                                </div>
+                            </div>
+                        </div>
+ <!---Action modal tabs----->
+                        <div class="tabs">
+                            <input type="radio" name="tab-action-modal" id="tab-action-modal-html" checked="checked">
+                            <label for="tab-action-modal-html">HTML</label>
+                            <div class="tab">
+                                <div class="code-snippet-display">
+                                     <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=css&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520id%253D%2522ActionModal%2522%2520class%253D%2522ActionModal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ActionModal_content%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h2%2520%2522%253E%2520%2520Are%2520you%2520sure%2520you%2520want%2520to%2520submit%2520this%253F%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-padding-top-right-bottom-left%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520You%2520can%27t%2520undo%2520this%2520action.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520col-gap-2rem%2520flex-justify-content-flex-end%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520typography-padding-top-right-bottom-left%2520typography-align-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520auto-width-height%2520button-danger%2520typography-padding-5px%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520onclick%253D%2522Close_ActionModal%28%29%2522%253E%2520Cancel%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520auto-width-height%2520button-primary%2520typography-padding-5px%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Submit%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </div>         
+                            </div>
+                            <input type="radio" name="tab-action-modal" id="tab-action-modal-js"> 
+                            <label for="tab-action-modal-js">JS</label>
+                            <div class="tab"> 
+                                <div class="code-snippet-display">
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520function%2520Open_ActionModal%28%29%257B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509document.getElementById%28%2522ActionModal%2522%29.style.display%2520%253D%2520%2522block%2522%250A%2509%2509%2509%2509%257D%250A%250A%2509%2509%2509%2520%2520%2520function%2520Close_ActionModal%28%29%257B%250A%2520%2520%2520%2520%2509%2509%2509%2509%2509document.getElementById%28%2522ActionModal%2522%29.style.display%2520%253D%2520%2522none%2522%2520%250A%2509%2509%2509%2509%257D%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                  </iframe>
+                                </div>
+                            </div>
+                            <input type="radio" name="tab-action-modal" id="tab-action-modal-css">
+                            <label for="tab-action-modal-css">CSS</label>
+                            <div class="tab"> 
+                                <div class="code-snippet-display">
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=css&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=.ActionModal%257B%2520display%253A%2520none%253B%2520position%253A%2520fixed%253B%2520top%253A0%253B%2520right%253A%25200%253B%2520bottom%253A%25200%253B%2520left%253A%25200%253B%2520%2520display%253A%2520flex%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520align-items%253A%2520center%253B%2520justify-content%253A%2520center%253B%2520background%253A%2520var%28--modal-bg%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520transition%253A%2520all%2520.4s%253Bz-index%253A%25201%253B%257D%250A%250A.ActionModal_content%257B%2520border-radius%253A%25204px%253B%2520position%253A%2520absolute%253B%2520width%253A%2520fit-content%253B%2520max-width%253A%2520100%2525%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520background%253A%2520var%28--white%29%253B%2520padding%253A%25201em%25202em%253B%2520left%253A%252050%2525%253B%2520top%253A%252050%2525%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520transform%253A%2520translate%28-50%2525%252C%2520-50%2525%29%253B%2520width%253A%2520fit-content%253B%257D%250A.ActionModal_close%257B%2520position%253A%2520absolute%253B%2520top%253A%252010px%253B%2520right%253A%252010px%253B%2520color%253A%2520var%28--modal-bg%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520text-decoration%253A%2520none%253B%257D%250A.typography-h2%257B%2520font-size%253A%252032px%253B%2520line-height%253A%252040px%253B%257D%250A.typography-grey-text-extrasmall%257B%2520font-size%253A%25208px%253B%2520line-height%253A%252016px%253Bcolor%253A%2520var%28--secondary-text-color%29%253B%257D%250A.typography-padding-top-right-bottom-left%257B%2520padding%253A%252015px%252046px%252015px%252045px%253B%257D%250A.typography-p-small%257B%2520font-size%253A%252016px%253B%2520line-height%253A%252024px%253B%257D%250A.curser-pointer%257Bcursor%253A%2520pointer%253B%257D%250A.curser-pointer%253Ahover%257B%2520content%253A%27%27%253B%2520display%253Ablock%253B%2520animation%253A0.7s%2520rip%2520ease%25201%253B%257D%250A%2540keyframes%2520rip%257B0%2525%257B%257D75%2525%257Btransform%253Ascale%284%29%253B%257D%257D%250A"
+                                        class="code-snippet-iframe"
+                                        sandbox="allow-scripts allow-same-origin">
+                                  </iframe>
+                                </div>
+                            </div>
+                        </div>
+        <!-- container component closed-->  
+                  </div>
+              </div>
+<!-- container component aside -->
+            <aside class="component-sidebar-container margin-top-right-bottom-left">
+                <div class="sidebar-onthispage-content"> 
+                    On this page 
+                  <br/><br/>
+                    <ul class="flex-col row-gap-1rem">
+                        <li> <a href="#simple-link-sidebar" class="color-black sidebar-onhover-primary"> Simple Modal </a></li>
+                        <li> <a href="#actionmodal-link-sidebar" class="color-black sidebar-onhover-primary"> Action Modal </a> </li>
+                    </ul>
+                </div>
+            </aside>
+                 <!-- container component footer -->
+                 <footer class="component-footer-container margin-top-right-bottom-left">
+                    <div class="component-link-next-pre"> 
+                        <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                            <i class="material-icons curser-pointer">chevron_left</i> 
+                            <a class="curser-pointer-no-effect icon-primary-color" href="./Navigation.html"> Navigation </a> 
+                        </span>
+                        <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                            <a class="curser-pointer-no-effect icon-primary-color" href="./Rating.html"> Rating </a>  
+                            <i class="material-icons curser-pointer ">chevron_right</i> 
+                        </span>
+                    </div>
+                </footer>
+<!-- container closed-->  
+        </div>
+        <script src="../component/Modal/Modal.js"> </script>
+        <script src="../otherpages/nightmood.js"></script>
+    </body>
+</html>
+                
+                                   
+                
+                               

@@ -1,0 +1,32 @@
+
+.table {
+    /* box-shadow: 0 5px 10px -2px #cfcfcf; */
+    display:table;
+    width:100%;
+    text-align: center;
+  }
+  
+  .row {
+    display: table-row;
+    min-height: 2.5rem;
+    font-size: 1rem;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .column {
+    display: table-cell;
+    border: 1px solid #f1f1f1;
+    vertical-align: middle;
+    padding:10px 0;
+    width: 12.5rem;
+  }
+  
+  .row:first-child {
+    font-weight: bold;
+   
+  }
+
+ .width-snap{
+  width: -webkit-fill-available;
+ }
+

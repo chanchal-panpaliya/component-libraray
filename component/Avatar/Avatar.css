@@ -1,0 +1,150 @@
+
+/* / image avatar size / */
+.image-avatar{
+    width: var(--avatar-size-medium);
+    height: var(--avatar-size-medium);
+    object-fit:cover;
+}
+
+.image-avatar-small{
+  width: var(--avatar-size-small);
+  height: var(--avatar-size-small);
+}
+
+.image-avatar-medium{
+  width: var(--avatar-size-medium);
+  height: var(--avatar-size-medium);
+}
+
+.image-avatar-larger{
+  width: var(--avatar-size-larger);
+  height: var(--avatar-size-larger);
+}
+
+/* / Letters avatar / */
+
+.Letter-avatar{
+    height: var(--avatar-size-small);
+    text-align: center;
+    width: var(--avatar-size-small);
+}
+
+.Letter-avatar-label{
+    font-size: calc(var(--avatar-size-small) / 2); /* 50% of parent */
+    line-height: 1;
+    position: relative;
+    top: calc(var(--avatar-size-small) / 4); /* 25% of parent */
+}
+
+/* / letter avatar size / */
+
+.Letter-avatar-small{
+width: var(--avatar-size-small);
+height: var(--avatar-size-small);
+}
+
+.Letter-avatar-medium{
+width: var(--avatar-size-medium);
+height: var(--avatar-size-medium);
+}
+
+.Letter-avatar-larger{
+width: var(--avatar-size-larger);
+height: var(--avatar-size-larger);
+}
+
+
+/* / Live status avatar / */
+
+.live-Status-avatar-border-radius-round{
+    width: 3.313rem;
+    height:3.438rem;
+    border-radius:100%;
+    border: 2px solid var(--white);
+    margin-bottom: 2px;
+    object-fit:cover;
+  }
+
+.live-Status-avatar-dot{
+    width:1rem;
+    height:1rem;
+    border:2px solid var(--white);
+    position:absolute;
+    bottom:2%;
+    right:2%;
+    border-radius:100%;
+  }
+
+.live-Status-avatar{
+  position: relative;
+  display: inline-block;
+}
+
+/* / letter avatar size / */
+
+.live-Status-avatar-small{
+  width: var(--avatar-size-small);
+  height: var(--avatar-size-small);
+  }
+  
+  .live-Status-avatar-medium{
+  width: var(--avatar-size-medium);
+  height: var(--avatar-size-medium);
+  }
+  
+  .live-Status-avatar-larger{
+  width: var(--avatar-size-larger);
+  height: var(--avatar-size-larger);
+  }
+
+
+/*/-group avatra-/*/
+
+.group-avatar-item-img {
+    border-radius: 50%;
+    position: relative;
+    margin-left: -4rem;
+    z-index: 1;
+    object-fit:cover;
+  }
+  
+  .group-avatar {
+    direction: ltr;  
+    padding-left: 2rem;
+    display: flex;
+    position: relative;
+  }
+
+  .group-avatar-letter {
+    bottom: 0;
+    right: 0;
+    font-size: x-large;
+    color: var(--primary-color);
+    position: absolute;
+  }
+
+
+/* / letter avatar size / */
+
+.group-avatar-small{
+  width: var(--avatar-size-small);
+  height: var(--avatar-size-small);
+  }
+  
+  .group-avatar-medium{
+  width: var(--avatar-size-medium);
+  height: var(--avatar-size-medium);
+  }
+  
+  .group-avatar-larger{
+  width: var(--avatar-size-larger);
+  height: var(--avatar-size-larger);
+  }  
+
+
+/*-- icon color -*/
+
+.avatar-icon-color-white{
+  color: var(--white);
+}
+

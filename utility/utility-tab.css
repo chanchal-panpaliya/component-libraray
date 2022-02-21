@@ -1,0 +1,56 @@
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .tabs label {
+    order: 1; 
+    display: block;
+    padding: 1rem ;
+    cursor: pointer;
+    /* background-color: var(--white); */
+    font-weight:300;
+    transition: background-color ease 0.2s;
+
+  }
+  
+  .tabs [class^="tab"] {
+    order: 99; 
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+  
+    /* background: var(--white); */
+  }
+
+  .tabs input[type="radio"] {
+    display: none;
+  }
+  
+  .tabs input[type="radio"]:checked + label {
+    background: #333333;
+    color: #fafafa;
+    width: auto;
+    height: auto;
+  }
+  
+  .tabs input[type="radio"]:checked + label + [class^="tab"] {
+    display: block;
+    background-color:#fafafa;
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 700px) {
+    .tabs {
+      display: flex;
+      flex-wrap: wrap; 
+    }
+  }
+
+
+
+
+  

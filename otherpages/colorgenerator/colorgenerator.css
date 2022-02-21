@@ -1,0 +1,106 @@
+
+.color-container{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.button-generator , .button-Colorpicker-Refresh{
+    right: 0;
+    width: fit-content;
+    color: var( --bold-text);
+}
+
+.box{
+    width: 10%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:var(--red);
+    border: 2px solid var(--white);
+}
+
+/* <!-- color picker --> */
+
+.colorpicker-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* column-gap: 2rem; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ 
+}
+
+
+.colorpicker-box , .colorpicker-subbox{
+    width: 10rem;
+    height: 20rem;
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.labal-color{
+    background-color: var(--white);
+    width: 5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.colorWell{
+    position: absolute;
+    right: 0;
+    bottom: 0;  
+}
+
+@media screen and (max-width: 600px) {
+
+    .color-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .button-generator{
+        position: fixed;
+        right: 0;
+        background:  var(--primary-color);
+        border-radius: 999px;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .button-Colorpicker-Refresh{
+        position: fixed;
+        left: 0;
+        background:  var(--primary-color);
+        border-radius: 999px;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .colorpicker-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .colorpicker-box , .colorpicker-subbox{
+        width: 10rem;
+        height: 10rem;
+        background-color: black;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
