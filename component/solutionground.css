@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+@import url(./Alert/Alert.css);
+@import url(./Avatar/Avatar.css);
+@import url(./Badge/Badge.css);
+@import url(./Button/Button.css);
+@import url(./Card/Card.css);
+@import url(./Image/Image.css);
+@import url(./Input/Input.css);
+@import url(./List/List.css);
+@import url(./Modal/Modal.css);
+@import url(./Navigation/Navigation.css);
+@import url(./Rating/Rating.css);
+@import url(./Snackbar/Snackbar.css);
+@import url(./TextUtilities/TextUtilities.css);
+@import url(./Grid/Grid.css);
+@import url(./Slider/Slider.css);
+@import url(../index.css);
+@import url(../utility/utility.css);

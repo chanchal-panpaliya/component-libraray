@@ -1,0 +1,29 @@
+  /*----------------------border rdius*/
+
+  .border-radius-squar-small{
+    border-radius: 5px;
+  }
+
+  .border-radius-squar-Medium{
+    border-radius: 10px;
+  }
+
+  .border-radius-squar-Large{
+    border-radius: 15px;
+  }
+
+  .border-radius-round{
+    border-radius: 999px;
+  }
+
+  .border-radius-round-Medium{
+    border-radius: 50px;
+  }
+
+  .border-radius-round-inpercentage{
+    border-radius: 50%;
+  }
+
+  .border-style-none{
+    border-style: none;
+  }

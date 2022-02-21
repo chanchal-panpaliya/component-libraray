@@ -1,0 +1,22 @@
+
+  /*-------------------font weight*/
+
+  .typography-fontweight-light{
+    font-weight: 300;
+  }
+
+  .typography-fontweight-regular{
+    font-weight: 400;
+  }
+
+  .typography-fontweight-semibold{
+    font-weight: 600;
+  }
+
+  .typography-fontweight-bold{
+    font-weight: 700;
+  }
+
+  .typography-fontweight-black{
+    font-weight: 900;
+  }

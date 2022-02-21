@@ -1,0 +1,91 @@
+@import "../../utility/component.css";
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 1px;
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100vh;
+  max-width: 100%;
+  height: auto;
+}
+
+.item1 { grid-area: header;  background-color: var(--background-color-danger); height: 10vh;}
+.item2 { grid-area: menu;  background-color: var(--background-color-info); height: auto;}
+.item3 { grid-area: main;  background-color: var(--background-color-success); height: 10vh;}
+.item4 { grid-area: right;   background-color: var(--background-color-warning); height: 10vh;}
+.item5 { grid-area: footer;  background-color: var(--background-color-default); height: 10vh;}
+
+.grid-layout{
+  display: grid;
+  grid-column: auto;
+}
+
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1px;
+  width:-webkit-fill-available;
+}
+
+.grid-2-item1{
+  background-color: var(--background-color-danger); height: 20vh;
+  padding: 1rem 1rem 1rem 1rem;
+ 
+}
+
+.grid-2-item2{
+  background-color: var(--background-color-success); height: 20vh;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1px;
+  width:-webkit-fill-available;
+}
+
+.grid-3-item1{
+  background-color: var(--background-color-danger); 
+  position: relative;
+  width: fit-content;
+}
+
+.grid-3-item2{
+  background-color: var(--background-color-success); 
+  width: fit-content;
+  position: relative;
+
+}
+
+.grid-3-item3{
+  background-color: var(--background-color-info); 
+  width: fit-content;
+
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.grid-4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1px;
+  width:-webkit-fill-available;
+}
+
+

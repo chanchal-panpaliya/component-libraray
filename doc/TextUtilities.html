@@ -1,0 +1,337 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> TextUtilities </title>
+        <link rel="stylesheet" href="../component/solutionground.css" />
+    </head>
+    <body>
+        <!-- container grid -->
+        <div class="component-sidebar-footer-display-grid">
+            <!-- container component content -->
+                    <div class="component-main-container">
+ 
+                        <div class="component-container row-gap-2rem">
+                            <!-- <div class="component-container margin-top-right-bottom-left typography-padding-top-right-bottom-left row-gap-2rem"> -->
+                            <div class="component-link-next-pre"> 
+                                <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                    <i class="material-icons curser-pointer">chevron_left</i> 
+                                    <a class="curser-pointer-no-effect icon-primary-color" href="./Input.html"> Input </a> 
+                                </span>
+                                <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                                    <a class="curser-pointer-no-effect icon-primary-color" href="./List.html"> Lists </a>  
+                                    <i class="material-icons curser-pointer ">chevron_right</i> 
+                                </span>
+                            </div>
+    
+
+                            <label class="typography-h1 typography-fontweight-bold "> Text Utilities </label>
+
+                            <div class="heighlighttext">
+                                The text utility contains helper classes for the CSS text align property and text utilities to control alignment, wrapping, weight, and more.
+                            </div>
+
+                             <div class="typography-p-small">
+                                All text elements are written inside body. <code class="codespan"> &lt; p &gt; </code>
+                                 is the common tag use to write paragraphs. There are six headings in html, 
+                                 <code class="codespan"> &lt;h1 &gt; </code> ,
+                                 <code class="codespan"> &lt;h2 &gt; </code>,
+                                 <code class="codespan"> &lt;h3 &gt; </code>,
+                                 <code class="codespan"> &lt;h4 &gt; </code>,
+                                 <code class="codespan"> &lt;h5 &gt; </code> and
+                                 <code class="codespan"> &lt;h6 &gt; </code> . 
+                                 By default the plain text is black in color and with transparent background. To change color and backgrounds, we need to use 
+                                 <a href="#colortable" class="color-black sidebar-onhover-primary"> color table </a> . 
+                            </div>
+                
+                          
+                                <label class="typography-h3 typography-fontweight-bold typography-p-small" id="heading"> Headings </label>
+
+                                <div class="table">
+                                    <div class="row">
+                                      <div class="column"> Heading - FontSize/line-height </div>
+                                      <div class="column">  ClassName  </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column"> H1 - 48px/64px </div>
+                                        <div class="column">  .typography-h1 </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> H2 - 32px/40px</div>
+                                        <div class="column">  .typography-h2 </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> H3 - 24px/32px </div>
+                                        <div class="column">  .typography-h3 </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> H4 - 16px/24px </div>
+                                        <div class="column">  .typography-h4 </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> H5 - 8px/16px </div>
+                                        <div class="column">  .typography-h5 </div>
+                                      </div>
+                                </div>
+
+                                <div class="component-display-border-container typography-p-small"> 
+                                    <div class="typography-h1 tertiary"> Text Headings H1 </div>
+                                    <div class="typography-h2 default-color" > Text Headings H2 </div>
+                                    <div class="typography-h3 primary"> Text Headings H3 </div>
+                                    <div class="typography-h4 secondary"> Text Headings H4 </div>
+                                    <div class="typography-h5 forth"> Text Headings H5 </div>
+                                </div>
+
+                                <div class="tabs">
+                                    <input type="radio" name="tab-headings-utilities" id="tab-headings-utilities-html" checked="checked">
+                                    <label for="tab-headings-utilities-html">HTML</label>
+                                    <div class="tab">
+                                            <div class="code-snippet-display">
+                                                <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=css&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h1%2520tertiary%2522%253E%2520Text%2520Headings%2520H1%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h2%2520default-color%2522%2520%253E%2520Text%2520Headings%2520H2%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h3%2520primary%2522%253E%2520Text%2520Headings%2520H3%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h4%2520secondary%2522%253E%2520Text%2520Headings%2520H4%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-h5%2520forth%2522%253E%2520Text%2520Headings%2520H5%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                 </iframe>
+                                            </div>         
+                                    </div>
+                                    
+                                    <input type="radio" name="tab-headings-utilities" id="tab-headings-utilities-js"> 
+                                    <label for="tab-headings-utilities-js">JS</label>
+                                    <div class="tab"> none </div>
+                
+                                    <input type="radio" name="tab-headings-utilities" id="tab-headings-utilities-css">
+                                    <label for="tab-headings-utilities-css">CSS</label>
+                                    <div class="tab"> none </div>
+                
+                                </div>
+<!--------------------------------------------------------------------------------------------->
+
+                                <label class="typography-h3 typography-fontweight-bold typography-p-small" id="smalltext">  Small text </label>
+                                
+                                <div class="typography-p-small">
+                                    An html small tag is used to print small text. The default font-size of small tags is smaller (relative to the parent element). The small tag is an inline level element as well.
+                                    Here we are using the paragraph utility to display a small text in different sizes. 
+                                    Here is  <a href="#ptable" class="color-black sidebar-onhover-primary"> paragraph utility table classname </a> .
+                                </div>
+
+                                <div class="component-display-border-container typography-p-small"> 
+                                    <small class="typography-p-larger "> Text larger </small>
+                                    <small class="typography-p-medium-Larger "> Text medium larger </small>
+                                    <small class="typography-p-medium-Small "> Text medium small </small>
+                                    <small class="typography-p-small "> Text small  </small>
+                                    <small class="typography-p-extrasmall "> Text extra small </small>
+                                </div>
+
+                                <div class="tabs">
+                                    <input type="radio" name="tab-small-text-snackbar" id="tab-small-text-html" checked="checked">
+                                    <label for="tab-small-text-html">HTML</label>
+                                    <div class="tab">
+                                            <div class="code-snippet-display">
+
+                                                <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-larger%2520%2522%253E%2520Text%2520larger%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-medium-Larger%2520%2522%253E%2520Text%2520medium%2520larger%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-medium-Small%2520%2522%253E%2520Text%2520medium%2520small%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520%2522%253E%2520Text%2520small%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-extrasmall%2520%2522%253E%2520Text%2520extra%2520small%2520%253C%252Fdiv%253E"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe>
+
+
+                                            </div>         
+                                    </div>
+                                    
+                                    <input type="radio" name="tab-small-text" id="tab-small-text-js"> 
+                                    <label for="tab-small-text-js">JS</label>
+                                    <div class="tab"> none </div>
+                
+                                    <input type="radio" name="tab-small-text" id="tab-small-text-css">
+                                    <label for="tab-small-text-css">CSS</label>
+                                    <div class="tab"> none </div>
+                
+                                </div>
+<!--------------------------------------------------------------------------------------------->
+
+                                <label class="typography-h3 typography-fontweight-bold typography-p-small" id="graytext">   Gray text </label>
+                                <div class="typography-p-small">
+                                    Grey text size is similar to a paragraph, but here we are applying the default colour "grey" to the text.
+                                    classname are - 
+                                    <span class="primary">.typography-grey-text-larger</span>
+                                    <span class="primary"> .typography-grey-text-medium-Larger</span>
+                                    <span class="primary">.typography-grey-text-medium-Small </span>
+                                    <span class="primary"> .typography-grey-text-small</span>
+                                    <span class="primary"> .typography-grey-text-extrasmall</span>
+                                    
+                                </div>
+                                <div class="component-display-border-container typography-p-small"> 
+                                    <div class="typography-grey-text-larger">  Gray Text larger </div>
+                                    <div class="typography-grey-text-medium-Larger"> Gray Text medium larger </div>
+                                    <div class="typography-grey-text-medium-Small"> Gray Text medium small </div>
+                                    <div class="typography-grey-text-small"> Gray Text small  </div>
+                                    <div class="typography-grey-text-extrasmall"> Gray Text extra small </div>
+                                </div>
+
+                                <div class="tabs">
+                                    <input type="radio" name="tab-grey-text" id="tab-grey-text-html" checked="checked">
+                                    <label for="tab-grey-text-html">HTML</label>
+                                    <div class="tab">
+                                            <div class="code-snippet-display">
+
+                                                <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-grey-text-larger%2522%253E%2520%2520Gray%2520Text%2520larger%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-grey-text-medium-Larger%2522%253E%2520Gray%2520Text%2520medium%2520larger%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-grey-text-medium-Small%2522%253E%2520Gray%2520Text%2520medium%2520small%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-grey-text-small%2522%253E%2520Gray%2520Text%2520small%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-grey-text-extrasmall%2522%253E%2520Gray%2520Text%2520extra%2520small%2520%253C%252Fdiv%253E"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe>
+
+                                            </div>         
+                                    </div>
+                                    
+                                    <input type="radio" name="tab-grey-text" id="tab-grey-text-js"> 
+                                    <label for="tab-grey-text-js">JS</label>
+                                    <div class="tab"> none </div>
+                
+                                    <input type="radio" name="tab-grey-text" id="tab-grey-text-css">
+                                    <label for="tab-grey-text-css">CSS</label>
+                                    <div class="tab"> none </div>
+                
+                                </div>
+<!--------------------------------------------------------------------------------------------->
+
+                                <label class="typography-h3 typography-fontweight-bold typography-p-small" id="centertext">  Center text </label>
+                                <div class="typography-p-small">
+                                    To change text alignment as a center, we just added one more class name along with the paragraph class: 
+                                    <span class="primary"> typography-align-center </span>.
+                                </div>
+                                <div class="component-display-border-container  typography-p-small"> 
+                                    <div class="flex-col flex-justify-content-center flex-align-item-center">
+                                        <div class="typography-p-larger typography-align-center"> Text larger </div>
+                                        <div class="typography-p-medium-Larger typography-align-center"> Text medium larger </div>
+                                        <div class="typography-p-medium-Small typography-align-center"> Text medium small </div>
+                                        <div class="typography-p-small typography-align-center"> Text small  </div>
+                                        <div class="typography-p-extrasmall typography-align-center"> Text extra small </div>
+                                    </div>
+                                </div>
+                               
+                               
+                                <div class="tabs">
+                                    <input type="radio" name="tab-center-text" id="tab-center-text-html" checked="checked">
+                                    <label for="tab-center-text-html">HTML</label>
+                                    <div class="tab">
+                                            <div class="code-snippet-display">
+
+                                                <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=900&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-larger%2520typography-align-center%2522%253E%2520Text%2520larger%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-medium-Larger%2520typography-align-center%2522%253E%2520Text%2520medium%2520larger%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-medium-Small%2520typography-align-center%2522%253E%2520Text%2520medium%2520small%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-small%2520typography-align-center%2522%253E%2520Text%2520small%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typography-p-extrasmall%2520typography-align-center%2522%253E%2520Text%2520extra%2520small%2520%253C%252Fdiv%253E%250A"
+                                                    class="code-snippet-iframe"
+                                                    sandbox="allow-scripts allow-same-origin">
+                                                </iframe>
+
+                                            </div>         
+                                    </div>
+                                    
+                                    <input type="radio" name="tab-center-text" id="tab-center-text-js"> 
+                                    <label for="tab-center-text-js">JS</label>
+                                    <div class="tab"> none </div>
+                
+                                    <input type="radio" name="tab-center-text" id="tab-center-text-css">
+                                    <label for="tab-center-text-css">CSS</label>
+                                    <div class="tab"> none </div>
+                
+                                </div>
+
+                                <label id="colortable" class="typography-h3 typography-fontweight-bold typography-p-small" > color table </label>
+                                <div class="table">
+                                    <div class="row">
+                                      <div class="column"> Color  </div>
+                                      <div class="column">  Color - ClassName  </div>
+                                      <div class="column">  Background - className  </div>
+                                    
+                                    </div>
+                                    <div class="row">
+                                        <div class="column"> primary </div>
+                                        <div class="column"> .primary  </div>
+                                        <div class="column"> .primary-background  </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> secondary </div>
+                                        <div class="column"> .secondary  </div>
+                                        <div class="column">  .secondary-background  </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> tertiary </div>
+                                        <div class="column"> .tertiary  </div>
+                                        <div class="column"> .tertiary-background  </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> forth </div>
+                                        <div class="column"> .forth  </div>
+                                        <div class="column"> .forth-background </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> default </div>
+                                        <div class="column"> .default-color  </div>
+                                        <div class="column"> .default-background  </div>
+                                      </div>
+                                </div>
+
+                                <label id="ptable" class="typography-h3 typography-fontweight-bold typography-p-small"> Paragraphs Utility class </label>
+                                <div class="table">
+                                    <div class="row">
+                                      <div class="column"> Size- font-size/line-height  </div>
+                                      <div class="column">  ClassName  </div>                                   
+                                    </div>
+                                    <div class="row">
+                                        <div class="column"> 48px/64px </div>
+                                        <div class="column"> .typography-p-larger  </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> 32px/40px </div>
+                                        <div class="column">  .typography-p-medium-Larger  </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> 24px/32px </div>
+                                        <div class="column">  .typography-p-medium-Small  </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> 16px/24px </div>
+                                        <div class="column">  .typography-p-small  </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="column"> 8px/16px </div>
+                                        <div class="column">  .typography-p-extrasmall  </div>
+                                      </div>
+                                </div>
+                        
+                        </div>
+                       </div>
+
+     
+            <!-- container component aside -->
+                
+            <aside class="component-sidebar-container margin-top-right-bottom-left">
+                <div class="sidebar-onthispage-content"> 
+                On this page <br/><br/>
+                <ul class="flex-col row-gap-1rem">
+                    <li> <a href="#heading" class="color-black sidebar-onhover-primary">  Headings </a></li>
+                    <li> <a href="#smalltext" class="color-black sidebar-onhover-primary">  Small text </a></li>
+                    <li> <a href="#graytext" class="color-black sidebar-onhover-primary">   Gray text </a></li>
+                    <li> <a href="#centertext" class="color-black sidebar-onhover-primary"> Center text </a> </li>
+                </ul>
+                </div>
+            </aside>
+             <!-- container component footer -->
+             <footer class="component-footer-container margin-top-right-bottom-left">
+                <div class="component-link-next-pre"> 
+                    <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                        <i class="material-icons curser-pointer">chevron_left</i> 
+                        <a class="curser-pointer-no-effect icon-primary-color" href="./Input.html"> Input </a> 
+                    </span>
+                    <span class="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center" > 
+                        <a class="curser-pointer-no-effect icon-primary-color" href="./List.html"> Lists </a>  
+                        <i class="material-icons curser-pointer ">chevron_right</i> 
+                    </span>
+                </div>
+            </footer>
+           
+    </div>
+        <script src="../component/TextUtilities/TextUtilities.js"> </script>
+        <script src="../otherpages/nightmood.js"></script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+
+
+
+  /*-------------------------padding*/
+
+  .typography-padding-top-right{
+    padding: 1rem 1rem;
+  }
+
+  .typography-padding-top-bottom{
+    padding: 15px 0px 15px 0px;
+  }
+
+  .typography-padding-top-right-bottom-left{
+    padding: 15px 46px 15px 45px;
+  }
+
+  .typography-padding-cardbadge{
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  }
+
+  .typology-padding-top{
+    padding-top: 2rem;
+  }
+
+
+
+  .typography-padding-5px{
+    padding: 5px 5px 5px 5px;
+  }
