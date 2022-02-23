@@ -24,7 +24,7 @@ Components ->
  <li> Live Status avatar </li>
  <li> Grouped avatar</li>                          
 </ul>
-<h3> Alert <h3>
+<h3> Alert </h3>
  <ul>
   <li> Live example </li>
   <li> Variants - Outlined </li>
