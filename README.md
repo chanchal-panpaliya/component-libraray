@@ -1,10 +1,11 @@
+#SolutionGround
 
  The SolutionGround UI components library is the only suite that you will ever need to build an application since it contains over modular and responsive UI components in a single package.
 
  How to Use?
  
  To use this include below code in your html head tag
-<link rel="stylesheet" href="https://solutionground.netlify.app/component/solutionground.css">
+&lt;link rel="stylesheet" href="https://solutionground.netlify.app/component/solutionground.css"&gt;
 
 Features :- 
 - Day and Night mood .
@@ -19,6 +20,23 @@ Features :-
 In Documentation, example's html code is written, you can directly copy and paste in your html file.
 
 You can also create combinations of components by adding appropriate class to your html elements.
+
+Components ->
+#Avatar -
+#Alert 
+#Badge
+#Button
+#Card
+#Image
+#Input
+#Text Utilities
+#List
+#Navigation
+#Modal
+#Rating
+#Toast
+#Simplified Grid
+#Slider
 
 some screens are - >
 ![Untitled](https://user-images.githubusercontent.com/28673856/154945136-b8321cbf-f1af-47ac-8a63-34e133d516a3.png)
