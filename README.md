@@ -1,4 +1,4 @@
-#SolutionGround
+<b>SolutionGround</b>
 
  The SolutionGround UI components library is the only suite that you will ever need to build an application since it contains over modular and responsive UI components in a single package.
 
