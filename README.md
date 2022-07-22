@@ -1,25 +1,44 @@
-![solutiongroupmobile](https://user-images.githubusercontent.com/28673856/180352400-db23a2f0-5a7a-4f24-a7f9-8adee27b7e1a.png)
+<h1 align="center">
+  <br />
+  <a href="https://solutionground.netlify.app/">
+      <img src="https://user-images.githubusercontent.com/28673856/180352400-db23a2f0-5a7a-4f24-a7f9-8adee27b7e1a.png" alt="Capture" width="200"></a>
+  <br />
+  <br />
 
+</h1>
+<p align="center"> The SolutionGround UI components library is the only suite that you will ever need to build an application since it contains over modular and responsive UI components in a single package.</p>
+<br />
+
+<div align="center">
+<img src="https://img.shields.io/badge/version-v1-green" align="center"/>
+<img src="https://img.shields.io/badge/label-open--source-blue" align="center"/>
+<img src="https://api.netlify.com/api/v1/badges/8b083945-912e-4f2d-90fd-9f8bcf06aeee/deploy-status" align="center"/>
+</div>
+<br />
 <hr/>
+<h3> 🖥️ Tech Stack </h3>
 
- The SolutionGround UI components library is the only suite that you will ever need to build an application since it contains over modular and responsive UI components in a single package.
+<br />
+<div>
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" align="center"/>
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center"/>
+<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center"/>
+</div>
 
- How to Use?
+<h3>How to Use locally</h3>
  
  To use this include below code in your html head tag <br/><br/>
 &lt;link rel="stylesheet" href="https://solutionground.netlify.app/component/solutionground.css"&gt;
 
-Features :- 
+Other Features :
 - Day and Night mood .
 - color picker small application . 
 
 In Documentation, example's html code is written, you can directly copy and paste in your html file.
-
 You can also create combinations of components by adding appropriate class to your html elements.
-
-<hr/>
-<h2>Components list</h2>
-
+<br />
+<!-- FEATURES -->
+<h2> FEATURES </h2>
 <h3> Avatar </h3> 
 <ul>
  <li> Image avatar </li>
@@ -134,12 +153,9 @@ You can also create combinations of components by adding appropriate class to yo
    <li> Grid -4 </li>
  </ul>
  <h3> Slider </h3>
- 
-</hr/>
-<hr/>
-<h3> Screens </h3> 
 
-<table>
+ <h2> UI of Capture </h2>
+ <table>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/28673856/154944946-b43e0f3f-c30e-4517-8f1d-71b73402129c.png" ></td>
     <td><img src="https://user-images.githubusercontent.com/28673856/154944914-6883fde4-0983-40e7-86ec-4113349a9fa6.png" ></td>
@@ -162,9 +178,36 @@ You can also create combinations of components by adding appropriate class to yo
   </tr>
  </table>
 
-## 👨‍💻 Connect with me
+
+
+
+<h3>How to Contribute</h3>
+
+Contributions and ideas to this library are more than welcome! <br />
+If you want to contribute or have ideas for this project, just fork the repo and create a PR. If you spot a bug, you are more than welcome to open an issue! Do ⭐ this project! 
+
+### Contribution Guidelines
+1. Fork the Project
+2. Creata a branch for your feature/ idea. Please do give a good name for the branch that tells about the feature.
+3. Stage your changes
+4. Commit your changes
+5. Push the changes to your remote branch
+6. Open and Create a PR
+
+<br />
+<br />
+
+<!-- SOCIAL LINKS -->
+
+<h3> 👨‍💻 Connect with me </h3>
 
 <a href="https://twitter.com/CPanpaliya"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/chanchal-panpaliya/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
-
+Check out my portfolio 🌐-
+> [Chanchal Panpaliya](https://chanchal-panpaliya.netlify.app/) 
+<hr />
+<p align="center">Copyright &copy; 2022 
+  <br />
+  <a href="https://chanchal-panpaliya.netlify.app/">🚀 Chanchal Panpaliya </a>
+</p>
