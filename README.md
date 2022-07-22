@@ -1,4 +1,6 @@
-<h1>SolutionGround</h1>
+![solutiongroupmobile](https://user-images.githubusercontent.com/28673856/180352400-db23a2f0-5a7a-4f24-a7f9-8adee27b7e1a.png)
+
+<hr/>
 
  The SolutionGround UI components library is the only suite that you will ever need to build an application since it contains over modular and responsive UI components in a single package.
 
@@ -15,7 +17,9 @@ In Documentation, example's html code is written, you can directly copy and past
 
 You can also create combinations of components by adding appropriate class to your html elements.
 
-Components ->
+<hr/>
+<h2>Components list</h2>
+
 <h3> Avatar </h3> 
 <ul>
  <li> Image avatar </li>
@@ -130,17 +134,37 @@ Components ->
    <li> Grid -4 </li>
  </ul>
  <h3> Slider </h3>
-
-
-some screens are - >
  
-![Homepage](https://user-images.githubusercontent.com/28673856/154944946-b43e0f3f-c30e-4517-8f1d-71b73402129c.png)
-![nightmood2](https://user-images.githubusercontent.com/28673856/154944914-6883fde4-0983-40e7-86ec-4113349a9fa6.png)
-![colorgenerator](https://user-images.githubusercontent.com/28673856/154944981-77b4babd-e428-499f-bc4a-0e407c2a666a.png)
-![Untitled](https://user-images.githubusercontent.com/28673856/154945136-b8321cbf-f1af-47ac-8a63-34e133d516a3.png)
-![Button](https://user-images.githubusercontent.com/28673856/154945164-3a231ff8-289c-40aa-8a13-e8512df4c6aa.png)
-![avatar](https://user-images.githubusercontent.com/28673856/154945171-6acb1456-bf55-4d6b-860d-033ffca79d76.png)
-![Buttonslider](https://user-images.githubusercontent.com/28673856/154945202-2286f4e1-11ea-4dfa-8fa9-d80c56dab3ae.png)
-![responsivebutton](https://user-images.githubusercontent.com/28673856/154945235-056be4dd-8062-415c-ae3a-b1fd030af078.png)
+</hr/>
+<hr/>
+<h3> Screens </h3> 
+
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/28673856/154944946-b43e0f3f-c30e-4517-8f1d-71b73402129c.png" ></td>
+    <td><img src="https://user-images.githubusercontent.com/28673856/154944914-6883fde4-0983-40e7-86ec-4113349a9fa6.png" ></td>
+  </tr>
+   <tr>
+    <td><img src="https://user-images.githubusercontent.com/28673856/154944981-77b4babd-e428-499f-bc4a-0e407c2a666a.png" ></td>
+    <td><img src="https://user-images.githubusercontent.com/28673856/154945136-b8321cbf-f1af-47ac-8a63-34e133d516a3.png" ></td>
+  </tr>
+     <tr>
+    <td><img src="https://user-images.githubusercontent.com/28673856/154945164-3a231ff8-289c-40aa-8a13-e8512df4c6aa.png" ></td>
+    <td><img src="https://user-images.githubusercontent.com/28673856/154945171-6acb1456-bf55-4d6b-860d-033ffca79d76.png" ></td>
+  </tr>
+ </table>
+ 
+<h3> Responsive </h3>
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/28673856/154945202-2286f4e1-11ea-4dfa-8fa9-d80c56dab3ae.png" ></td>
+    <td><img src="https://user-images.githubusercontent.com/28673856/154945235-056be4dd-8062-415c-ae3a-b1fd030af078.png" ></td>
+  </tr>
+ </table>
+
+## 👨‍💻 Connect with me
+
+<a href="https://twitter.com/CPanpaliya"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/chanchal-panpaliya/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 
